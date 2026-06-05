@@ -1,0 +1,166 @@
+.contactSection {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6701097f9e93b178e9a6a834/496f8c5b-302a-4375-8ce6-a704f05ba724/Nero_sfondo-bianco.jpg'); /* Placeholder for specific background if needed */
+  background-size: cover;
+  background-position: center;
+  background-color: #000;
+  padding: 120px 0; /* Space for navbar */
+}
+
+.contactBgOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Darkening overlay for readability */
+  z-index: 1;
+}
+
+.contactContainer {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 800px; /* Form width limit */
+  margin: 0 auto;
+  padding: 0 4%;
+  display: flex;
+  justify-content: center;
+}
+
+.contactForm {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mainLabel {
+  font-family: var(--font-inter);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.required {
+  opacity: 0.7;
+}
+
+.subLabel {
+  font-family: var(--font-inter);
+  font-size: 0.85rem;
+  color: #ffffff;
+  margin-top: -5px; /* Pull closer to input */
+}
+
+.nameRow {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.inputCol {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inputField, .textareaField {
+  width: 100%;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 20px; /* Highly rounded pills as seen in screenshot */
+  padding: 15px 20px;
+  font-family: var(--font-inter);
+  font-size: 1rem;
+  color: #ffffff;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  outline: none;
+}
+
+.textareaField {
+  border-radius: 20px; /* Maintain pill look even for textarea */
+  resize: vertical;
+  min-height: 120px;
+}
+
+.inputField:focus, .textareaField:focus {
+  border-color: #ffffff;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.submitBtn {
+  align-self: center; /* Center the button */
+  background: rgba(255, 255, 255, 0.8);
+  color: #000000;
+  border: none;
+  border-radius: 8px; /* Slightly rounded square */
+  padding: 15px 40px;
+  font-family: var(--font-inter);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.submitBtn:hover {
+  background: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* Responsiveness */
+@media (max-width: 1024px) {
+  .contactSection {
+    padding: 100px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactSection {
+    padding: 80px 0;
+  }
+  .contactContainer {
+    padding: 0 6%;
+  }
+  .inputField, .textareaField {
+    padding: 12px 18px;
+    font-size: 0.95rem;
+  }
+  .mainLabel {
+    font-size: 1rem;
+  }
+  .submitBtn {
+    padding: 12px 30px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactSection {
+    padding: 60px 0;
+  }
+  .contactForm {
+    gap: 20px;
+  }
+  .inputField, .textareaField {
+    border-radius: 15px;
+  }
+  .textareaField {
+    border-radius: 15px;
+    min-height: 100px;
+  }
+}

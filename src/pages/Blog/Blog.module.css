@@ -1,0 +1,10 @@
+.pageContainer {
+  padding: 150px 0;
+  text-align: center;
+}
+
+.title {
+  font-family: var(--font-inter);
+  font-size: 3rem;
+  color: var(--text-primary);
+}

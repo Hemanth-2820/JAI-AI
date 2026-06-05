@@ -1,0 +1,298 @@
+{
+  "title": "Anima Studios | The AI-Powered Creative Agency",
+  "metaDesc": "Anima Studios combines AI technology with storytelling to create customized videos, advertisement campaigns, movies and visual content efficiently and creatively. Explore our services now.",
+  "styles": [
+    "\n\n.fe-688b769bdb8638074aaa8da3 {\n  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);\n  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );\n\n  display: grid;\n  position: relative;\n  grid-area: 1/1/-1/-1;\n  grid-template-rows: repeat(16,minmax(24px, auto));\n  grid-template-columns:\n    minmax(var(--grid-gutter), 1fr)\n    repeat(8, minmax(0, var(--cell-max-width)))\n    minmax(var(--grid-gutter), 1fr);\n  row-gap: 11.0px;\n  column-gap: 11.0px;\n  o...[truncated]",
+    "#block-yui_3_17_2_1_1753966105571_7191 {\n    \n    --stroke-style: none;--stroke-thickness: 6px;\n    \n      \n      \n      \n    \n\n--tweak-text-block-background-color: hsla(var(--lightAccent-hsl), 1)\n;\n\n  }\n\n  #block-yui_3_17_2_1_1753966105571_7191 .sqs-html-content {\n    \n    --tweak-text-block-padding: 12% 12% 12% 12%;\n  --tweak-text-block-padding: initial;\n}\n\n  .fe-block-yui_3_17_2_1_1753966105571_7191 {\n      mix-blend-mode: var(--tweak-text-block-blend\n  );\n      border-radius: var(--tweak-tex...[truncated]",
+    "\n\n.fe-695109cd3633de1a920da0d1 {\n  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);\n  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );\n\n  display: grid;\n  position: relative;\n  grid-area: 1/1/-1/-1;\n  grid-template-rows: repeat(6,minmax(24px, auto));\n  grid-template-columns:\n    minmax(var(--grid-gutter), 1fr)\n    repeat(8, minmax(0, var(--cell-max-width)))\n    minmax(var(--grid-gutter), 1fr);\n  row-gap: 11.0px;\n  column-gap: 11.0px;\n  ov...[truncated]",
+    "\n/* 1. CONTAINER & TITLE */\n.anima-partner-wrapper {\n  width: 100%;\n  padding: 60px 0;\n  overflow: hidden;\n  text-align: center;\n  background: transparent; \n}\n\n.partner-title {\n  font-family: 'Inter', sans-serif; /* Adjust to match your site font */\n  font-size: 14px;\n  font-weight: 700;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #888; /* Grey text color */\n  margin: 0 0 40px 0;\n}\n\n/* 2. THE SLIDER WINDOW */\n.logo-slider {\n  position: relative;\n  overflow: hidden;\n  width: 100%...[truncated]",
+    "\n\n.fe-69511347a36aed104a2aa860 {\n  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);\n  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );\n\n  display: grid;\n  position: relative;\n  grid-area: 1/1/-1/-1;\n  grid-template-rows: repeat(76,minmax(24px, auto));\n  grid-template-columns:\n    minmax(var(--grid-gutter), 1fr)\n    repeat(8, minmax(0, var(--cell-max-width)))\n    minmax(var(--grid-gutter), 1fr);\n  row-gap: 11.0px;\n  column-gap: 11.0px;\n  o...[truncated]",
+    "\n/* --- CORE CONTAINER --- */\n.anima-premium-services {\n  position: relative;\n  width: 100%;\n  padding: 100px 0;\n  background-color: #09090b; /* Zinc 950 base */\n  overflow: hidden;\n  font-family: 'Inter', sans-serif;\n  color: #fff;\n}\n\n/* --- BACKGROUND IMAGE & OVERLAYS --- */\n.services-main-bg {\n  position: absolute;\n  inset: 0;\n  background-image: url('https://i.postimg.cc/Njxvn3YR/HOMEPAGE-1.png');\n  background-size: cover;\n  background-position: center;\n  opacity: 0.80; \n  z-index: 1;\n}\n\n.se...[truncated]",
+    "\n\n.fe-670a6032c0327d48a823f98e {\n  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);\n  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );\n\n  display: grid;\n  position: relative;\n  grid-area: 1/1/-1/-1;\n  grid-template-rows: repeat(9,minmax(24px, auto));\n  grid-template-columns:\n    minmax(var(--grid-gutter), 1fr)\n    repeat(8, minmax(0, var(--cell-max-width)))\n    minmax(var(--grid-gutter), 1fr);\n  row-gap: 11.0px;\n  column-gap: 11.0px;\n  ov...[truncated]",
+    "#block-4d8658f4448db08f01f2 {\n    \n    --stroke-style: none;--stroke-thickness: 6px;\n    \n      \n      \n      \n    \n\n\n\n  }\n\n  #block-4d8658f4448db08f01f2 .sqs-html-content {\n    \n    --tweak-text-block-padding: 6% 6% 6% 6%;\n  --tweak-text-block-padding: initial;\n}\n\n  .fe-block-4d8658f4448db08f01f2 {\n      mix-blend-mode: var(--tweak-text-block-blend\n  );\n      border-radius: var(--tweak-text-block-radius);\n  }\n\n  \n  \n.fe-block-4d8658f4448db08f01f2 {\n      --tweak-text-block-radius: 0px 0px 0px 0...[truncated]",
+    "\n  #block-5b13c0f4e59bfd97fa75 {\n    --sqs-block-content-flex: 1;\n  }\n\n  \n  \n    \n      \n      \n    \n      \n      \n        \n      \n    \n  \n...[truncated]",
+    "\n\n.fe-6701097f9e93b178e9a6a84f {\n  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 0.0px);\n  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (0.0px * (8 - 1)) ) / 8 );\n\n  display: grid;\n  position: relative;\n  grid-area: 1/1/-1/-1;\n  grid-template-rows: repeat(17,minmax(24px, auto));\n  grid-template-columns:\n    minmax(var(--grid-gutter), 1fr)\n    repeat(8, minmax(0, var(--cell-max-width)))\n    minmax(var(--grid-gutter), 1fr);\n  row-gap: 0.0px;\n  column-gap: 0.0px;\n  overf...[truncated]",
+    "\n      \n      \n      \n      #block-yui_3_17_2_1_1748527811025_38592 {\n        --image-component-focal-point: 50% 50%;\n        \n  --image-component-object-fit: contain;\n  --image-component-overlay-opacity: 0;\n  --image-component-overlay-blend-mode: normal;\n  \n  --image-component-native-aspect-ratio: 14700/6462;\n  \n  \n  \n\n      }\n      #block-yui_3_17_2_1_1748527811025_38592 .fluid-image-container.visitor-mode {\n        \n  \n  overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, blac...[truncated]",
+    "#block-cf7b89bf87f42087b15e {\n    \n    --stroke-style: none;--stroke-thickness: 6px;\n    \n      \n      \n      \n    \n\n--tweak-text-block-background-color: initial;\n\n  }\n\n  #block-cf7b89bf87f42087b15e .sqs-html-content {\n    \n    --tweak-text-block-padding: 6% 6% 6% 6%;\n  --tweak-text-block-padding: initial;\n}\n\n  .fe-block-cf7b89bf87f42087b15e {\n      mix-blend-mode: var(--tweak-text-block-blend\n  );\n      border-radius: var(--tweak-text-block-radius);\n  }\n\n  \n  \n.fe-block-cf7b89bf87f42087b15e {\n ...[truncated]",
+    "#block-yui_3_17_2_1_1761829914184_1679 {\n    \n    --stroke-style: none;--stroke-thickness: 6px;\n    \n      \n      \n      \n    \n\n--tweak-text-block-background-color: initial;\n\n  }\n\n  #block-yui_3_17_2_1_1761829914184_1679 .sqs-html-content {\n    \n    --tweak-text-block-padding: 6% 6% 6% 6%;\n  --tweak-text-block-padding: initial;\n}\n\n  .fe-block-yui_3_17_2_1_1761829914184_1679 {\n      mix-blend-mode: var(--tweak-text-block-blend\n  );\n      border-radius: var(--tweak-text-block-radius);\n  }\n\n  \n  \n....[truncated]",
+    "#block-50733448b620eff32b77 {\n    \n    --stroke-style: none;--stroke-thickness: 6px;\n    \n      \n      \n      \n    \n\n--tweak-text-block-background-color: initial;\n\n  }\n\n  #block-50733448b620eff32b77 .sqs-html-content {\n    \n    --tweak-text-block-padding: 6% 6% 6% 6%;\n  --tweak-text-block-padding: initial;\n}\n\n  .fe-block-50733448b620eff32b77 {\n      mix-blend-mode: var(--tweak-text-block-blend\n  );\n      border-radius: var(--tweak-text-block-radius);\n  }\n\n  \n  \n.fe-block-50733448b620eff32b77 {\n ...[truncated]",
+    "\n      #block-yui_3_17_2_1_1728131573747_19944 .social-icons-style-border .sqs-svg-icon--wrapper {\n        \n          box-shadow: 0 0 0 2px inset;\n        \n        border: none; \n      }\n    ...[truncated]"
+  ],
+  "cssLinks": [
+    "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:ital,wght@0,500;0,700",
+    "//assets.squarespace.com/universal/styles-compressed/user-account-core-307d50f196c01a72-min.en-US.css",
+    "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.button/3e1e3be7-538a-428f-b8be-aba28011d026_808/website.components.button.styles.css",
+    "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.imageFluid/5604d2d3-9151-4b28-b30e-0bb61bbc43a1_625/website.components.imageFluid.styles.css",
+    "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/f190a6ea-421d-4736-8f24-208cc9755d74_638/website.components.html.styles.css",
+    "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.socialLinks/ea6e5c34-fc7a-4631-b08a-7dcf6515f09b_416/website.components.socialLinks.styles.css",
+    "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.code/defd9b5a-61a8-4b17-9397-f7a1866606d9_684/website.components.code.styles.css",
+    "https://static1.squarespace.com/static/versioned-site-css/6701097f9e93b178e9a6a834/153/5c5a519771c10ba3470d8101/6701097f9e93b178e9a6a83c/1789/site.css?nocustom=true",
+    "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1780419127951-K5FIIEY2NNREJWC8JB19/static.css",
+    "https://static1.squarespace.com/static/custom-css/6701097f9e93b178e9a6a834/6701097f9e93b178e9a6a83c/67/custom.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  ],
+  "images": [
+    {
+      "src": "//images.squarespace-cdn.com/content/v1/6701097f9e93b178e9a6a834/636e9411-2bf8-4818-afc5-7b4d6befbf8d/Bianco_trasparente.png?format=1500w",
+      "alt": "Anima Studios"
+    },
+    {
+      "src": "//images.squarespace-cdn.com/content/v1/6701097f9e93b178e9a6a834/636e9411-2bf8-4818-afc5-7b4d6befbf8d/Bianco_trasparente.png?format=1500w",
+      "alt": "Anima Studios"
+    },
+    {
+      "src": "https://i.postimg.cc/BvxNjs9r/client-1.png",
+      "alt": "Client 1"
+    },
+    {
+      "src": "https://i.postimg.cc/rpSgDc2X/client-2.png",
+      "alt": "Client 2"
+    },
+    {
+      "src": "https://i.postimg.cc/tghDsyG0/client-3.png",
+      "alt": "Client 3"
+    },
+    {
+      "src": "https://i.postimg.cc/3wg9k7QH/client-4.png",
+      "alt": "Client 4"
+    },
+    {
+      "src": "https://i.postimg.cc/3wg9k7QT/client-5.png",
+      "alt": "Client 5"
+    },
+    {
+      "src": "https://i.postimg.cc/ZYys6gB2/Untitled-design-(1).png",
+      "alt": "Client 6"
+    },
+    {
+      "src": "https://i.postimg.cc/C1KTF4mW/Untitled-design-(3).png",
+      "alt": "Client 7"
+    },
+    {
+      "src": "https://i.postimg.cc/BvxNjs9r/client-1.png",
+      "alt": "Client 1"
+    },
+    {
+      "src": "https://i.postimg.cc/rpSgDc2X/client-2.png",
+      "alt": "Client 2"
+    },
+    {
+      "src": "https://i.postimg.cc/tghDsyG0/client-3.png",
+      "alt": "Client 3"
+    },
+    {
+      "src": "https://i.postimg.cc/3wg9k7QH/client-4.png",
+      "alt": "Client 4"
+    },
+    {
+      "src": "https://i.postimg.cc/3wg9k7QT/client-5.png",
+      "alt": "Client 5"
+    },
+    {
+      "src": "https://i.postimg.cc/ZYys6gB2/Untitled-design-(1).png",
+      "alt": "Client 6"
+    },
+    {
+      "src": "https://i.postimg.cc/C1KTF4mW/Untitled-design-(3).png",
+      "alt": "Client 7"
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6701097f9e93b178e9a6a834/6bf3dc5d-11aa-466d-9eff-827818e91227/FOOTER+HOMEPAGE.png",
+      "alt": ""
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6701097f9e93b178e9a6a834/15c2a891-45a1-4369-835f-05a254cfff2b/Bianco_trasparente.png",
+      "alt": ""
+    }
+  ],
+  "videos": [],
+  "sections": [
+    {
+      "id": "section-2",
+      "classes": "page-section \n    \n      full-bleed-section\n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      \n        section-height--custom\n      \n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n    \n    black",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "AI-POWERED CREATIVE STUDIO FOR BRANDS, AGENCIES & STORYTELLERS"
+        }
+      ],
+      "paragraphs": [],
+      "links": [],
+      "backgrounds": []
+    },
+    {
+      "id": "section-3",
+      "classes": "page-section \n    \n      full-bleed-section\n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      \n        section-height--custom\n      \n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n      \n    \n    \n    black",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Trusted By"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial & Brand Work"
+        },
+        {
+          "tag": "h3",
+          "text": "AUTOTRADER X THE GREAT CELEBRITY BAKE OFF"
+        },
+        {
+          "tag": "h3",
+          "text": "ASTRA MAKEUP"
+        },
+        {
+          "tag": "h3",
+          "text": "DUAE VODKA"
+        },
+        {
+          "tag": "h3",
+          "text": "FOURTEEN SPORTS"
+        },
+        {
+          "tag": "h3",
+          "text": "RICOLA"
+        },
+        {
+          "tag": "h2",
+          "text": "Anima Studios Originals"
+        },
+        {
+          "tag": "h3",
+          "text": "LIMBO"
+        },
+        {
+          "tag": "h3",
+          "text": "SUPER REY"
+        },
+        {
+          "tag": "h3",
+          "text": "FREJAI - ETERNAL RHYME"
+        },
+        {
+          "tag": "h3",
+          "text": "THE MAESTRO"
+        },
+        {
+          "tag": "h3",
+          "text": "GREAT GALACTIC WAR"
+        },
+        {
+          "tag": "h3",
+          "text": "BOBBY SOUL - SPICY LIFE"
+        }
+      ],
+      "paragraphs": [
+        "TV ADVERTISEMENT CAMPAIGN",
+        "AI ADVERTISEMENT",
+        "AI ADVERTISEMENT",
+        "AI ADVERTISEMENT",
+        "AI ADVERTISEMENT",
+        "EP. 1 AI SERIES",
+        "AI SERIES PILOT",
+        "AI MUSIC VIDEO",
+        "AI FASHION FILM",
+        "AI MOVIE TRAILER",
+        "AI MUSIC VIDEO"
+      ],
+      "links": [],
+      "backgrounds": []
+    },
+    {
+      "id": "section-4",
+      "classes": "page-section \n    \n      full-bleed-section\n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      \n        section-height--custom\n      \n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n      \n    \n    \n    black",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "The Future of Video Production"
+        },
+        {
+          "tag": "h3",
+          "text": "AI-POWERED CINEMATIC SOLUTIONS"
+        },
+        {
+          "tag": "h4",
+          "text": "Next-Gen Advertising"
+        },
+        {
+          "tag": "h4",
+          "text": "Branded Storytelling"
+        },
+        {
+          "tag": "h4",
+          "text": "Premium Social Assets"
+        },
+        {
+          "tag": "h4",
+          "text": "Entertainment IP"
+        },
+        {
+          "tag": "h4",
+          "text": "Movie Integration & VFX"
+        },
+        {
+          "tag": "h4",
+          "text": "Trailers & Teasers"
+        }
+      ],
+      "paragraphs": [
+        "Blending human direction with generative acceleration to deliver high-end content for visionary brands and broadcasters.",
+        "High-end 15” and 30” TV spots and Hero videos. We visualize impossible concepts for global campaigns at a fraction of traditional production constraints.",
+        "Deep narrative experiences. We produce fashion films, brand documentaries, and narrative shorts that connect with audiences on an emotional level.",
+        "Stop the scroll with high-frequency cinematic assets. We create high-conversion viral video content tailored for TikTok, Reels, and digital-first campaigns.",
+        "From original concepting to existing IP expansion. We develop Children’s Series, Vertical Micro-dramas, and franchise extensions for global broadcasters.",
+        "Elevating short movie production through digital wizardry. We provide full Post-Production, AI-VFX, and seamless CGI integration for cinematic storytelling.",
+        "Explosive Movie Trailers and hype reels. We create atmospheric previews for films, games, and series that demand immediate attention and drive engagement."
+      ],
+      "links": [],
+      "backgrounds": []
+    },
+    {
+      "id": "section-5",
+      "classes": "page-section \n    \n      full-bleed-section\n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      \n        section-height--custom\n      \n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n       has-background\n    \n    \n    black",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "ENTER THE FUTURE OF"
+        },
+        {
+          "tag": "h2",
+          "text": "VIDEO CONTENT PRODUCTION"
+        }
+      ],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "GET IN TOUCH",
+          "href": "/contact"
+        }
+      ],
+      "backgrounds": [
+        "https://images.squarespace-cdn.com/content/v1/6701097f9e93b178e9a6a834/6bf3dc5d-11aa-466d-9eff-827818e91227/FOOTER+HOMEPAGE.png"
+      ]
+    },
+    {
+      "id": "section-6",
+      "classes": "page-section \n    \n      full-bleed-section\n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      \n        section-height--custom\n      \n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n      \n    \n    \n    black",
+      "headings": [],
+      "paragraphs": [
+        "Terms & Conditions",
+        "Anima Studios srl Foro Buonaparte 59, 20121 Milano, Italyinfo@animastudios.aiVAT Number: IT 14270340962",
+        "GDPR Policy"
+      ],
+      "links": [
+        {
+          "text": "Terms & Conditions",
+          "href": "/general-terms-conditions"
+        },
+        {
+          "text": "GDPR Policy",
+          "href": "/gdpr-policy"
+        }
+      ],
+      "backgrounds": [
+        "https://images.squarespace-cdn.com/content/v1/6701097f9e93b178e9a6a834/15c2a891-45a1-4369-835f-05a254cfff2b/Bianco_trasparente.png"
+      ]
+    }
+  ],
+  "theme": {}
+}
