@@ -1,42 +1,287 @@
-#root {
-  max-width: 1280px;
+/* Navbar CSS */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 35px 0; /* Exact spacing from top */
+  transition: all 0.4s ease;
+}
+
+.navbarScrolled {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.85); /* Slightly translucent dark background on scroll */
+  backdrop-filter: blur(10px);
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.navContainer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 0 4%; /* Ensure alignment with page content edges */
+  max-width: 100%;
+}
+
+.leftLinks {
+  display: flex;
+  gap: 32px; /* Spacing between links */
+  align-items: center;
+}
+
+.navLink {
+  font-family: var(--font-inter);
+  font-size: 1.05rem; /* Exactly matched font size */
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+  padding-bottom: 4px; /* Space for underline */
+  position: relative;
+  transition: opacity 0.3s ease;
+}
+
+.navLink:hover {
+  opacity: 0.7;
+}
+
+.navLink.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.logoWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.navLogo {
+  max-height: 65px; /* Larger logo size */
+  width: auto;
+}
+
+.rightLinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navButton {
+  font-family: var(--font-inter);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.05em; /* Spacing out letters */
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Lighter border */
+  border-radius: 4px; /* Slight rounding if any */
+  padding: 14px 28px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navButton:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+@media (max-width: 1024px) {
+  .leftLinks {
+    display: none; /* Hide main links on tablet/mobile for now to keep it clean */
+  }
+  .navContainer {
+    grid-template-columns: auto auto; /* Just Logo and Button */
+    justify-content: space-between;
+  }
+  .logoWrapper {
+    justify-content: flex-start; /* Align logo to left when links are hidden */
+  }
+  .navButton {
+    padding: 10px 18px;
+    font-size: 0.75rem;
+  }
+  .navLogo {
+    max-height: 50px; /* Scale down logo slightly */
+  }
+}
+
+@media (max-width: 480px) {
+  .navContainer {
+    padding: 0 5%;
+  }
+  .navButton {
+    padding: 8px 14px;
+    font-size: 0.7rem;
+    letter-spacing: 0;
+  }
+  .navLogo {
+    max-height: 40px;
+  }
+}
+
+/* Footer CSS */
+.footer {
+  background-color: #000000;
+  padding: 60px 0 20px 0; /* More padding top, less bottom for cookie prefs */
+  width: 100%;
+}
+
+.footerContent {
+  display: flex;
+  align-items: flex-start; /* Align to top instead of center */
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 4%;
+}
+
+.footerLogoCol {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Space between logo and cookie prefs */
+}
+
+.footerLogo {
+  height: 50px;
+  width: auto;
+}
+
+.cookiePrefsBtn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-family: var(--font-inter);
+  font-size: 0.75rem;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  text-align: left;
+}
+
+.cookiePrefsBtn:hover {
+  opacity: 1;
+}
+
+.footerLinkCol {
+  flex: 0 0 auto;
+  padding-top: 15px; /* Align with info column text */
+}
+
+.footerLink {
+  font-family: var(--font-inter);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #ffffff; /* Solid white underline */
+  padding-bottom: 1px;
+  transition: opacity 0.3s ease;
+}
+
+.footerLink:hover {
+  opacity: 0.6;
+}
+
+.footerInfoCol {
+  flex: 0 0 auto;
   text-align: center;
+  font-family: var(--font-inter);
+  color: #ffffff;
+  font-size: 0.95rem; /* Match size with links */
+  line-height: 1.8;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5rem;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.footerInfoCol p {
+  margin: 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.footerInfoCol strong {
+  font-weight: 700;
+}
+
+.footerEmail {
+  color: #79d7f6; /* Cyan/blue color from original */
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.footerEmail:hover {
+  opacity: 0.8;
+}
+
+.footerSocialCol {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  flex: 0 0 auto;
+  padding-top: 10px; /* Align with info column */
+}
+
+.footerSocialIcon {
+  color: #ffffff;
+  font-size: 1.4rem;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.footerSocialIcon:hover {
+  opacity: 0.7;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 1024px) {
+  .footerContent {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 6%;
   }
-  to {
-    transform: rotate(360deg);
+  .footerLogoCol {
+    align-items: center;
+    text-align: center;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 0 20px 0;
+  }
+  .footerContent {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    align-items: center;
+  }
+  .footerLogoCol {
+    gap: 20px;
+  }
+  .cookiePrefsBtn {
+    text-align: center;
+  }
+  .footerLinkCol {
+    padding-top: 0;
+  }
+  .footerSocialCol {
+    padding-top: 0;
+    gap: 30px;
   }
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+@media (max-width: 480px) {
+  .footerInfoCol {
+    font-size: 0.85rem;
+  }
+  .footerLink {
+    font-size: 0.85rem;
+  }
+  .footerSocialIcon {
+    font-size: 1.2rem;
+  }
 }
