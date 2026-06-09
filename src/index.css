@@ -1,16 +1,19 @@
 :root {
-  --bg-color: #09090b; /* Exact Zinc 950 from reference */
+  --bg-color: #030303; /* Deep premium black */
   --text-primary: #ffffff;
-  --text-secondary: #888888; /* Exact Grey from reference */
+  --text-secondary: rgba(255, 255, 255, 0.65);
   --accent-color: #ffffff;
   
-  --font-inter: 'Inter', system-ui, sans-serif;
-  --font-manrope: 'Manrope', system-ui, sans-serif;
-  --font-poppins: 'Poppins', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Manrope', system-ui, sans-serif;
+  --font-accent: 'Poppins', system-ui, sans-serif;
 
-  /* Spacing */
-  --page-padding-x: clamp(20px, 4vw, 60px);
-  --section-padding-y: 100px;
+  /* Spacing System */
+  --page-padding-x: clamp(24px, 5vw, 80px);
+  --section-padding-y: clamp(80px, 10vw, 150px);
+  --space-sm: 16px;
+  --space-md: 32px;
+  --space-lg: 64px;
 }
 
 *, *::before, *::after {
@@ -20,24 +23,56 @@
 }
 
 body {
-  font-family: var(--font-inter);
+  font-family: var(--font-body);
   background-color: var(--bg-color);
   color: var(--text-primary);
-  line-height: 1.6;
+  line-height: 1.7; /* Increased for better readability */
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
 
+/* Premium Typographic Scale */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-inter);
+  font-family: var(--font-heading);
   line-height: 1.1;
   font-weight: 700;
+  letter-spacing: -0.02em; /* Tighter letter spacing for headings looks premium */
+  color: var(--text-primary);
+  margin-bottom: var(--space-sm);
+}
+
+h1 { font-size: clamp(48px, 8vw, 96px); font-weight: 800; letter-spacing: -0.04em; }
+h2 { font-size: clamp(36px, 5vw, 64px); }
+h3 { font-size: clamp(24px, 3vw, 40px); font-weight: 600; }
+
+p {
+  color: var(--text-secondary);
+  font-size: clamp(16px, 1.5vw, 20px);
+  font-weight: 400;
+  max-width: 70ch; /* Optimal reading width */
+  margin-bottom: var(--space-md);
+}
+
+strong, b {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+em, i {
+  font-style: italic;
+  font-weight: 300; /* Thin italics for premium feel */
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.7;
 }
 
 .container {
@@ -59,5 +94,6 @@ a {
 }
 
 .animate-in {
-  animation: fadeIn 0.8s ease-out forwards;
+  animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
+ 
