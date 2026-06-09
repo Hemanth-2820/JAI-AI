@@ -1,0 +1,706 @@
+{
+  "title": "Sell Services Online: Appointments, Invoicing & Payments — Squarespace",
+  "sections": [
+    {
+      "index": 0,
+      "id": "hero",
+      "headings": [],
+      "paragraphs": [
+        "Run your entire business from one place",
+        "Start for free. No credit card required."
+      ],
+      "buttons": [
+        {
+          "text": "Get started",
+          "href": "/templates/get-started"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/hero/coaches-hero-500w.jpg",
+          "alt": "Coaching"
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/hero/landsc-hero-500w.jpg",
+          "alt": "Landscaping"
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/hero/realestate-hero-500w.jpg",
+          "alt": "Real estate"
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/hero/barber-hero-500w.jpg",
+          "alt": "Barbers"
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/hero/architect-hero-500w.jpg",
+          "alt": "Architect"
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/hero/dance-hero-500w.jpg",
+          "alt": "Dance"
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/hero/exam-hero-500w.jpg",
+          "alt": "Education"
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/hero/interior-hero-500w.jpg",
+          "alt": "Interior design"
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/hero/nail-hero-500w.jpg",
+          "alt": "Nail salon"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "id": "intro",
+      "headings": [],
+      "paragraphs": [
+        "Everything in one place",
+        "Run your website, bookings, payments, and client communication together.",
+        "An experience clients will love",
+        "Let clients browse, book, and pay, in a polished client experience that feels like you.",
+        "Tools to help you grow",
+        "Bring in more clients, book more work, and earn more with tools that grow with your business.",
+        "Showcase your services and help clients find exactly what they need to book, register, or sign-up.",
+        "Tools to ease the intake process and make it easy for clients to say yes to your proposals.",
+        "Book appointments, host events and experiences, run a class or program, and so much more.",
+        "Send an invoice, take a deposit, accept payments on your site, or get paid in person. It’s easy to get paid, no matter what you offer.",
+        "Keep in touch with clients, follow up automatically, and make it easy for your community to come back."
+      ],
+      "buttons": [
+        {
+          "text": "Attract the right clients"
+        },
+        {
+          "text": "Win more business"
+        },
+        {
+          "text": "Offer services"
+        },
+        {
+          "text": "Get paid your way"
+        },
+        {
+          "text": "Build lasting relationships"
+        },
+        {
+          "text": "Explore website design→",
+          "href": "/website-design"
+        },
+        {
+          "text": "Explore client tools→",
+          "href": "/invoicing"
+        },
+        {
+          "text": "Explore sell services→",
+          "href": "/ecommerce/sell-services"
+        },
+        {
+          "text": "Explore financial solutions→",
+          "href": "/financial-solutions"
+        },
+        {
+          "text": "Explore email campaigns→",
+          "href": "/email-marketing"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/intro/attract-clients-500w.jpg",
+          "alt": "An interior design services website mockup with a \"Book now\" button, overlaid on a photo of two people collaborating at a desk with a laptop."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/intro/more-business-500w.jpg",
+          "alt": "A \"New intake form\" notification and an intake-form confirmation card reading \"Thanks for your intake form\" with a \"View response\" button."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/intro/offer-services-500w.jpg",
+          "alt": "An \"Our Services\" website mockup listing a $1,250.00 service, overlaid on a photo of hands holding a phone beside stacked spa towels."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/intro/get-paid-500w.jpg",
+          "alt": "A grid of payment method logos including Apple Pay, Klarna, Afterpay, ACH, Visa, Mastercard, American Express, and Discover, overlaid on a photo of two people."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/intro/lasting-relationships-500w.jpg",
+          "alt": "An email newsletter preview titled \"Welcome to our newsletter\" alongside campaign statistics: 83% opened, 24% clicked, and 175 subscribers."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "id": "how-you-work",
+      "headings": [
+        "Designed for how you work"
+      ],
+      "paragraphs": [
+        "From client work to projects, classes, programs, and experiences, Squarespace supports how you run your business.",
+        "Charities & Nonprofits",
+        "Personal",
+        "Creative Services",
+        "Professional Services",
+        "Education & Training",
+        "Previous",
+        "Next"
+      ],
+      "buttons": [
+        {
+          "text": "Charities & Nonprofits",
+          "href": "/solutions/nonprofits"
+        },
+        {
+          "text": "Personal",
+          "href": "/solutions/personal"
+        },
+        {
+          "text": "Creative Services",
+          "href": "/solutions/creative-services"
+        },
+        {
+          "text": "Professional Services",
+          "href": "/solutions/professional-services"
+        },
+        {
+          "text": "Education & Training",
+          "href": "/solutions/education"
+        },
+        {
+          "text": "Previous"
+        },
+        {
+          "text": "Next"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/how-you-work/nonprofits-500w.jpg",
+          "alt": "A close-up of a hand wearing a tan work glove resting against the hip of a person in rust-orange workwear, lit by a sharp diagonal shaft of sunlight."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/how-you-work/personal-500w.jpg",
+          "alt": "A person in a brown overshirt holding a folded fabric bag close to their chest, photographed in low warm light against a deep brown background."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/how-you-work/creative-services-500w.jpg",
+          "alt": "A man in dark navy crouching beside a tall sculptural plaster column in a sunlit gallery space with warm cream walls."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/how-you-work/professional-services-500w.jpg",
+          "alt": "A woman in an oversized white blazer laughing with her hands gestured open, photographed against a warmly lit beige and dark backdrop."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/how-you-work/education-500w.jpg",
+          "alt": "A close-up of hands in a rust-orange shirt writing in a small bound notebook on a desk strewn with stacked books and craft materials."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "id": "discovered",
+      "headings": [
+        "Stand out and get discovered by the right clients",
+        "Create a website built for your services",
+        "Get discovered by the right clients"
+      ],
+      "paragraphs": [
+        "Use service pages to organize what you offer, with AI tools that help you describe your services, and get found.",
+        "Built-in SEO and AI visibility tools help your services show up in search and AI-powered results."
+      ],
+      "buttons": [
+        {
+          "text": "Explore website design→",
+          "href": "/website-design"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/discovered/service-pages/service-pages-mobile-2-500w.jpg",
+          "alt": "A website homepage for a wellness service showing navigation links and a service card for a Renewal Package with a booking form."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/discovered/seo-visibility/seo-visibility-mobile-500w.jpg",
+          "alt": "A site SEO Score card overlaying a photo of hands tending to leafy plants, showing scores for accessibility, discoverability, links, and content with an overall score of 78."
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "id": "win-clients",
+      "headings": [
+        "Win more client business",
+        "Create custom intake forms",
+        "Send proposals, estimates, and contracts",
+        "Keep everything in one place"
+      ],
+      "paragraphs": [
+        "Ask the right questions upfront so you get the details you need without the back-and-forth.",
+        "Share polished proposals that match your brand and make it easy for clients to say yes.",
+        "Track client details, notes, and past activity so you’re always prepared."
+      ],
+      "buttons": [
+        {
+          "text": "Explore client tools→",
+          "href": "/invoicing"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/win-clients/intake-forms/intake-forms-mobile-500w.jpg",
+          "alt": "An Appointment Intake Form on a dark studio backdrop with fields for First name, Last name, Email, a free-form message, and Custom or Flash tattoo options."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/win-clients/proposals/proposals-mobile-500w.jpg",
+          "alt": "A Nutritional Proposal preview card with a small vase image and an S/O monogram, outlining a full-service health and nutrition package for the client."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/win-clients/one-place/one-place-mobile-500w.jpg",
+          "alt": "A Milestones tracker card with dated tasks, including 07/10 “Deliver photos and chat with…” and 07/18 “Consult call.”"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "id": "sell-services",
+      "headings": [
+        "More ways to grow your business"
+      ],
+      "paragraphs": [
+        "Offer appointments",
+        "Book appointments, take payments, and automate the busywork, powered by Acuity Scheduling.Explore scheduling→",
+        "Host events and experiences",
+        "Create and manage events, workshops, and experiences.Explore events & experiences→",
+        "Run classes and programs",
+        "Schedule classes, manage attendance, and keep everything organized.Explore education→",
+        "Sell content and products",
+        "Turn your expertise into content, memberships, and products—digital or physical.Explore content & memberships→"
+      ],
+      "buttons": [
+        {
+          "text": "Explore scheduling→",
+          "href": "/scheduling"
+        },
+        {
+          "text": "Explore events & experiences→",
+          "href": "/solutions/events"
+        },
+        {
+          "text": "Explore education→",
+          "href": "/solutions/education"
+        },
+        {
+          "text": "Explore content & memberships→",
+          "href": "/content"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/sell-services/sell-services-mobile-500w.jpg",
+          "alt": "A composite of Squarespace mockups: a mobile event page promoting an Achelous Pump night on April 23 with an “Attend the event” button; a desktop “Our Services” page for Achelous Spa featuring Mindful Renewal and Deep Healing packages; a September calendar with a “Class booked 3:15pm” notification; and a Member Details panel listing pricing plans and member-since dates."
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "id": "get-paid",
+      "headings": [
+        "Get paid your way",
+        "Flexible checkout options",
+        "Send invoices and get paid",
+        "Faster access to funds"
+      ],
+      "paragraphs": [
+        "Pay by card, digital wallet, bank transfer (ACH), or in person with Tap to Pay, with options for deposits and payment plans.",
+        "Create and send clear, professional invoices or payment links so clients can review and pay with ease.",
+        "Access your earnings quickly with fast payouts and low fees, so you can keep your business moving.",
+        "*Eligibility requirements apply. Instant Payouts are subject to additional fees. Funds typically arrive within 30 minutes, with some payouts taking longer. Learn more about Instant Payouts and associated fees at our Help Center."
+      ],
+      "buttons": [
+        {
+          "text": "Explore Financial solutions→",
+          "href": "/financial-solutions"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/get-paid/checkout-options/checkout-options-mobile-500w.jpg",
+          "alt": "Portrait of a person at a desk with a payment receipt card overlay showing a $9,768.00 charge by ACH direct debit and a \"Pay in installments\" button."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/get-paid/send-invoices/send-invoices-mobile-500w.jpg",
+          "alt": "Invoice UI showing invoice #123456 for $1,350.00 due in 30 days with a \"Pay this invoice\" button, overlaid on a desk scene."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/get-paid/faster-funds/faster-funds-mobile-500w.jpg",
+          "alt": "Services dashboard UI showing a Payments tab with currently processing amount $1,400.10 and upcoming payout $8,435.58."
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "id": "build-relationships",
+      "headings": [
+        "Build lasting client relationships",
+        "Emails designed to match your brand",
+        "Reach your audience",
+        "Automate your follow-ups",
+        "Offer more ways to come back"
+      ],
+      "paragraphs": [
+        "Create and send emails in minutes, with AI that helps you stay on brand.",
+        "Send newsletters and promotions that keep your business top of mind and grow your contact list.",
+        "Set up simple automations to welcome clients, send reminders, and follow up after each visit.",
+        "Use packages, waitlisting, subscriptions and discounts to encourage repeat bookings and ongoing work."
+      ],
+      "buttons": [
+        {
+          "text": "Explore campaigns→",
+          "href": "/email-marketing"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/build-relationships/brand-emails/brand-emails-mobile-500w.jpg",
+          "alt": "A welcome email preview alongside site and email color palette controls, shown over a photo of a musician playing acoustic guitar."
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "id": "entrepreneurs",
+      "headings": [],
+      "paragraphs": [
+        "Millions of entrepreneurs run their business on Squarespace",
+        "We use Squarespace to manage client-facing and operational tasks, spending less time switching tools and more time on meaningful work.",
+        "Thread Caravan founder Caitlin Garcia-Ahern",
+        "Thread Caravan ↗",
+        "Sure Thing Chapel ↗",
+        "With the massive volume of weddings we book, it is easy for things to slip through the cracks. A seamless system helps us avoid mistakes.",
+        "Sure Thing Chapel co-owner Amy Hybarger",
+        "Now, everything runs through one system on Squarespace. My bookings have grown over 600% from year one to year two of running my business.",
+        "Black Girl Blue World founder Gabby Shepard",
+        "Black Girl Blue World ↗"
+      ],
+      "buttons": [
+        {
+          "text": "Thread Caravan ↗",
+          "href": "/blog/thread-caravan-global-workshops"
+        },
+        {
+          "text": "Sure Thing Chapel ↗",
+          "href": "/blog/sure-thing-chapel"
+        },
+        {
+          "text": "Black Girl Blue World ↗",
+          "href": "/blog/black-girl-blue-world-travel-business"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/entrepreneurs/thread-caravan-500w.jpg",
+          "alt": "Caitlin Garcia-Ahern, founder of Thread Caravan, smiling against a textured terracotta backdrop."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/entrepreneurs/sure-thing-chapel-500w.jpg",
+          "alt": "Interior view of Sure Thing Chapel, a wedding venue with a heart-shaped window and warm lighting."
+        },
+        {
+          "src": "https://media-www.sqspcdn.com/images/pages/services-overview/entrepreneurs/black-girl-blue-world-500w.jpg",
+          "alt": "Gabby Shepard, founder of Black Girl Blue World, swimming underwater with fins."
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "id": "faqs",
+      "headings": [
+        "Frequently asked questions",
+        "How do I sell my professional services online?",
+        "What do I need to make a good services website?",
+        "Can I book appointments for my business on Squarespace?",
+        "Can I create and submit invoices online through my Squarespace account?",
+        "What payment methods can I accept with Squarespace Payments?",
+        "Can I run my entire service business on Squarespace?",
+        "What types of services can I sell on Squarespace?",
+        "Can I sell classes, programs, memberships, or digital content online?",
+        "Can I manage client information and communication on Squarespace?",
+        "What is the best platform to sell services online?",
+        "How do I price my services for online sales?",
+        "How do I market my services online to attract clients?",
+        "How can I build trust and credibility when selling services online?",
+        "Where can I find clients for my services online?"
+      ],
+      "paragraphs": [
+        "Selling services online starts with creating a professional website where clients can discover what you offer, book appointments, sign contracts, and pay — all in one place. Squarespace combines website design, scheduling, payments, invoicing, email marketing, and client management tools to help you run and grow your service business from a single platform.",
+        "A good services website helps clients quickly understand what you offer, trust your brand, and take action, whether that’s booking, inquiring, or paying. Squarespace includes customizable templates, built-in scheduling, payments, SEO tools, intake forms, and marketing features designed for service-based businesses, so everything you need is in one place.",
+        "Yes. Squarespace includes built-in appointment booking through Acuity Scheduling, which lets clients book and reschedule directly on your website. Acuity is a complete online scheduling solution that offers calendar syncing, email and text reminders, and payment integrations—so your entire booking process runs without needing a separate tool.",
+        "Yes. Squarespace lets you create and send branded invoices, collect deposits, share payment links, and accept payments—all from one place. You can also offer flexible payment options including credit and debit cards, Apple Pay, ACH bank transfers, and recurring payments, making it easy to get paid on your terms.",
+        "Squarespace Payments accepts credit and debit cards, Apple Pay, ACH bank transfers, Afterpay, Klarna, and in-person payments through Tap to Pay. It also supports invoices, deposits, payment links, and recurring payments, covering services, appointments, classes, memberships, events, and more, so you can get paid however works best for your business.",
+        "Yes. Squarespace brings together website design, scheduling, payments, invoicing, email marketing, ecommerce, and client management in one platform, built for businesses selling services, classes, programs, events, content, memberships, and more. You won’t need to stitch together separate tools to run your business.",
+        "Squarespace supports a wide range of service-based businesses, including consulting, coaching, fitness, wellness, beauty, photography, creative services, education, workshops, events, and more. You can sell appointments, events, classes, programs, memberships, experiences, retreats, digital content, physical products, and services all in one place.",
+        "Yes. Squarespace makes it easy to sell online courses, workshops, memberships, subscriptions, digital products, and programs. You can create gated content, manage registrations, accept payments, and promote your offerings from one platform, without needing third-party tools.",
+        "Yes. Squarespace helps you manage client relationships with tools for intake forms, proposals, contracts, appointment booking, invoicing, email marketing, and automated follow-ups. Everything stays organized in one place, so you can focus on delivering your service rather than managing admin across multiple tools.",
+        "The best platform for selling services online depends on your business model. Dedicated website builders like Squarespace give you full control over your brand, pricing, and client relationships — with built-in tools for booking, payments, and marketing. Freelance marketplaces offer built-in traffic but charge fees and limit your brand identity. For most service businesses building long-term client relationships, owning your own website is the stronger foundation.",
+        "Start by researching what competitors in your niche charge, then factor in your time, expertise, overhead, and the value you deliver. Common pricing models include hourly rates, project-based flat fees, retainers for ongoing access, and value-based pricing tied to client outcomes. Most service businesses start with hourly or project pricing and shift to retainers as demand grows.",
+        "Effective online service marketing typically combines a search-optimized website, a consistent presence on one or two social platforms relevant to your audience, and email marketing to nurture leads and stay in front of past clients. Client testimonials and case studies are especially effective for service businesses, since buyers are evaluating trust as much as capability. Squarespace includes built-in SEO tools, email marketing, and social integrations to support all of these from one place.",
+        "Trust in an online services context is built through a combination of social proof (testimonials, reviews, and case studies), transparent pricing and process descriptions, and a polished, professional website that signals legitimacy for your brand. Making it easy for potential clients to reach you with questions, intake forms, and clear booking flows also removes friction at the point of conversion.",
+        "Clients find service businesses through organic search (a well-optimized website), referrals from past clients, social media, industry communities, and freelance marketplaces. The most sustainable long-term channel is a searchable website with a frictionless booking experience — so clients can discover you, evaluate your services, and book without having to contact you first."
+      ],
+      "buttons": [
+        {
+          "text": "How do I sell my professional services online?"
+        },
+        {
+          "text": "What do I need to make a good services website?"
+        },
+        {
+          "text": "Can I book appointments for my business on Squarespace?"
+        },
+        {
+          "text": "Can I create and submit invoices online through my Squarespace account?"
+        },
+        {
+          "text": "What payment methods can I accept with Squarespace Payments?"
+        },
+        {
+          "text": "Can I run my entire service business on Squarespace?"
+        },
+        {
+          "text": "What types of services can I sell on Squarespace?"
+        },
+        {
+          "text": "Can I sell classes, programs, memberships, or digital content online?"
+        },
+        {
+          "text": "Can I manage client information and communication on Squarespace?"
+        },
+        {
+          "text": "What is the best platform to sell services online?"
+        },
+        {
+          "text": "How do I price my services for online sales?"
+        },
+        {
+          "text": "How do I market my services online to attract clients?"
+        },
+        {
+          "text": "How can I build trust and credibility when selling services online?"
+        },
+        {
+          "text": "Where can I find clients for my services online?"
+        }
+      ],
+      "images": []
+    },
+    {
+      "index": 10,
+      "classes": "faq__accordion-body-wrapper",
+      "id": ":Rdcn:-body",
+      "headings": [],
+      "paragraphs": [
+        "Selling services online starts with creating a professional website where clients can discover what you offer, book appointments, sign contracts, and pay — all in one place. Squarespace combines website design, scheduling, payments, invoicing, email marketing, and client management tools to help you run and grow your service business from a single platform."
+      ],
+      "buttons": [],
+      "images": []
+    },
+    {
+      "index": 11,
+      "classes": "faq__accordion-body-wrapper",
+      "id": ":Rlcn:-body",
+      "headings": [],
+      "paragraphs": [
+        "A good services website helps clients quickly understand what you offer, trust your brand, and take action, whether that’s booking, inquiring, or paying. Squarespace includes customizable templates, built-in scheduling, payments, SEO tools, intake forms, and marketing features designed for service-based businesses, so everything you need is in one place."
+      ],
+      "buttons": [],
+      "images": []
+    },
+    {
+      "index": 12,
+      "classes": "faq__accordion-body-wrapper",
+      "id": ":Rtcn:-body",
+      "headings": [],
+      "paragraphs": [
+        "Yes. Squarespace includes built-in appointment booking through Acuity Scheduling, which lets clients book and reschedule directly on your website. Acuity is a complete online scheduling solution that offers calendar syncing, email and text reminders, and payment integrations—so your entire booking process runs without needing a separate tool."
+      ],
+      "buttons": [],
+      "images": []
+    },
+    {
+      "index": 13,
+      "classes": "faq__accordion-body-wrapper",
+      "id": ":R15cn:-body",
+      "headings": [],
+      "paragraphs": [
+        "Yes. Squarespace lets you create and send branded invoices, collect deposits, share payment links, and accept payments—all from one place. You can also offer flexible payment options including credit and debit cards, Apple Pay, ACH bank transfers, and recurring payments, making it easy to get paid on your terms."
+      ],
+      "buttons": [],
+      "images": []
+    },
+    {
+      "index": 14,
+      "classes": "faq__accordion-body-wrapper",
+      "id": ":R1dcn:-body",
+      "headings": [],
+      "paragraphs": [
+        "Squarespace Payments accepts credit and debit cards, Apple Pay, ACH bank transfers, Afterpay, Klarna, and in-person payments through Tap to Pay. It also supports invoices, deposits, payment links, and recurring payments, covering services, appointments, classes, memberships, events, and more, so you can get paid however works best for your business."
+      ],
+      "buttons": [],
+      "images": []
+    },
+    {
+      "index": 15,
+      "classes": "faq__accordion-body-wrapper",
+      "id": ":R1lcn:-body",
+      "headings": [],
+      "paragraphs": [
+        "Yes. Squarespace brings together website design, scheduling, payments, invoicing, email marketing, ecommerce, and client management in one platform, built for businesses selling services, classes, programs, events, content, memberships, and more. You won’t need to stitch together separate tools to run your business."
+      ],
+      "buttons": [],
+      "images": []
+    },
+    {
+      "index": 16,
+      "classes": "faq__accordion-body-wrapper",
+      "id": ":R1tcn:-body",
+      "headings": [],
+      "paragraphs": [
+        "Squarespace supports a wide range of service-based businesses, including consulting, coaching, fitness, wellness, beauty, photography, creative services, education, workshops, events, and more. You can sell appointments, events, classes, programs, memberships, experiences, retreats, digital content, physical products, and services all in one place."
+      ],
+      "buttons": [],
+      "images": []
+    },
+    {
+      "index": 17,
+      "classes": "faq__accordion-body-wrapper",
+      "id": ":R25cn:-body",
+      "headings": [],
+      "paragraphs": [
+        "Yes. Squarespace makes it easy to sell online courses, workshops, memberships, subscriptions, digital products, and programs. You can create gated content, manage registrations, accept payments, and promote your offerings from one platform, without needing third-party tools."
+      ],
+      "buttons": [],
+      "images": []
+    },
+    {
+      "index": 18,
+      "classes": "faq__accordion-body-wrapper",
+      "id": ":R2dcn:-body",
+      "headings": [],
+      "paragraphs": [
+        "Yes. Squarespace helps you manage client relationships with tools for intake forms, proposals, contracts, appointment booking, invoicing, email marketing, and automated follow-ups. Everything stays organized in one place, so you can focus on delivering your service rather than managing admin across multiple tools."
+      ],
+      "buttons": [],
+      "images": []
+    },
+    {
+      "index": 19,
+      "classes": "faq__accordion-body-wrapper",
+      "id": ":R2lcn:-body",
+      "headings": [],
+      "paragraphs": [
+        "The best platform for selling services online depends on your business model. Dedicated website builders like Squarespace give you full control over your brand, pricing, and client relationships — with built-in tools for booking, payments, and marketing. Freelance marketplaces offer built-in traffic but charge fees and limit your brand identity. For most service businesses building long-term client relationships, owning your own website is the stronger foundation."
+      ],
+      "buttons": [],
+      "images": []
+    },
+    {
+      "index": 20,
+      "classes": "faq__accordion-body-wrapper",
+      "id": ":R2tcn:-body",
+      "headings": [],
+      "paragraphs": [
+        "Start by researching what competitors in your niche charge, then factor in your time, expertise, overhead, and the value you deliver. Common pricing models include hourly rates, project-based flat fees, retainers for ongoing access, and value-based pricing tied to client outcomes. Most service businesses start with hourly or project pricing and shift to retainers as demand grows."
+      ],
+      "buttons": [],
+      "images": []
+    },
+    {
+      "index": 21,
+      "classes": "faq__accordion-body-wrapper",
+      "id": ":R35cn:-body",
+      "headings": [],
+      "paragraphs": [
+        "Effective online service marketing typically combines a search-optimized website, a consistent presence on one or two social platforms relevant to your audience, and email marketing to nurture leads and stay in front of past clients. Client testimonials and case studies are especially effective for service businesses, since buyers are evaluating trust as much as capability. Squarespace includes built-in SEO tools, email marketing, and social integrations to support all of these from one place."
+      ],
+      "buttons": [],
+      "images": []
+    },
+    {
+      "index": 22,
+      "classes": "faq__accordion-body-wrapper",
+      "id": ":R3dcn:-body",
+      "headings": [],
+      "paragraphs": [
+        "Trust in an online services context is built through a combination of social proof (testimonials, reviews, and case studies), transparent pricing and process descriptions, and a polished, professional website that signals legitimacy for your brand. Making it easy for potential clients to reach you with questions, intake forms, and clear booking flows also removes friction at the point of conversion."
+      ],
+      "buttons": [],
+      "images": []
+    },
+    {
+      "index": 23,
+      "classes": "faq__accordion-body-wrapper",
+      "id": ":R3lcn:-body",
+      "headings": [],
+      "paragraphs": [
+        "Clients find service businesses through organic search (a well-optimized website), referrals from past clients, social media, industry communities, and freelance marketplaces. The most sustainable long-term channel is a searchable website with a frictionless booking experience — so clients can discover you, evaluate your services, and book without having to contact you first."
+      ],
+      "buttons": [],
+      "images": []
+    },
+    {
+      "index": 24,
+      "classes": "support support--no-padding-top",
+      "id": "support",
+      "headings": [
+        "24/7 Support"
+      ],
+      "paragraphs": [
+        "Help Center",
+        "Get help from our award-winning Customer Support team.",
+        "→",
+        "Webinars",
+        "Free online sessions to learn the basics and refine your skills.",
+        "→"
+      ],
+      "buttons": [
+        {
+          "text": "Help CenterGet help from our award-winning Customer Support team.→",
+          "href": "https://support.squarespace.com"
+        },
+        {
+          "text": "Webinars Free online sessions to learn the basics and refine your skills. →",
+          "href": "https://learning.squarespace.com"
+        }
+      ],
+      "images": []
+    },
+    {
+      "index": 25,
+      "classes": "conversion conversion--no-padding-top",
+      "id": "conversion",
+      "headings": [
+        "Start your free website trial today"
+      ],
+      "paragraphs": [
+        "No credit card required. Cancel anytime."
+      ],
+      "buttons": [
+        {
+          "text": "Get started",
+          "href": "/templates/get-started"
+        },
+        {
+          "text": "Get started",
+          "href": "/templates/get-started"
+        },
+        {
+          "text": "Start a Free Trial",
+          "href": "/templates/get-started"
+        }
+      ],
+      "images": []
+    }
+  ]
+}
