@@ -9,61 +9,61 @@ export const categoryData = {
         "title": "Business Websites",
         "desc": "Professional websites tailored to drive business growth.",
         "icon": "🏢",
-        "image": "https://picsum.photos/seed/web-development-BusinessWebsites/800/600"
+        "image": "/images/features/web-development-BusinessWebsites.jpg"
       },
       {
         "title": "Company Websites",
         "desc": "Corporate portals establishing authority and trust.",
         "icon": "🏛️",
-        "image": "https://picsum.photos/seed/web-development-CompanyWebsites/800/600"
+        "image": "/images/features/web-development-CompanyWebsites.jpg"
       },
       {
         "title": "Portfolio Websites",
         "desc": "Showcase your work with stunning visual portfolios.",
         "icon": "🎨",
-        "image": "https://picsum.photos/seed/web-development-PortfolioWebsites/800/600"
+        "image": "/images/features/web-development-PortfolioWebsites.jpg"
       },
       {
         "title": "Landing Pages",
         "desc": "High-conversion, single-page designs for campaigns.",
         "icon": "🎯",
-        "image": "https://picsum.photos/seed/web-development-LandingPages/800/600"
+        "image": "/images/features/web-development-LandingPages.jpg"
       },
       {
         "title": "E-Commerce Websites",
         "desc": "Secure online stores to sell products globally.",
         "icon": "🛍️",
-        "image": "https://picsum.photos/seed/web-development-E-CommerceWebsites/800/600"
+        "image": "/images/features/web-development-E-CommerceWebsites.jpg"
       },
       {
         "title": "Custom Web Applications",
         "desc": "Complex, data-driven web apps built from scratch.",
         "icon": "⚙️",
-        "image": "https://picsum.photos/seed/web-development-CustomWebApplications/800/600"
+        "image": "/images/features/web-development-CustomWebApplications.jpg"
       },
       {
         "title": "Admin Dashboards",
         "desc": "Intuitive analytics and management interfaces.",
         "icon": "📊",
-        "image": "https://picsum.photos/seed/web-development-AdminDashboards/800/600"
+        "image": "/images/features/web-development-AdminDashboards.jpg"
       },
       {
         "title": "SaaS Platforms",
         "desc": "Multi-tenant architectures for software as a service.",
         "icon": "☁️",
-        "image": "https://picsum.photos/seed/web-development-SaaSPlatforms/800/600"
+        "image": "/images/features/web-development-SaaSPlatforms.jpg"
       },
       {
         "title": "Responsive Website Design",
         "desc": "Mobile-first designs ensuring flawless viewing on any device.",
         "icon": "📱",
-        "image": "https://picsum.photos/seed/web-development-ResponsiveWebsiteDesign/800/600"
+        "image": "/images/features/web-development-ResponsiveWebsiteDesign.jpg"
       },
       {
         "title": "Website Redesign",
         "desc": "Modernizing legacy websites with cutting-edge tech.",
         "icon": "🔄",
-        "image": "https://picsum.photos/seed/web-development-WebsiteRedesign/800/600"
+        "image": "/images/features/web-development-WebsiteRedesign.jpg"
       }
     ],
     "techStack": [
@@ -250,37 +250,37 @@ export const categoryData = {
         "title": "Android App Development",
         "desc": "Native applications for the Android ecosystem.",
         "icon": "🤖",
-        "image": "https://picsum.photos/seed/app-development-AndroidAppDevelopment/800/600"
+        "image": "/images/features/app-development-AndroidAppDevelopment.jpg"
       },
       {
         "title": "Cross Platform Apps",
         "desc": "Hybrid apps that run smoothly on iOS and Android.",
         "icon": "⚡",
-        "image": "https://picsum.photos/seed/app-development-CrossPlatformApps/800/600"
+        "image": "/images/features/app-development-CrossPlatformApps.jpg"
       },
       {
         "title": "Business Applications",
         "desc": "Internal tools to streamline company operations.",
         "icon": "💼",
-        "image": "https://picsum.photos/seed/app-development-BusinessApplications/800/600"
+        "image": "/images/features/app-development-BusinessApplications.jpg"
       },
       {
         "title": "E-Commerce Apps",
         "desc": "Mobile storefronts featuring secure payment gateways.",
         "icon": "🛒",
-        "image": "https://picsum.photos/seed/app-development-E-CommerceApps/800/600"
+        "image": "/images/features/app-development-E-CommerceApps.jpg"
       },
       {
         "title": "Custom Mobile Apps",
         "desc": "Bespoke mobile software tailored to unique requirements.",
         "icon": "🛠️",
-        "image": "https://picsum.photos/seed/app-development-CustomMobileApps/800/600"
+        "image": "/images/features/app-development-CustomMobileApps.jpg"
       },
       {
         "title": "API-Based Mobile Apps",
         "desc": "Cloud-connected mobile apps that sync real-time data.",
         "icon": "🔗",
-        "image": "https://picsum.photos/seed/app-development-API-BasedMobileApps/800/600"
+        "image": "/images/features/app-development-API-BasedMobileApps.jpg"
       }
     ],
     "techStack": [
@@ -466,37 +466,37 @@ export const categoryData = {
         "title": "Custom Software Development",
         "desc": "End-to-end custom software architecture.",
         "icon": "💻",
-        "image": "https://picsum.photos/seed/software-development-CustomSoftwareDevelopment/800/600"
+        "image": "/images/features/software-development-CustomSoftwareDevelopment.jpg"
       },
       {
         "title": "Billing Software",
         "desc": "Automated, tax-compliant billing solutions.",
         "icon": "🧾",
-        "image": "https://picsum.photos/seed/software-development-BillingSoftware/800/600"
+        "image": "/images/features/software-development-BillingSoftware.jpg"
       },
       {
         "title": "Inventory Management Systems",
         "desc": "Real-time tracking and supply chain management.",
         "icon": "📦",
-        "image": "https://picsum.photos/seed/software-development-InventoryManagementSystems/800/600"
+        "image": "/images/features/software-development-InventoryManagementSystems.jpg"
       },
       {
         "title": "CRM & ERP Integrations",
         "desc": "Connecting departments for unified workflows.",
         "icon": "🏭",
-        "image": "https://picsum.photos/seed/software-development-CRM%26ERPIntegrations/800/600"
+        "image": "/images/features/software-development-CRM%26ERPIntegrations.jpg"
       },
       {
         "title": "Legacy System Upgrades",
         "desc": "Modernizing old software into scalable cloud platforms.",
         "icon": "🔄",
-        "image": "https://picsum.photos/seed/software-development-LegacySystemUpgrades/800/600"
+        "image": "/images/features/software-development-LegacySystemUpgrades.jpg"
       },
       {
         "title": "Workflow Automation",
         "desc": "Digital transformation of manual business processes.",
         "icon": "⚡",
-        "image": "https://picsum.photos/seed/software-development-WorkflowAutomation/800/600"
+        "image": "/images/features/software-development-WorkflowAutomation.jpg"
       }
     ],
     "techStack": [
@@ -683,37 +683,37 @@ export const categoryData = {
         "title": "AWS Cloud Architecture",
         "desc": "Designing highly available, fault-tolerant infrastructure using native AWS services.",
         "icon": "☁️",
-        "image": "https://picsum.photos/seed/aws-devops-AWSCloudArchitecture/800/600"
+        "image": "/images/features/aws-devops-AWSCloudArchitecture.jpg"
       },
       {
         "title": "CI/CD Pipelines",
         "desc": "Automated testing and continuous delivery workflows using Jenkins, GitHub Actions, and AWS CodePipeline.",
         "icon": "🔄",
-        "image": "https://picsum.photos/seed/aws-devops-CI%2FCDPipelines/800/600"
+        "image": "/images/features/aws-devops-CI%2FCDPipelines.jpg"
       },
       {
         "title": "Containerization (Docker & K8s)",
         "desc": "Packaging applications with Docker and orchestrating massive clusters with Kubernetes.",
         "icon": "🐳",
-        "image": "https://picsum.photos/seed/aws-devops-Containerization(Docker%26K8s)/800/600"
+        "image": "/images/features/aws-devops-Containerization(Docker%26K8s).jpg"
       },
       {
         "title": "Infrastructure as Code",
         "desc": "Provisioning dynamic cloud environments using Terraform and AWS CloudFormation.",
         "icon": "🏗️",
-        "image": "https://picsum.photos/seed/aws-devops-InfrastructureasCode/800/600"
+        "image": "/images/features/aws-devops-InfrastructureasCode.jpg"
       },
       {
         "title": "Performance Monitoring",
         "desc": "24/7 telemetry and observability using Datadog, Prometheus, and Grafana.",
         "icon": "📈",
-        "image": "https://picsum.photos/seed/aws-devops-PerformanceMonitoring/800/600"
+        "image": "/images/features/aws-devops-PerformanceMonitoring.jpg"
       },
       {
         "title": "Cloud Security Auditing",
         "desc": "Ensuring deep compliance, IAM hardening, and impenetrable VPC setups.",
         "icon": "🔒",
-        "image": "https://picsum.photos/seed/aws-devops-CloudSecurityAuditing/800/600"
+        "image": "/images/features/aws-devops-CloudSecurityAuditing.jpg"
       }
     ],
     "techStack": [
@@ -896,37 +896,37 @@ export const categoryData = {
         "title": "Dedicated Server Hosting",
         "desc": "High-performance bare-metal servers for data-intensive enterprise applications.",
         "icon": "🖥️",
-        "image": "https://picsum.photos/seed/hosting-server-DedicatedServerHosting/800/600"
+        "image": "/images/features/hosting-server-DedicatedServerHosting.jpg"
       },
       {
         "title": "Cloud VPS Management",
         "desc": "Scalable Virtual Private Servers optimized for speed and cost-efficiency.",
         "icon": "☁️",
-        "image": "https://picsum.photos/seed/hosting-server-CloudVPSManagement/800/600"
+        "image": "/images/features/hosting-server-CloudVPSManagement.jpg"
       },
       {
         "title": "Database Administration",
         "desc": "Optimization, clustering, and backup management for MySQL, PostgreSQL, and MongoDB.",
         "icon": "🗄️",
-        "image": "https://picsum.photos/seed/hosting-server-DatabaseAdministration/800/600"
+        "image": "/images/features/hosting-server-DatabaseAdministration.jpg"
       },
       {
         "title": "DDoS Protection & Firewall",
         "desc": "Enterprise-grade web application firewalls to block malicious traffic instantly.",
         "icon": "🛡️",
-        "image": "https://picsum.photos/seed/hosting-server-DDoSProtection%26Firewall/800/600"
+        "image": "/images/features/hosting-server-DDoSProtection%26Firewall.jpg"
       },
       {
         "title": "24/7 Uptime Monitoring",
         "desc": "Round-the-clock server health tracking with instant incident response.",
         "icon": "⏱️",
-        "image": "https://picsum.photos/seed/hosting-server-24%2F7UptimeMonitoring/800/600"
+        "image": "/images/features/hosting-server-24%2F7UptimeMonitoring.jpg"
       },
       {
         "title": "Domain & DNS Setup",
         "desc": "Configuring robust DNS routing and custom domain ecosystems.",
         "icon": "🌐",
-        "image": "https://picsum.photos/seed/hosting-server-Domain%26DNSSetup/800/600"
+        "image": "/images/features/hosting-server-Domain%26DNSSetup.jpg"
       }
     ],
     "techStack": [
@@ -1108,37 +1108,37 @@ export const categoryData = {
         "title": "Search Engine Optimization (SEO)",
         "desc": "Dominate search rankings with technical SEO, backlink building, and semantic content.",
         "icon": "🔍",
-        "image": "https://picsum.photos/seed/digital-marketing-SearchEngineOptimization(SEO)/800/600"
+        "image": "/images/features/digital-marketing-SearchEngineOptimization(SEO).jpg"
       },
       {
         "title": "Performance Ad Campaigns",
         "desc": "Hyper-targeted Google Ads and Meta Ads optimized by machine learning algorithms.",
         "icon": "💰",
-        "image": "https://picsum.photos/seed/digital-marketing-PerformanceAdCampaigns/800/600"
+        "image": "/images/features/digital-marketing-PerformanceAdCampaigns.jpg"
       },
       {
         "title": "Social Media Strategy",
         "desc": "Engaging, viral-ready content creation and community management across all platforms.",
         "icon": "📱",
-        "image": "https://picsum.photos/seed/digital-marketing-SocialMediaStrategy/800/600"
+        "image": "/images/features/digital-marketing-SocialMediaStrategy.jpg"
       },
       {
         "title": "Email Marketing Automation",
         "desc": "Personalized drip campaigns that nurture leads and drastically increase retention.",
         "icon": "📧",
-        "image": "https://picsum.photos/seed/digital-marketing-EmailMarketingAutomation/800/600"
+        "image": "/images/features/digital-marketing-EmailMarketingAutomation.jpg"
       },
       {
         "title": "Conversion Rate Optimization",
         "desc": "A/B testing and behavioral analytics to maximize your website's sales funnel.",
         "icon": "📈",
-        "image": "https://picsum.photos/seed/digital-marketing-ConversionRateOptimization/800/600"
+        "image": "/images/features/digital-marketing-ConversionRateOptimization.jpg"
       },
       {
         "title": "Content Marketing",
         "desc": "Deep, value-driven blogs, whitepapers, and videos to capture organic traffic.",
         "icon": "📝",
-        "image": "https://picsum.photos/seed/digital-marketing-ContentMarketing/800/600"
+        "image": "/images/features/digital-marketing-ContentMarketing.jpg"
       }
     ],
     "techStack": [
@@ -1320,37 +1320,37 @@ export const categoryData = {
         "title": "Custom ChatGPT Integration",
         "desc": "Embed GPT-4 turbo directly into your web applications for dynamic conversations.",
         "icon": "🤖",
-        "image": "https://picsum.photos/seed/ai-chatbot-CustomChatGPTIntegration/800/600"
+        "image": "/images/features/ai-chatbot-CustomChatGPTIntegration.jpg"
       },
       {
         "title": "RAG Pipeline Development",
         "desc": "Vector databases (Pinecone/Milvus) that allow AI to search your internal PDFs and docs.",
         "icon": "📚",
-        "image": "https://picsum.photos/seed/ai-chatbot-RAGPipelineDevelopment/800/600"
+        "image": "/images/features/ai-chatbot-RAGPipelineDevelopment.jpg"
       },
       {
         "title": "Customer Support Automation",
         "desc": "24/7 intelligent agents that resolve 80% of tier-1 support tickets instantly.",
         "icon": "🎧",
-        "image": "https://picsum.photos/seed/ai-chatbot-CustomerSupportAutomation/800/600"
+        "image": "/images/features/ai-chatbot-CustomerSupportAutomation.jpg"
       },
       {
         "title": "Lead Generation Bots",
         "desc": "Conversational forms that qualify leads and sync directly with your CRM.",
         "icon": "💬",
-        "image": "https://picsum.photos/seed/ai-chatbot-LeadGenerationBots/800/600"
+        "image": "/images/features/ai-chatbot-LeadGenerationBots.jpg"
       },
       {
         "title": "Multi-language Support",
         "desc": "Auto-translating AI agents capable of communicating natively in 50+ languages.",
         "icon": "🌍",
-        "image": "https://picsum.photos/seed/ai-chatbot-Multi-languageSupport/800/600"
+        "image": "/images/features/ai-chatbot-Multi-languageSupport.jpg"
       },
       {
         "title": "Analytics & Handover",
         "desc": "Smooth escalation to human agents with full conversation context and sentiment analysis.",
         "icon": "📊",
-        "image": "https://picsum.photos/seed/ai-chatbot-Analytics%26Handover/800/600"
+        "image": "/images/features/ai-chatbot-Analytics%26Handover.jpg"
       }
     ],
     "techStack": [
@@ -1532,37 +1532,37 @@ export const categoryData = {
         "title": "Cloud IVR Deployment",
         "desc": "Scalable voice menus hosted on the cloud, removing the need for on-premise hardware.",
         "icon": "☁️",
-        "image": "https://picsum.photos/seed/ivr-services-CloudIVRDeployment/800/600"
+        "image": "/images/features/ivr-services-CloudIVRDeployment.jpg"
       },
       {
         "title": "Conversational Voice AI",
         "desc": "Speech recognition (NLP) allowing callers to simply say what they need.",
         "icon": "🗣️",
-        "image": "https://picsum.photos/seed/ivr-services-ConversationalVoiceAI/800/600"
+        "image": "/images/features/ivr-services-ConversationalVoiceAI.jpg"
       },
       {
         "title": "Smart Call Routing",
         "desc": "Skill-based routing to ensure clients speak to the right agent every time.",
         "icon": "🔀",
-        "image": "https://picsum.photos/seed/ivr-services-SmartCallRouting/800/600"
+        "image": "/images/features/ivr-services-SmartCallRouting.jpg"
       },
       {
         "title": "Automated Surveys & Billing",
         "desc": "Secure DTMF capture for over-the-phone payments and customer feedback.",
         "icon": "💳",
-        "image": "https://picsum.photos/seed/ivr-services-AutomatedSurveys%26Billing/800/600"
+        "image": "/images/features/ivr-services-AutomatedSurveys%26Billing.jpg"
       },
       {
         "title": "CRM & API Integration",
         "desc": "Screen-pops that show caller data to your agents before they even say hello.",
         "icon": "🖥️",
-        "image": "https://picsum.photos/seed/ivr-services-CRM%26APIIntegration/800/600"
+        "image": "/images/features/ivr-services-CRM%26APIIntegration.jpg"
       },
       {
         "title": "Call Analytics",
         "desc": "Deep insights into call volumes, drop-off rates, and agent performance.",
         "icon": "📈",
-        "image": "https://picsum.photos/seed/ivr-services-CallAnalytics/800/600"
+        "image": "/images/features/ivr-services-CallAnalytics.jpg"
       }
     ],
     "techStack": [
@@ -1743,37 +1743,37 @@ export const categoryData = {
         "title": "Custom API Development",
         "desc": "Building secure, RESTful, and GraphQL APIs tailored to expose your business logic.",
         "icon": "⚡",
-        "image": "https://picsum.photos/seed/api-integration-CustomAPIDevelopment/800/600"
+        "image": "/images/features/api-integration-CustomAPIDevelopment.jpg"
       },
       {
         "title": "Third-Party Integrations",
         "desc": "Seamless connections with Stripe, Twilio, Salesforce, Shopify, and thousands more.",
         "icon": "🔌",
-        "image": "https://picsum.photos/seed/api-integration-Third-PartyIntegrations/800/600"
+        "image": "/images/features/api-integration-Third-PartyIntegrations.jpg"
       },
       {
         "title": "Middleware & Microservices",
         "desc": "Architecting robust middleware to sync real-time data across microservices.",
         "icon": "🔄",
-        "image": "https://picsum.photos/seed/api-integration-Middleware%26Microservices/800/600"
+        "image": "/images/features/api-integration-Middleware%26Microservices.jpg"
       },
       {
         "title": "Legacy System Modernization",
         "desc": "Creating API wrappers around old SOAP/XML systems for modern web consumption.",
         "icon": "🏗️",
-        "image": "https://picsum.photos/seed/api-integration-LegacySystemModernization/800/600"
+        "image": "/images/features/api-integration-LegacySystemModernization.jpg"
       },
       {
         "title": "Webhooks & Event Driven",
         "desc": "Implementing real-time webhook architectures for instant system updates.",
         "icon": "🔔",
-        "image": "https://picsum.photos/seed/api-integration-Webhooks%26EventDriven/800/600"
+        "image": "/images/features/api-integration-Webhooks%26EventDriven.jpg"
       },
       {
         "title": "API Documentation",
         "desc": "Generating crystal-clear Swagger/OpenAPI docs for external developers.",
         "icon": "📚",
-        "image": "https://picsum.photos/seed/api-integration-APIDocumentation/800/600"
+        "image": "/images/features/api-integration-APIDocumentation.jpg"
       }
     ],
     "techStack": [
@@ -1951,37 +1951,37 @@ export const categoryData = {
         "title": "Shopify & WooCommerce",
         "desc": "Custom theme development and optimized setups for the world's best platforms.",
         "icon": "🛍️",
-        "image": "https://picsum.photos/seed/ecommerce-solutions-Shopify%26WooCommerce/800/600"
+        "image": "/images/features/ecommerce-solutions-Shopify%26WooCommerce.jpg"
       },
       {
         "title": "Headless Commerce",
         "desc": "Decoupling the frontend (React/Next.js) from the backend for lightning-fast load times.",
         "icon": "⚡",
-        "image": "https://picsum.photos/seed/ecommerce-solutions-HeadlessCommerce/800/600"
+        "image": "/images/features/ecommerce-solutions-HeadlessCommerce.jpg"
       },
       {
         "title": "Payment Gateway Integration",
         "desc": "Secure, multi-currency payment setups including Stripe, PayPal, and Crypto.",
         "icon": "💳",
-        "image": "https://picsum.photos/seed/ecommerce-solutions-PaymentGatewayIntegration/800/600"
+        "image": "/images/features/ecommerce-solutions-PaymentGatewayIntegration.jpg"
       },
       {
         "title": "Inventory & Fulfillment",
         "desc": "Automated syncing between your web store, warehouses, and dropshipping partners.",
         "icon": "📦",
-        "image": "https://picsum.photos/seed/ecommerce-solutions-Inventory%26Fulfillment/800/600"
+        "image": "/images/features/ecommerce-solutions-Inventory%26Fulfillment.jpg"
       },
       {
         "title": "B2B Wholesale Portals",
         "desc": "Complex pricing tiers and massive catalog management for enterprise B2B sales.",
         "icon": "🏢",
-        "image": "https://picsum.photos/seed/ecommerce-solutions-B2BWholesalePortals/800/600"
+        "image": "/images/features/ecommerce-solutions-B2BWholesalePortals.jpg"
       },
       {
         "title": "Abandoned Cart Recovery",
         "desc": "Implementing intelligent marketing funnels to capture lost revenue.",
         "icon": "💰",
-        "image": "https://picsum.photos/seed/ecommerce-solutions-AbandonedCartRecovery/800/600"
+        "image": "/images/features/ecommerce-solutions-AbandonedCartRecovery.jpg"
       }
     ],
     "techStack": [
@@ -2163,37 +2163,37 @@ export const categoryData = {
         "title": "Vulnerability Auditing",
         "desc": "Deep penetration testing to identify and patch zero-day vulnerabilities in your code.",
         "icon": "🔍",
-        "image": "https://picsum.photos/seed/security-maintenance-VulnerabilityAuditing/800/600"
+        "image": "/images/features/security-maintenance-VulnerabilityAuditing.jpg"
       },
       {
         "title": "SSL & Encryption",
         "desc": "End-to-end data encryption and strict SSL enforcement for data at rest and in transit.",
         "icon": "🔒",
-        "image": "https://picsum.photos/seed/security-maintenance-SSL%26Encryption/800/600"
+        "image": "/images/features/security-maintenance-SSL%26Encryption.jpg"
       },
       {
         "title": "Automated Backups",
         "desc": "Daily, redundant off-site backups ensuring zero data loss during catastrophic failures.",
         "icon": "💾",
-        "image": "https://picsum.photos/seed/security-maintenance-AutomatedBackups/800/600"
+        "image": "/images/features/security-maintenance-AutomatedBackups.jpg"
       },
       {
         "title": "Malware Removal",
         "desc": "Instant quarantine and eradication of malicious scripts and backdoor injections.",
         "icon": "🛡️",
-        "image": "https://picsum.photos/seed/security-maintenance-MalwareRemoval/800/600"
+        "image": "/images/features/security-maintenance-MalwareRemoval.jpg"
       },
       {
         "title": "Routine Maintenance",
         "desc": "Continuous software updates, dependency upgrades, and performance tuning.",
         "icon": "🛠️",
-        "image": "https://picsum.photos/seed/security-maintenance-RoutineMaintenance/800/600"
+        "image": "/images/features/security-maintenance-RoutineMaintenance.jpg"
       },
       {
         "title": "Compliance Auditing",
         "desc": "Ensuring strict adherence to GDPR, HIPAA, and PCI DSS standards.",
         "icon": "⚖️",
-        "image": "https://picsum.photos/seed/security-maintenance-ComplianceAuditing/800/600"
+        "image": "/images/features/security-maintenance-ComplianceAuditing.jpg"
       }
     ],
     "techStack": [
@@ -2375,37 +2375,37 @@ export const categoryData = {
         "title": "Workflow Automation",
         "desc": "Connecting 100+ apps to trigger actions automatically without human intervention.",
         "icon": "⚡",
-        "image": "https://picsum.photos/seed/ai-automation-WorkflowAutomation/800/600"
+        "image": "/images/features/ai-automation-WorkflowAutomation.jpg"
       },
       {
         "title": "AI Image Processing",
         "desc": "Computer vision models that automatically tag, moderate, and analyze visual media.",
         "icon": "👁️",
-        "image": "https://picsum.photos/seed/ai-automation-AIImageProcessing/800/600"
+        "image": "/images/features/ai-automation-AIImageProcessing.jpg"
       },
       {
         "title": "Document Extraction",
         "desc": "Intelligent extraction of data from invoices, PDFs, and unstructured documents.",
         "icon": "📄",
-        "image": "https://picsum.photos/seed/ai-automation-DocumentExtraction/800/600"
+        "image": "/images/features/ai-automation-DocumentExtraction.jpg"
       },
       {
         "title": "Predictive Analytics",
         "desc": "Machine learning models forecasting sales, inventory needs, and market trends.",
         "icon": "📈",
-        "image": "https://picsum.photos/seed/ai-automation-PredictiveAnalytics/800/600"
+        "image": "/images/features/ai-automation-PredictiveAnalytics.jpg"
       },
       {
         "title": "Custom RPA Development",
         "desc": "Software bots designed to execute high-volume, repeatable tasks flawlessly.",
         "icon": "🤖",
-        "image": "https://picsum.photos/seed/ai-automation-CustomRPADevelopment/800/600"
+        "image": "/images/features/ai-automation-CustomRPADevelopment.jpg"
       },
       {
         "title": "Data Parsing Agents",
         "desc": "Web scrapers and NLP agents capable of structuring messy online data streams.",
         "icon": "🕸️",
-        "image": "https://picsum.photos/seed/ai-automation-DataParsingAgents/800/600"
+        "image": "/images/features/ai-automation-DataParsingAgents.jpg"
       }
     ],
     "techStack": [
