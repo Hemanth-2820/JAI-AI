@@ -90,6 +90,82 @@
   color: #000000;
 }
 
+/* Dropdown Menu CSS */
+.navDropdownWrapper {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 20px; /* Expand hover area */
+  margin-bottom: -20px;
+}
+
+.dropdownArrow {
+  font-size: 0.7em;
+  margin-left: 4px;
+  vertical-align: middle;
+  opacity: 0.7;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  gap: 48px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+  min-width: max-content;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.navDropdownWrapper:hover .dropdownMenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(10px);
+  pointer-events: auto;
+}
+
+.dropdownColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.dropdownColumn h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 12px;
+  font-family: var(--font-inter, sans-serif);
+}
+
+.dropdownLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-family: var(--font-inter, sans-serif);
+  font-weight: 400;
+  transition: all 0.3s ease;
+  opacity: 0.85;
+}
+
+.dropdownLink:hover {
+  opacity: 1;
+  color: #79d7f6; /* Cyan accent color */
+  transform: translateX(4px);
+}
+
 @media (max-width: 1024px) {
   .leftLinks {
     display: none; /* Hide main links on tablet/mobile for now to keep it clean */

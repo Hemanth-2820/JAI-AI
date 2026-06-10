@@ -910,7 +910,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, #fafafa 0%, rgba(250,250,250,0.5) 60%, rgba(250,250,250,0.8) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%, #000000 100%);
   z-index: 2;
 }
 
@@ -940,13 +940,13 @@
 }
 
 .textSolid {
-  color: #1d1d1f;
+  color: #ffffff;
 }
 
 /* Innovative outline text effect */
 .textOutline {
   color: transparent;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.4);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
 }
 
 .catHeroDesc {
@@ -1087,55 +1087,35 @@
 /* Asymmetric Gallery */
 .catGallery {
   padding: 100px 5vw 200px;
-  background: #ffffff;
+  background: #000000;
 }
 
 .catGrid {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 40px;
-  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  align-items: stretch;
 }
 
 .catGridItem {
   position: relative;
   overflow: hidden;
-}
-
-.catGridItem0 {
-  grid-column: 1 / 8;
-}
-
-.catGridItem1 {
-  grid-column: 9 / 13;
-  margin-top: 150px;
-}
-
-.catGridItem2 {
-  grid-column: 3 / 10;
-  margin-top: 100px;
+  border-radius: 8px;
 }
 
 .catImgWrapper {
   position: relative;
   overflow: hidden;
   width: 100%;
-  aspect-ratio: 4/5;
+  aspect-ratio: 4/3;
   border-radius: 4px;
 }
-
-.catGridItem0 .catImgWrapper { aspect-ratio: 16/9; }
-.catGridItem2 .catImgWrapper { aspect-ratio: 3/2; }
 
 .catImgWrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 1.2s cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.catImgWrapper:hover img {
-  transform: scale(1.05);
+  transition: transform 0.1s ease-out; /* Changed for scroll effect */
 }
 
 .catImgOverlay {
@@ -1366,4 +1346,1018 @@
   .supportCard {
     padding: 32px;
   }
+}
+
+/* ==================================
+   SQUARESPACE STYLE MAIN GRID
+   ================================== */
+.sqPageContainer {
+  background-color: #000000;
+  min-height: 100vh;
+  color: #ffffff;
+  padding-top: 120px; /* Space for navbar */
+}
+
+.sqHero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.sqHeroTitle {
+  font-size: clamp(40px, 6vw, 90px);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+
+.sqHeroBtn {
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 20px 40px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: opacity 0.3s ease;
+  border-radius: 4px;
+}
+
+.sqHeroBtn:hover {
+  opacity: 0.8;
+}
+
+.sqHeroSub {
+  font-size: 14px;
+  color: rgba(255,255,255,0.6);
+}
+
+.sqGridSection {
+  padding: 0 10px 100px 10px;
+}
+
+.sqGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.sqGridItem {
+  position: relative;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #111;
+}
+
+.sqGridImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* transform handled inline by parallax */
+  transition: opacity 0.3s ease;
+}
+
+.sqGridItem:hover .sqGridImg {
+  opacity: 0.7;
+}
+
+.sqGridOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: flex-end;
+}
+
+.sqGridItem:hover .sqGridOverlay {
+  opacity: 1;
+}
+
+.sqGridOverlay h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .sqGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .sqGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==================================
+   SQUARESPACE DETAILED PAGE (CategoryDetail)
+   ================================== */
+.ssContainer {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.ssNav {
+  position: absolute;
+  top: 40px;
+  left: 5vw;
+  z-index: 100;
+}
+
+.ssBackBtn {
+  background: transparent;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.ssBackBtn:hover {
+  opacity: 0.6;
+}
+
+.ssHero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ssHeroBg {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 110%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.ssHeroOverlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6); /* Simple dark overlay */
+  z-index: 2;
+}
+
+.ssHeroContent {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+.ssHeroTitle {
+  font-size: clamp(50px, 8vw, 100px);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.ssHeroBtn {
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 20px 40px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+}
+
+.ssHeroBtn:hover {
+  opacity: 0.8;
+}
+
+.ssHeroSub {
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+}
+
+.ssFeatures {
+  padding: 100px 5vw;
+  background: #111111;
+}
+
+.ssFeaturesContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ssFeaturesContainer h2 {
+  font-size: clamp(30px, 4vw, 50px);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.ssFeaturesDesc {
+  font-size: 20px;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 60px;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.ssFeatureImageGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.featureCardImage {
+  position: relative;
+  height: 350px;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.featureImgBg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.featureCardImage:hover .featureImgBg {
+  transform: scale(1.1);
+}
+
+.featureDefaultOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+  padding: 30px 20px;
+  transition: opacity 0.4s ease;
+}
+
+.featureDefaultOverlay h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.featureHoverOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(13, 34, 64, 0.95);
+  padding: 40px 30px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.featureCardImage:hover .featureDefaultOverlay {
+  opacity: 0;
+}
+
+.featureCardImage:hover .featureHoverOverlay {
+  opacity: 1;
+}
+
+.featureHoverOverlay h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.featureHoverOverlay p {
+  font-size: 15px;
+  color: #ddd;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.featureReadMore {
+  align-self: flex-start;
+  padding: 8px 24px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.featureReadMore:hover {
+  background: #fff;
+  color: #0d2240;
+}
+
+.ssGridSection {
+  padding: 0 10px 100px 10px;
+  background: #111111;
+}
+
+.ssGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.ssGridItem {
+  position: relative;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #000;
+}
+
+.ssGridImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.1s ease-out;
+}
+
+@media (max-width: 1024px) {
+  .ssGrid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .ssGrid { grid-template-columns: 1fr; }
+}
+
+/* Extended Sections: Tech Stack */
+.ssTechStack {
+  padding: 80px 5vw;
+  background: #0a0a0a;
+  text-align: center;
+}
+.ssTechStack h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  color: #fff;
+}
+.ssTechList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.ssTechBadge {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ccc;
+  transition: all 0.3s ease;
+}
+.ssTechBadge:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Process Timeline */
+.ssProcess {
+  padding: 100px 5vw;
+  background: #000;
+}
+.ssProcessGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.processCard {
+  background: #1a1a1a;
+  border-radius: 24px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  min-height: 400px;
+}
+.processCard:hover {
+  transform: translateY(-10px);
+}
+.processCardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.processCardTop h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  max-width: 80%;
+  line-height: 1.3;
+}
+.processArrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+.processCard:hover .processArrow {
+  background: #ff1f1f;
+  border-color: #ff1f1f;
+}
+.processDesc {
+  color: #aaaaaa;
+  font-size: 16px;
+  line-height: 1.6;
+  flex-grow: 1;
+  margin-bottom: 40px;
+}
+.processCardBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.processStepInfo {
+  display: flex;
+  flex-direction: column;
+}
+.processStepLabel {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.processStepNum {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ff1f1f;
+  line-height: 1;
+}
+.processIconBox {
+  width: 80px;
+  height: 80px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.processBoxRed {
+  background: #ff1f1f;
+  color: #000;
+}
+.processBoxWhite {
+  background: #ffffff;
+  color: #000;
+}
+
+/* FAQs */
+.ssFaqs {
+  padding: 100px 5vw;
+  background: #000;
+}
+.ssFaqs h2 {
+  font-size: clamp(30px, 4vw, 50px);
+  text-align: center;
+  margin-bottom: 60px;
+}
+.ssFaqList {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.ssFaqItem h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.ssFaqItem p {
+  color: #aaa;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+/* Bottom CTA */
+.ssBottomCta {
+  padding: 150px 5vw;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2000&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  border-top: 1px solid #222;
+}
+.ssBottomCta h2 {
+  font-size: clamp(40px, 5vw, 70px);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.ssBottomCta p {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+.ssBottomCtaBtn {
+  background: #fff;
+  color: #000;
+  padding: 20px 40px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: opacity 0.3s;
+}
+.ssBottomCtaBtn:hover {
+  opacity: 0.8;
+}
+
+/* Stats Section */
+.ssStats {
+  padding: 80px 5vw;
+  background: #000;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+}
+.ssStatsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.ssStatValue {
+  font-size: clamp(40px, 5vw, 60px);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.ssStatLabel {
+  font-size: 16px;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+@media (max-width: 768px) {
+  .ssStatsGrid { grid-template-columns: 1fr; gap: 40px; }
+}
+
+/* Service Testimonial */
+.ssTestimonial {
+  padding: 120px 5vw;
+  background: #0a0a0a;
+  text-align: center;
+}
+.ssTestimonialInner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.ssTestimonialQuote {
+  font-size: clamp(24px, 3vw, 36px);
+  font-weight: 400;
+  line-height: 1.4;
+  font-style: italic;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.ssTestimonialAuthor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.ssTestimonialImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.ssTestimonialName {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ccc;
+}
+
+/* Engagement Models */
+.ssEngagement {
+  padding: 100px 5vw;
+  background: #111;
+}
+.ssEngagement h2 {
+  text-align: center;
+  font-size: clamp(30px, 4vw, 50px);
+  margin-bottom: 60px;
+}
+.ssEngagementGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.ssEngagementCard {
+  background: #1a1a1a;
+  padding: 40px;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+.ssEngagementCard h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.ssEngagementCard p {
+  color: #aaa;
+  line-height: 1.6;
+  font-size: 15px;
+}
+@media (max-width: 768px) {
+  .ssEngagementGrid { grid-template-columns: 1fr; }
+}
+
+/* Lead Magnet */
+.ssLeadMagnet {
+  padding: 80px 5vw;
+  background: #000;
+  text-align: center;
+}
+.ssLeadMagnetInner {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #111;
+  padding: 50px;
+  border-radius: 8px;
+  border: 1px solid #222;
+}
+.ssLeadMagnet h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.ssLeadMagnet p {
+  color: #888;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+.ssLeadMagnetForm {
+  display: flex;
+  gap: 10px;
+}
+.ssLeadMagnetInput {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #333;
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
+  outline: none;
+}
+.ssLeadMagnetBtn {
+  background: #fff;
+  color: #000;
+  padding: 0 30px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+.ssLeadMagnetBtn:hover {
+  opacity: 0.8;
+}
+@media (max-width: 600px) {
+  .ssLeadMagnetForm { flex-direction: column; }
+  .ssLeadMagnetBtn { padding: 15px; }
+}
+
+/* Why Us Section */
+.ssWhyUs {
+  background: linear-gradient(to right, #ff0000, #001f5c);
+  padding: 100px 5vw;
+  color: #fff;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.ssWhyUsContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+.ssWhyUsHeader {
+  text-align: center;
+  margin-bottom: 80px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ssWhyUsHeader h2 {
+  font-size: clamp(36px, 5vw, 54px);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.ssWhyUsLine {
+  width: 60px;
+  height: 4px;
+  background: #fff;
+  margin: 0 auto 30px auto;
+}
+.ssWhyUsHeader p {
+  font-size: 18px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+.ssWhyUsContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.ssWhyUsLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.ssWhyUsItem {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.ssWhyUsIcon {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #ff0000;
+  flex-shrink: 0;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.ssWhyUsText h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.ssWhyUsText p {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+.ssWhyUsRight {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.ssWhyUsImg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  transform: perspective(1000px) rotateY(-5deg);
+}
+
+@media (max-width: 992px) {
+  .ssWhyUsContent {
+    flex-direction: column;
+  }
+  .ssWhyUsImg {
+    transform: none;
+    margin-top: 60px;
+  }
+}
+
+/* Snake Flow Section */
+.ssFlowSection {
+  padding: 100px 5vw;
+  background: #0b1021;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ssFlowContainer {
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.ssFlowLeft {
+  flex: 1.2;
+}
+.ssSnakeGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
+  gap: 40px 20px;
+  position: relative;
+}
+.ssSnakeItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.ssSnakeIconBox {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #fff;
+  background: transparent;
+}
+.ssSnakeItem span {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+/* Snake Arrows using pseudo-elements */
+@keyframes flowPulse {
+  0% { opacity: 0.2; transform: scale(1) translateX(0); filter: brightness(0.5); }
+  50% { opacity: 1; transform: scale(1.1) translateX(2px); filter: brightness(1.5); color: #ff3333; }
+  100% { opacity: 0.2; transform: scale(1) translateX(0); filter: brightness(0.5); }
+}
+@keyframes flowPulseDown {
+  0% { opacity: 0.2; transform: translateY(0); filter: brightness(0.5); }
+  50% { opacity: 1; transform: translateY(2px); filter: brightness(1.5); color: #ff3333; }
+  100% { opacity: 0.2; transform: translateY(0); filter: brightness(0.5); }
+}
+@keyframes flowPulseLeft {
+  0% { opacity: 0.2; transform: scale(1) translateX(0); filter: brightness(0.5); }
+  50% { opacity: 1; transform: scale(1.1) translateX(-2px); filter: brightness(1.5); color: #ff3333; }
+  100% { opacity: 0.2; transform: scale(1) translateX(0); filter: brightness(0.5); }
+}
+@keyframes iconPulse {
+  0% { transform: scale(1); border-color: #fff; box-shadow: none; }
+  50% { transform: scale(1.15); border-color: #ff1f1f; box-shadow: 0 0 20px rgba(255, 31, 31, 0.6); }
+  100% { transform: scale(1); border-color: #fff; box-shadow: none; }
+}
+
+.ssSnakeItem:nth-child(1) .ssSnakeIconBox { animation: iconPulse 3s infinite 0s; }
+.ssSnakeItem:nth-child(2) .ssSnakeIconBox { animation: iconPulse 3s infinite 0.3s; }
+.ssSnakeItem:nth-child(3) .ssSnakeIconBox { animation: iconPulse 3s infinite 0.6s; }
+.ssSnakeItem:nth-child(4) .ssSnakeIconBox { animation: iconPulse 3s infinite 0.9s; }
+.ssSnakeItem:nth-child(5) .ssSnakeIconBox { animation: iconPulse 3s infinite 1.3s; }
+.ssSnakeItem:nth-child(6) .ssSnakeIconBox { animation: iconPulse 3s infinite 1.6s; }
+.ssSnakeItem:nth-child(7) .ssSnakeIconBox { animation: iconPulse 3s infinite 1.9s; }
+.ssSnakeItem:nth-child(8) .ssSnakeIconBox { animation: iconPulse 3s infinite 2.2s; }
+
+.ssSnakeItem::after {
+  content: "---->";
+  position: absolute;
+  color: #e60000;
+  font-weight: bold;
+  letter-spacing: -1px;
+  top: 35px;
+}
+/* Right arrows for Row 1: Item 1, 2, 3 */
+.ssSnakeItem:nth-child(1)::after { right: -30px; animation: flowPulse 3s infinite 0s; }
+.ssSnakeItem:nth-child(2)::after { right: -30px; animation: flowPulse 3s infinite 0.3s; }
+.ssSnakeItem:nth-child(3)::after { right: -30px; animation: flowPulse 3s infinite 0.6s; }
+
+/* Down arrow for Row 1: Item 4 */
+.ssSnakeItem:nth-child(4)::after {
+  content: "|";
+  bottom: -40px;
+  top: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #e60000;
+  animation: flowPulseDown 3s infinite 0.9s;
+}
+.ssSnakeItem:nth-child(4)::before {
+  content: "v";
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #e60000;
+  font-weight: bold;
+  animation: flowPulseDown 3s infinite 1.0s;
+}
+
+/* Left arrows for Row 2: Items 5, 6, 7 */
+.ssSnakeItem:nth-child(5)::after { content: "<----"; left: -30px; top: 35px; animation: flowPulseLeft 3s infinite 1.3s; }
+.ssSnakeItem:nth-child(6)::after { content: "<----"; left: -30px; top: 35px; animation: flowPulseLeft 3s infinite 1.6s; }
+.ssSnakeItem:nth-child(7)::after { content: "<----"; left: -30px; top: 35px; animation: flowPulseLeft 3s infinite 1.9s; }
+
+.ssSnakeItem:nth-child(8)::after {
+  content: none;
+}
+
+/* Grid placement for the snake shape */
+.ssSnakeItem:nth-child(1) { grid-area: 1 / 1; }
+.ssSnakeItem:nth-child(2) { grid-area: 1 / 2; }
+.ssSnakeItem:nth-child(3) { grid-area: 1 / 3; }
+.ssSnakeItem:nth-child(4) { grid-area: 1 / 4; }
+.ssSnakeItem:nth-child(5) { grid-area: 2 / 4; }
+.ssSnakeItem:nth-child(6) { grid-area: 2 / 3; }
+.ssSnakeItem:nth-child(7) { grid-area: 2 / 2; }
+.ssSnakeItem:nth-child(8) { grid-area: 2 / 1; }
+
+.ssFlowRight {
+  flex: 0.8;
+  background: #cc0000;
+  padding: 40px;
+  border-radius: 12px;
+  color: #fff;
+}
+.ssFlowRight h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 1.3;
+}
+.ssFlowList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ssFlowList li {
+  position: relative;
+  padding-left: 25px;
+  line-height: 1.5;
+  font-size: 15px;
+}
+.ssFlowList li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+}
+.ssFlowList li strong {
+  font-weight: 700;
+}
+
+@media (max-width: 992px) {
+  .ssFlowContainer {
+    flex-direction: column;
+  }
+  .ssSnakeGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .ssSnakeItem:nth-child(n) { grid-area: auto; }
+  .ssSnakeItem::after, .ssSnakeItem::before { display: none; }
 }

@@ -1,4 +1,4 @@
-export const categoryData = {
+module.exports = {
   "web-development": {
     "title": "Web Development",
     "subtitle": "Custom websites and powerful web applications.",
@@ -8,62 +8,52 @@ export const categoryData = {
       {
         "title": "Business Websites",
         "desc": "Professional websites tailored to drive business growth.",
-        "icon": "🏢",
-        "image": "https://picsum.photos/seed/web-development-BusinessWebsites/800/600"
+        "icon": "🏢"
       },
       {
         "title": "Company Websites",
         "desc": "Corporate portals establishing authority and trust.",
-        "icon": "🏛️",
-        "image": "https://picsum.photos/seed/web-development-CompanyWebsites/800/600"
+        "icon": "🏛️"
       },
       {
         "title": "Portfolio Websites",
         "desc": "Showcase your work with stunning visual portfolios.",
-        "icon": "🎨",
-        "image": "https://picsum.photos/seed/web-development-PortfolioWebsites/800/600"
+        "icon": "🎨"
       },
       {
         "title": "Landing Pages",
         "desc": "High-conversion, single-page designs for campaigns.",
-        "icon": "🎯",
-        "image": "https://picsum.photos/seed/web-development-LandingPages/800/600"
+        "icon": "🎯"
       },
       {
         "title": "E-Commerce Websites",
         "desc": "Secure online stores to sell products globally.",
-        "icon": "🛍️",
-        "image": "https://picsum.photos/seed/web-development-E-CommerceWebsites/800/600"
+        "icon": "🛍️"
       },
       {
         "title": "Custom Web Applications",
         "desc": "Complex, data-driven web apps built from scratch.",
-        "icon": "⚙️",
-        "image": "https://picsum.photos/seed/web-development-CustomWebApplications/800/600"
+        "icon": "⚙️"
       },
       {
         "title": "Admin Dashboards",
         "desc": "Intuitive analytics and management interfaces.",
-        "icon": "📊",
-        "image": "https://picsum.photos/seed/web-development-AdminDashboards/800/600"
+        "icon": "📊"
       },
       {
         "title": "SaaS Platforms",
         "desc": "Multi-tenant architectures for software as a service.",
-        "icon": "☁️",
-        "image": "https://picsum.photos/seed/web-development-SaaSPlatforms/800/600"
+        "icon": "☁️"
       },
       {
         "title": "Responsive Website Design",
         "desc": "Mobile-first designs ensuring flawless viewing on any device.",
-        "icon": "📱",
-        "image": "https://picsum.photos/seed/web-development-ResponsiveWebsiteDesign/800/600"
+        "icon": "📱"
       },
       {
         "title": "Website Redesign",
         "desc": "Modernizing legacy websites with cutting-edge tech.",
-        "icon": "🔄",
-        "image": "https://picsum.photos/seed/web-development-WebsiteRedesign/800/600"
+        "icon": "🔄"
       }
     ],
     "techStack": [
@@ -152,93 +142,7 @@ export const categoryData = {
         "title": "Time & Material",
         "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
       }
-    ],
-    "whyUs": {
-      "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for Web Development. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
-      "points": [
-        {
-          "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding Web Development, Perceiving technical issues, and preparing an advanced solution for it.",
-          "icon": "🎯"
-        },
-        {
-          "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
-          "icon": "📊"
-        },
-        {
-          "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
-          "icon": "💼"
-        },
-        {
-          "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen Web Development product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
-          "icon": "☕"
-        }
-      ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
-    },
-    "flowSection": {
-      "title": "Why you should work with Digitali360?",
-      "points": [
-        {
-          "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest Web Development frameworks to keep your business ahead of the curve."
-        },
-        {
-          "title": "Customized Excellence",
-          "desc": "Your Web Development project is built from scratch—no templates, just pure bespoke engineering."
-        },
-        {
-          "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
-        },
-        {
-          "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
-        },
-        {
-          "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
-        }
-      ],
-      "flowSteps": [
-        {
-          "name": "Discovery",
-          "icon": "Search"
-        },
-        {
-          "name": "Requirements",
-          "icon": "ClipboardList"
-        },
-        {
-          "name": "Wireframing",
-          "icon": "PenTool"
-        },
-        {
-          "name": "UI/UX Design",
-          "icon": "Layout"
-        },
-        {
-          "name": "Frontend Dev",
-          "icon": "Code"
-        },
-        {
-          "name": "Backend Dev",
-          "icon": "Server"
-        },
-        {
-          "name": "QA Testing",
-          "icon": "TestTube"
-        },
-        {
-          "name": "Live Launch",
-          "icon": "Rocket"
-        }
-      ]
-    }
+    ]
   },
   "app-development": {
     "title": "App Development",
@@ -249,38 +153,32 @@ export const categoryData = {
       {
         "title": "Android App Development",
         "desc": "Native applications for the Android ecosystem.",
-        "icon": "🤖",
-        "image": "https://picsum.photos/seed/app-development-AndroidAppDevelopment/800/600"
+        "icon": "🤖"
       },
       {
         "title": "Cross Platform Apps",
         "desc": "Hybrid apps that run smoothly on iOS and Android.",
-        "icon": "⚡",
-        "image": "https://picsum.photos/seed/app-development-CrossPlatformApps/800/600"
+        "icon": "⚡"
       },
       {
         "title": "Business Applications",
         "desc": "Internal tools to streamline company operations.",
-        "icon": "💼",
-        "image": "https://picsum.photos/seed/app-development-BusinessApplications/800/600"
+        "icon": "💼"
       },
       {
         "title": "E-Commerce Apps",
         "desc": "Mobile storefronts featuring secure payment gateways.",
-        "icon": "🛒",
-        "image": "https://picsum.photos/seed/app-development-E-CommerceApps/800/600"
+        "icon": "🛒"
       },
       {
         "title": "Custom Mobile Apps",
         "desc": "Bespoke mobile software tailored to unique requirements.",
-        "icon": "🛠️",
-        "image": "https://picsum.photos/seed/app-development-CustomMobileApps/800/600"
+        "icon": "🛠️"
       },
       {
         "title": "API-Based Mobile Apps",
         "desc": "Cloud-connected mobile apps that sync real-time data.",
-        "icon": "🔗",
-        "image": "https://picsum.photos/seed/app-development-API-BasedMobileApps/800/600"
+        "icon": "🔗"
       }
     ],
     "techStack": [
@@ -368,93 +266,7 @@ export const categoryData = {
         "title": "Time & Material",
         "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
       }
-    ],
-    "whyUs": {
-      "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for App Development. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
-      "points": [
-        {
-          "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding App Development, Perceiving technical issues, and preparing an advanced solution for it.",
-          "icon": "🎯"
-        },
-        {
-          "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
-          "icon": "📊"
-        },
-        {
-          "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
-          "icon": "💼"
-        },
-        {
-          "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen App Development product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
-          "icon": "☕"
-        }
-      ],
-      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=800&auto=format&fit=crop"
-    },
-    "flowSection": {
-      "title": "Why you should work with Digitali360?",
-      "points": [
-        {
-          "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest App Development frameworks to keep your business ahead of the curve."
-        },
-        {
-          "title": "Customized Excellence",
-          "desc": "Your App Development project is built from scratch—no templates, just pure bespoke engineering."
-        },
-        {
-          "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
-        },
-        {
-          "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
-        },
-        {
-          "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
-        }
-      ],
-      "flowSteps": [
-        {
-          "name": "Research",
-          "icon": "LineChart"
-        },
-        {
-          "name": "Strategy",
-          "icon": "Target"
-        },
-        {
-          "name": "Prototyping",
-          "icon": "Smartphone"
-        },
-        {
-          "name": "App Design",
-          "icon": "Figma"
-        },
-        {
-          "name": "Native Coding",
-          "icon": "Terminal"
-        },
-        {
-          "name": "API Sync",
-          "icon": "Link"
-        },
-        {
-          "name": "Beta Testing",
-          "icon": "FlaskConical"
-        },
-        {
-          "name": "App Store",
-          "icon": "DownloadCloud"
-        }
-      ]
-    }
+    ]
   },
   "software-development": {
     "title": "Software Development",
@@ -465,38 +277,32 @@ export const categoryData = {
       {
         "title": "Custom Software Development",
         "desc": "End-to-end custom software architecture.",
-        "icon": "💻",
-        "image": "https://picsum.photos/seed/software-development-CustomSoftwareDevelopment/800/600"
+        "icon": "💻"
       },
       {
         "title": "Billing Software",
         "desc": "Automated, tax-compliant billing solutions.",
-        "icon": "🧾",
-        "image": "https://picsum.photos/seed/software-development-BillingSoftware/800/600"
+        "icon": "🧾"
       },
       {
         "title": "Inventory Management Systems",
         "desc": "Real-time tracking and supply chain management.",
-        "icon": "📦",
-        "image": "https://picsum.photos/seed/software-development-InventoryManagementSystems/800/600"
+        "icon": "📦"
       },
       {
         "title": "CRM & ERP Integrations",
         "desc": "Connecting departments for unified workflows.",
-        "icon": "🏭",
-        "image": "https://picsum.photos/seed/software-development-CRM%26ERPIntegrations/800/600"
+        "icon": "🏭"
       },
       {
         "title": "Legacy System Upgrades",
         "desc": "Modernizing old software into scalable cloud platforms.",
-        "icon": "🔄",
-        "image": "https://picsum.photos/seed/software-development-LegacySystemUpgrades/800/600"
+        "icon": "🔄"
       },
       {
         "title": "Workflow Automation",
         "desc": "Digital transformation of manual business processes.",
-        "icon": "⚡",
-        "image": "https://picsum.photos/seed/software-development-WorkflowAutomation/800/600"
+        "icon": "⚡"
       }
     ],
     "techStack": [
@@ -585,93 +391,7 @@ export const categoryData = {
         "title": "Time & Material",
         "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
       }
-    ],
-    "whyUs": {
-      "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for Software Development. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
-      "points": [
-        {
-          "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding Software Development, Perceiving technical issues, and preparing an advanced solution for it.",
-          "icon": "🎯"
-        },
-        {
-          "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
-          "icon": "📊"
-        },
-        {
-          "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
-          "icon": "💼"
-        },
-        {
-          "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen Software Development product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
-          "icon": "☕"
-        }
-      ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
-    },
-    "flowSection": {
-      "title": "Why you should work with Digitali360?",
-      "points": [
-        {
-          "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest Software Development frameworks to keep your business ahead of the curve."
-        },
-        {
-          "title": "Customized Excellence",
-          "desc": "Your Software Development project is built from scratch—no templates, just pure bespoke engineering."
-        },
-        {
-          "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
-        },
-        {
-          "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
-        },
-        {
-          "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
-        }
-      ],
-      "flowSteps": [
-        {
-          "name": "Discovery",
-          "icon": "Search"
-        },
-        {
-          "name": "Planning",
-          "icon": "Map"
-        },
-        {
-          "name": "System Design",
-          "icon": "Database"
-        },
-        {
-          "name": "Development",
-          "icon": "Code2"
-        },
-        {
-          "name": "Integration",
-          "icon": "GitMerge"
-        },
-        {
-          "name": "QA Testing",
-          "icon": "Bug"
-        },
-        {
-          "name": "UAT",
-          "icon": "Users"
-        },
-        {
-          "name": "Handover",
-          "icon": "PackageCheck"
-        }
-      ]
-    }
+    ]
   },
   "aws-devops": {
     "title": "AWS & DevOps",
@@ -682,38 +402,32 @@ export const categoryData = {
       {
         "title": "AWS Cloud Architecture",
         "desc": "Designing highly available, fault-tolerant infrastructure using native AWS services.",
-        "icon": "☁️",
-        "image": "https://picsum.photos/seed/aws-devops-AWSCloudArchitecture/800/600"
+        "icon": "☁️"
       },
       {
         "title": "CI/CD Pipelines",
         "desc": "Automated testing and continuous delivery workflows using Jenkins, GitHub Actions, and AWS CodePipeline.",
-        "icon": "🔄",
-        "image": "https://picsum.photos/seed/aws-devops-CI%2FCDPipelines/800/600"
+        "icon": "🔄"
       },
       {
         "title": "Containerization (Docker & K8s)",
         "desc": "Packaging applications with Docker and orchestrating massive clusters with Kubernetes.",
-        "icon": "🐳",
-        "image": "https://picsum.photos/seed/aws-devops-Containerization(Docker%26K8s)/800/600"
+        "icon": "🐳"
       },
       {
         "title": "Infrastructure as Code",
         "desc": "Provisioning dynamic cloud environments using Terraform and AWS CloudFormation.",
-        "icon": "🏗️",
-        "image": "https://picsum.photos/seed/aws-devops-InfrastructureasCode/800/600"
+        "icon": "🏗️"
       },
       {
         "title": "Performance Monitoring",
         "desc": "24/7 telemetry and observability using Datadog, Prometheus, and Grafana.",
-        "icon": "📈",
-        "image": "https://picsum.photos/seed/aws-devops-PerformanceMonitoring/800/600"
+        "icon": "📈"
       },
       {
         "title": "Cloud Security Auditing",
         "desc": "Ensuring deep compliance, IAM hardening, and impenetrable VPC setups.",
-        "icon": "🔒",
-        "image": "https://picsum.photos/seed/aws-devops-CloudSecurityAuditing/800/600"
+        "icon": "🔒"
       }
     ],
     "techStack": [
@@ -798,93 +512,7 @@ export const categoryData = {
         "title": "Time & Material",
         "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
       }
-    ],
-    "whyUs": {
-      "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for AWS & DevOps. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
-      "points": [
-        {
-          "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding AWS & DevOps, Perceiving technical issues, and preparing an advanced solution for it.",
-          "icon": "🎯"
-        },
-        {
-          "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
-          "icon": "📊"
-        },
-        {
-          "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
-          "icon": "💼"
-        },
-        {
-          "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen AWS & DevOps product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
-          "icon": "☕"
-        }
-      ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
-    },
-    "flowSection": {
-      "title": "Why you should work with Digitali360?",
-      "points": [
-        {
-          "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest AWS & DevOps frameworks to keep your business ahead of the curve."
-        },
-        {
-          "title": "Customized Excellence",
-          "desc": "Your AWS & DevOps project is built from scratch—no templates, just pure bespoke engineering."
-        },
-        {
-          "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
-        },
-        {
-          "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
-        },
-        {
-          "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
-        }
-      ],
-      "flowSteps": [
-        {
-          "name": "Infra Audit",
-          "icon": "Activity"
-        },
-        {
-          "name": "Threat Model",
-          "icon": "Siren"
-        },
-        {
-          "name": "Architecture",
-          "icon": "Cloud"
-        },
-        {
-          "name": "CI/CD Setup",
-          "icon": "GitBranch"
-        },
-        {
-          "name": "Containers",
-          "icon": "Box"
-        },
-        {
-          "name": "Security",
-          "icon": "ShieldCheck"
-        },
-        {
-          "name": "Load Test",
-          "icon": "Gauge"
-        },
-        {
-          "name": "Go Live",
-          "icon": "Power"
-        }
-      ]
-    }
+    ]
   },
   "hosting-server": {
     "title": "Hosting & Server Management",
@@ -895,38 +523,32 @@ export const categoryData = {
       {
         "title": "Dedicated Server Hosting",
         "desc": "High-performance bare-metal servers for data-intensive enterprise applications.",
-        "icon": "🖥️",
-        "image": "https://picsum.photos/seed/hosting-server-DedicatedServerHosting/800/600"
+        "icon": "🖥️"
       },
       {
         "title": "Cloud VPS Management",
         "desc": "Scalable Virtual Private Servers optimized for speed and cost-efficiency.",
-        "icon": "☁️",
-        "image": "https://picsum.photos/seed/hosting-server-CloudVPSManagement/800/600"
+        "icon": "☁️"
       },
       {
         "title": "Database Administration",
         "desc": "Optimization, clustering, and backup management for MySQL, PostgreSQL, and MongoDB.",
-        "icon": "🗄️",
-        "image": "https://picsum.photos/seed/hosting-server-DatabaseAdministration/800/600"
+        "icon": "🗄️"
       },
       {
         "title": "DDoS Protection & Firewall",
         "desc": "Enterprise-grade web application firewalls to block malicious traffic instantly.",
-        "icon": "🛡️",
-        "image": "https://picsum.photos/seed/hosting-server-DDoSProtection%26Firewall/800/600"
+        "icon": "🛡️"
       },
       {
         "title": "24/7 Uptime Monitoring",
         "desc": "Round-the-clock server health tracking with instant incident response.",
-        "icon": "⏱️",
-        "image": "https://picsum.photos/seed/hosting-server-24%2F7UptimeMonitoring/800/600"
+        "icon": "⏱️"
       },
       {
         "title": "Domain & DNS Setup",
         "desc": "Configuring robust DNS routing and custom domain ecosystems.",
-        "icon": "🌐",
-        "image": "https://picsum.photos/seed/hosting-server-Domain%26DNSSetup/800/600"
+        "icon": "🌐"
       }
     ],
     "techStack": [
@@ -1010,93 +632,7 @@ export const categoryData = {
         "title": "Time & Material",
         "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
       }
-    ],
-    "whyUs": {
-      "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for Hosting & Server Management. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
-      "points": [
-        {
-          "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding Hosting & Server Management, Perceiving technical issues, and preparing an advanced solution for it.",
-          "icon": "🎯"
-        },
-        {
-          "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
-          "icon": "📊"
-        },
-        {
-          "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
-          "icon": "💼"
-        },
-        {
-          "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen Hosting & Server Management product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
-          "icon": "☕"
-        }
-      ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
-    },
-    "flowSection": {
-      "title": "Why you should work with Digitali360?",
-      "points": [
-        {
-          "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest Hosting & Server Management frameworks to keep your business ahead of the curve."
-        },
-        {
-          "title": "Customized Excellence",
-          "desc": "Your Hosting & Server Management project is built from scratch—no templates, just pure bespoke engineering."
-        },
-        {
-          "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
-        },
-        {
-          "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
-        },
-        {
-          "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
-        }
-      ],
-      "flowSteps": [
-        {
-          "name": "Assessment",
-          "icon": "Clipboard"
-        },
-        {
-          "name": "Capacity Plan",
-          "icon": "BarChart"
-        },
-        {
-          "name": "Server Setup",
-          "icon": "HardDrive"
-        },
-        {
-          "name": "OS Config",
-          "icon": "Settings"
-        },
-        {
-          "name": "DB Sync",
-          "icon": "Database"
-        },
-        {
-          "name": "Migration",
-          "icon": "ArrowRightLeft"
-        },
-        {
-          "name": "Load Test",
-          "icon": "Gauge"
-        },
-        {
-          "name": "Monitoring",
-          "icon": "Eye"
-        }
-      ]
-    }
+    ]
   },
   "digital-marketing": {
     "title": "Digital Marketing",
@@ -1107,38 +643,32 @@ export const categoryData = {
       {
         "title": "Search Engine Optimization (SEO)",
         "desc": "Dominate search rankings with technical SEO, backlink building, and semantic content.",
-        "icon": "🔍",
-        "image": "https://picsum.photos/seed/digital-marketing-SearchEngineOptimization(SEO)/800/600"
+        "icon": "🔍"
       },
       {
         "title": "Performance Ad Campaigns",
         "desc": "Hyper-targeted Google Ads and Meta Ads optimized by machine learning algorithms.",
-        "icon": "💰",
-        "image": "https://picsum.photos/seed/digital-marketing-PerformanceAdCampaigns/800/600"
+        "icon": "💰"
       },
       {
         "title": "Social Media Strategy",
         "desc": "Engaging, viral-ready content creation and community management across all platforms.",
-        "icon": "📱",
-        "image": "https://picsum.photos/seed/digital-marketing-SocialMediaStrategy/800/600"
+        "icon": "📱"
       },
       {
         "title": "Email Marketing Automation",
         "desc": "Personalized drip campaigns that nurture leads and drastically increase retention.",
-        "icon": "📧",
-        "image": "https://picsum.photos/seed/digital-marketing-EmailMarketingAutomation/800/600"
+        "icon": "📧"
       },
       {
         "title": "Conversion Rate Optimization",
         "desc": "A/B testing and behavioral analytics to maximize your website's sales funnel.",
-        "icon": "📈",
-        "image": "https://picsum.photos/seed/digital-marketing-ConversionRateOptimization/800/600"
+        "icon": "📈"
       },
       {
         "title": "Content Marketing",
         "desc": "Deep, value-driven blogs, whitepapers, and videos to capture organic traffic.",
-        "icon": "📝",
-        "image": "https://picsum.photos/seed/digital-marketing-ContentMarketing/800/600"
+        "icon": "📝"
       }
     ],
     "techStack": [
@@ -1222,93 +752,7 @@ export const categoryData = {
         "title": "Time & Material",
         "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
       }
-    ],
-    "whyUs": {
-      "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for Digital Marketing. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
-      "points": [
-        {
-          "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding Digital Marketing, Perceiving technical issues, and preparing an advanced solution for it.",
-          "icon": "🎯"
-        },
-        {
-          "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
-          "icon": "📊"
-        },
-        {
-          "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
-          "icon": "💼"
-        },
-        {
-          "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen Digital Marketing product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
-          "icon": "☕"
-        }
-      ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop"
-    },
-    "flowSection": {
-      "title": "Why you should work with Digitali360?",
-      "points": [
-        {
-          "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest Digital Marketing frameworks to keep your business ahead of the curve."
-        },
-        {
-          "title": "Customized Excellence",
-          "desc": "Your Digital Marketing project is built from scratch—no templates, just pure bespoke engineering."
-        },
-        {
-          "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
-        },
-        {
-          "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
-        },
-        {
-          "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
-        }
-      ],
-      "flowSteps": [
-        {
-          "name": "Brand Audit",
-          "icon": "Search"
-        },
-        {
-          "name": "Competitors",
-          "icon": "Crosshair"
-        },
-        {
-          "name": "Keywords",
-          "icon": "Target"
-        },
-        {
-          "name": "Content Plan",
-          "icon": "FileText"
-        },
-        {
-          "name": "Ad Creation",
-          "icon": "Image"
-        },
-        {
-          "name": "Launch",
-          "icon": "Megaphone"
-        },
-        {
-          "name": "A/B Testing",
-          "icon": "SplitSquareHorizontal"
-        },
-        {
-          "name": "Optimization",
-          "icon": "DollarSign"
-        }
-      ]
-    }
+    ]
   },
   "ai-chatbot": {
     "title": "AI & RAG Chatbots",
@@ -1319,38 +763,32 @@ export const categoryData = {
       {
         "title": "Custom ChatGPT Integration",
         "desc": "Embed GPT-4 turbo directly into your web applications for dynamic conversations.",
-        "icon": "🤖",
-        "image": "https://picsum.photos/seed/ai-chatbot-CustomChatGPTIntegration/800/600"
+        "icon": "🤖"
       },
       {
         "title": "RAG Pipeline Development",
         "desc": "Vector databases (Pinecone/Milvus) that allow AI to search your internal PDFs and docs.",
-        "icon": "📚",
-        "image": "https://picsum.photos/seed/ai-chatbot-RAGPipelineDevelopment/800/600"
+        "icon": "📚"
       },
       {
         "title": "Customer Support Automation",
         "desc": "24/7 intelligent agents that resolve 80% of tier-1 support tickets instantly.",
-        "icon": "🎧",
-        "image": "https://picsum.photos/seed/ai-chatbot-CustomerSupportAutomation/800/600"
+        "icon": "🎧"
       },
       {
         "title": "Lead Generation Bots",
         "desc": "Conversational forms that qualify leads and sync directly with your CRM.",
-        "icon": "💬",
-        "image": "https://picsum.photos/seed/ai-chatbot-LeadGenerationBots/800/600"
+        "icon": "💬"
       },
       {
         "title": "Multi-language Support",
         "desc": "Auto-translating AI agents capable of communicating natively in 50+ languages.",
-        "icon": "🌍",
-        "image": "https://picsum.photos/seed/ai-chatbot-Multi-languageSupport/800/600"
+        "icon": "🌍"
       },
       {
         "title": "Analytics & Handover",
         "desc": "Smooth escalation to human agents with full conversation context and sentiment analysis.",
-        "icon": "📊",
-        "image": "https://picsum.photos/seed/ai-chatbot-Analytics%26Handover/800/600"
+        "icon": "📊"
       }
     ],
     "techStack": [
@@ -1434,93 +872,7 @@ export const categoryData = {
         "title": "Time & Material",
         "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
       }
-    ],
-    "whyUs": {
-      "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for AI & RAG Chatbots. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
-      "points": [
-        {
-          "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding AI & RAG Chatbots, Perceiving technical issues, and preparing an advanced solution for it.",
-          "icon": "🎯"
-        },
-        {
-          "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
-          "icon": "📊"
-        },
-        {
-          "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
-          "icon": "💼"
-        },
-        {
-          "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen AI & RAG Chatbots product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
-          "icon": "☕"
-        }
-      ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
-    },
-    "flowSection": {
-      "title": "Why you should work with Digitali360?",
-      "points": [
-        {
-          "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest AI & RAG Chatbots frameworks to keep your business ahead of the curve."
-        },
-        {
-          "title": "Customized Excellence",
-          "desc": "Your AI & RAG Chatbots project is built from scratch—no templates, just pure bespoke engineering."
-        },
-        {
-          "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
-        },
-        {
-          "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
-        },
-        {
-          "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
-        }
-      ],
-      "flowSteps": [
-        {
-          "name": "Scoping",
-          "icon": "Telescope"
-        },
-        {
-          "name": "Data Scraping",
-          "icon": "Spider"
-        },
-        {
-          "name": "Cleaning",
-          "icon": "Filter"
-        },
-        {
-          "name": "Vector DB",
-          "icon": "DatabaseZap"
-        },
-        {
-          "name": "LLM Training",
-          "icon": "Brain"
-        },
-        {
-          "name": "Widget UI",
-          "icon": "MessageSquare"
-        },
-        {
-          "name": "Load Testing",
-          "icon": "Scale"
-        },
-        {
-          "name": "Deployment",
-          "icon": "Bot"
-        }
-      ]
-    }
+    ]
   },
   "ivr-services": {
     "title": "IVR Solutions",
@@ -1531,38 +883,32 @@ export const categoryData = {
       {
         "title": "Cloud IVR Deployment",
         "desc": "Scalable voice menus hosted on the cloud, removing the need for on-premise hardware.",
-        "icon": "☁️",
-        "image": "https://picsum.photos/seed/ivr-services-CloudIVRDeployment/800/600"
+        "icon": "☁️"
       },
       {
         "title": "Conversational Voice AI",
         "desc": "Speech recognition (NLP) allowing callers to simply say what they need.",
-        "icon": "🗣️",
-        "image": "https://picsum.photos/seed/ivr-services-ConversationalVoiceAI/800/600"
+        "icon": "🗣️"
       },
       {
         "title": "Smart Call Routing",
         "desc": "Skill-based routing to ensure clients speak to the right agent every time.",
-        "icon": "🔀",
-        "image": "https://picsum.photos/seed/ivr-services-SmartCallRouting/800/600"
+        "icon": "🔀"
       },
       {
         "title": "Automated Surveys & Billing",
         "desc": "Secure DTMF capture for over-the-phone payments and customer feedback.",
-        "icon": "💳",
-        "image": "https://picsum.photos/seed/ivr-services-AutomatedSurveys%26Billing/800/600"
+        "icon": "💳"
       },
       {
         "title": "CRM & API Integration",
         "desc": "Screen-pops that show caller data to your agents before they even say hello.",
-        "icon": "🖥️",
-        "image": "https://picsum.photos/seed/ivr-services-CRM%26APIIntegration/800/600"
+        "icon": "🖥️"
       },
       {
         "title": "Call Analytics",
         "desc": "Deep insights into call volumes, drop-off rates, and agent performance.",
-        "icon": "📈",
-        "image": "https://picsum.photos/seed/ivr-services-CallAnalytics/800/600"
+        "icon": "📈"
       }
     ],
     "techStack": [
@@ -1645,93 +991,7 @@ export const categoryData = {
         "title": "Time & Material",
         "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
       }
-    ],
-    "whyUs": {
-      "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for IVR Solutions. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
-      "points": [
-        {
-          "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding IVR Solutions, Perceiving technical issues, and preparing an advanced solution for it.",
-          "icon": "🎯"
-        },
-        {
-          "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
-          "icon": "📊"
-        },
-        {
-          "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
-          "icon": "💼"
-        },
-        {
-          "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen IVR Solutions product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
-          "icon": "☕"
-        }
-      ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
-    },
-    "flowSection": {
-      "title": "Why you should work with Digitali360?",
-      "points": [
-        {
-          "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest IVR Solutions frameworks to keep your business ahead of the curve."
-        },
-        {
-          "title": "Customized Excellence",
-          "desc": "Your IVR Solutions project is built from scratch—no templates, just pure bespoke engineering."
-        },
-        {
-          "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
-        },
-        {
-          "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
-        },
-        {
-          "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
-        }
-      ],
-      "flowSteps": [
-        {
-          "name": "Requirements",
-          "icon": "ClipboardList"
-        },
-        {
-          "name": "Tree Design",
-          "icon": "Network"
-        },
-        {
-          "name": "Recording",
-          "icon": "Mic"
-        },
-        {
-          "name": "Routing Logic",
-          "icon": "GitMerge"
-        },
-        {
-          "name": "API Hooks",
-          "icon": "Webhook"
-        },
-        {
-          "name": "CRM Sync",
-          "icon": "Users"
-        },
-        {
-          "name": "Beta Dialing",
-          "icon": "PhoneCall"
-        },
-        {
-          "name": "Go Live",
-          "icon": "CheckCircle"
-        }
-      ]
-    }
+    ]
   },
   "api-integration": {
     "title": "API Integrations",
@@ -1742,38 +1002,32 @@ export const categoryData = {
       {
         "title": "Custom API Development",
         "desc": "Building secure, RESTful, and GraphQL APIs tailored to expose your business logic.",
-        "icon": "⚡",
-        "image": "https://picsum.photos/seed/api-integration-CustomAPIDevelopment/800/600"
+        "icon": "⚡"
       },
       {
         "title": "Third-Party Integrations",
         "desc": "Seamless connections with Stripe, Twilio, Salesforce, Shopify, and thousands more.",
-        "icon": "🔌",
-        "image": "https://picsum.photos/seed/api-integration-Third-PartyIntegrations/800/600"
+        "icon": "🔌"
       },
       {
         "title": "Middleware & Microservices",
         "desc": "Architecting robust middleware to sync real-time data across microservices.",
-        "icon": "🔄",
-        "image": "https://picsum.photos/seed/api-integration-Middleware%26Microservices/800/600"
+        "icon": "🔄"
       },
       {
         "title": "Legacy System Modernization",
         "desc": "Creating API wrappers around old SOAP/XML systems for modern web consumption.",
-        "icon": "🏗️",
-        "image": "https://picsum.photos/seed/api-integration-LegacySystemModernization/800/600"
+        "icon": "🏗️"
       },
       {
         "title": "Webhooks & Event Driven",
         "desc": "Implementing real-time webhook architectures for instant system updates.",
-        "icon": "🔔",
-        "image": "https://picsum.photos/seed/api-integration-Webhooks%26EventDriven/800/600"
+        "icon": "🔔"
       },
       {
         "title": "API Documentation",
         "desc": "Generating crystal-clear Swagger/OpenAPI docs for external developers.",
-        "icon": "📚",
-        "image": "https://picsum.photos/seed/api-integration-APIDocumentation/800/600"
+        "icon": "📚"
       }
     ],
     "techStack": [
@@ -1853,93 +1107,7 @@ export const categoryData = {
         "title": "Time & Material",
         "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
       }
-    ],
-    "whyUs": {
-      "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for API Integrations. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
-      "points": [
-        {
-          "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding API Integrations, Perceiving technical issues, and preparing an advanced solution for it.",
-          "icon": "🎯"
-        },
-        {
-          "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
-          "icon": "📊"
-        },
-        {
-          "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
-          "icon": "💼"
-        },
-        {
-          "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen API Integrations product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
-          "icon": "☕"
-        }
-      ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
-    },
-    "flowSection": {
-      "title": "Why you should work with Digitali360?",
-      "points": [
-        {
-          "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest API Integrations frameworks to keep your business ahead of the curve."
-        },
-        {
-          "title": "Customized Excellence",
-          "desc": "Your API Integrations project is built from scratch—no templates, just pure bespoke engineering."
-        },
-        {
-          "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
-        },
-        {
-          "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
-        },
-        {
-          "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
-        }
-      ],
-      "flowSteps": [
-        {
-          "name": "Discovery",
-          "icon": "Search"
-        },
-        {
-          "name": "Docs Review",
-          "icon": "BookOpen"
-        },
-        {
-          "name": "Auth Setup",
-          "icon": "Key"
-        },
-        {
-          "name": "Endpoint Map",
-          "icon": "Map"
-        },
-        {
-          "name": "Data Sync",
-          "icon": "RefreshCw"
-        },
-        {
-          "name": "Security",
-          "icon": "Shield"
-        },
-        {
-          "name": "Error Handle",
-          "icon": "AlertTriangle"
-        },
-        {
-          "name": "Production",
-          "icon": "Check"
-        }
-      ]
-    }
+    ]
   },
   "ecommerce-solutions": {
     "title": "E-Commerce Solutions",
@@ -1950,38 +1118,32 @@ export const categoryData = {
       {
         "title": "Shopify & WooCommerce",
         "desc": "Custom theme development and optimized setups for the world's best platforms.",
-        "icon": "🛍️",
-        "image": "https://picsum.photos/seed/ecommerce-solutions-Shopify%26WooCommerce/800/600"
+        "icon": "🛍️"
       },
       {
         "title": "Headless Commerce",
         "desc": "Decoupling the frontend (React/Next.js) from the backend for lightning-fast load times.",
-        "icon": "⚡",
-        "image": "https://picsum.photos/seed/ecommerce-solutions-HeadlessCommerce/800/600"
+        "icon": "⚡"
       },
       {
         "title": "Payment Gateway Integration",
         "desc": "Secure, multi-currency payment setups including Stripe, PayPal, and Crypto.",
-        "icon": "💳",
-        "image": "https://picsum.photos/seed/ecommerce-solutions-PaymentGatewayIntegration/800/600"
+        "icon": "💳"
       },
       {
         "title": "Inventory & Fulfillment",
         "desc": "Automated syncing between your web store, warehouses, and dropshipping partners.",
-        "icon": "📦",
-        "image": "https://picsum.photos/seed/ecommerce-solutions-Inventory%26Fulfillment/800/600"
+        "icon": "📦"
       },
       {
         "title": "B2B Wholesale Portals",
         "desc": "Complex pricing tiers and massive catalog management for enterprise B2B sales.",
-        "icon": "🏢",
-        "image": "https://picsum.photos/seed/ecommerce-solutions-B2BWholesalePortals/800/600"
+        "icon": "🏢"
       },
       {
         "title": "Abandoned Cart Recovery",
         "desc": "Implementing intelligent marketing funnels to capture lost revenue.",
-        "icon": "💰",
-        "image": "https://picsum.photos/seed/ecommerce-solutions-AbandonedCartRecovery/800/600"
+        "icon": "💰"
       }
     ],
     "techStack": [
@@ -2065,93 +1227,7 @@ export const categoryData = {
         "title": "Time & Material",
         "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
       }
-    ],
-    "whyUs": {
-      "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for E-Commerce Solutions. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
-      "points": [
-        {
-          "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding E-Commerce Solutions, Perceiving technical issues, and preparing an advanced solution for it.",
-          "icon": "🎯"
-        },
-        {
-          "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
-          "icon": "📊"
-        },
-        {
-          "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
-          "icon": "💼"
-        },
-        {
-          "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen E-Commerce Solutions product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
-          "icon": "☕"
-        }
-      ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
-    },
-    "flowSection": {
-      "title": "Why you should work with Digitali360?",
-      "points": [
-        {
-          "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest E-Commerce Solutions frameworks to keep your business ahead of the curve."
-        },
-        {
-          "title": "Customized Excellence",
-          "desc": "Your E-Commerce Solutions project is built from scratch—no templates, just pure bespoke engineering."
-        },
-        {
-          "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
-        },
-        {
-          "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
-        },
-        {
-          "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
-        }
-      ],
-      "flowSteps": [
-        {
-          "name": "Market Prep",
-          "icon": "ShoppingBag"
-        },
-        {
-          "name": "UI Design",
-          "icon": "Layout"
-        },
-        {
-          "name": "Store Setup",
-          "icon": "Store"
-        },
-        {
-          "name": "Payment Gate",
-          "icon": "CreditCard"
-        },
-        {
-          "name": "Inventory",
-          "icon": "Boxes"
-        },
-        {
-          "name": "Security",
-          "icon": "Lock"
-        },
-        {
-          "name": "QA Testing",
-          "icon": "TestTube"
-        },
-        {
-          "name": "Opening",
-          "icon": "PartyPopper"
-        }
-      ]
-    }
+    ]
   },
   "security-maintenance": {
     "title": "Security & Maintenance",
@@ -2162,38 +1238,32 @@ export const categoryData = {
       {
         "title": "Vulnerability Auditing",
         "desc": "Deep penetration testing to identify and patch zero-day vulnerabilities in your code.",
-        "icon": "🔍",
-        "image": "https://picsum.photos/seed/security-maintenance-VulnerabilityAuditing/800/600"
+        "icon": "🔍"
       },
       {
         "title": "SSL & Encryption",
         "desc": "End-to-end data encryption and strict SSL enforcement for data at rest and in transit.",
-        "icon": "🔒",
-        "image": "https://picsum.photos/seed/security-maintenance-SSL%26Encryption/800/600"
+        "icon": "🔒"
       },
       {
         "title": "Automated Backups",
         "desc": "Daily, redundant off-site backups ensuring zero data loss during catastrophic failures.",
-        "icon": "💾",
-        "image": "https://picsum.photos/seed/security-maintenance-AutomatedBackups/800/600"
+        "icon": "💾"
       },
       {
         "title": "Malware Removal",
         "desc": "Instant quarantine and eradication of malicious scripts and backdoor injections.",
-        "icon": "🛡️",
-        "image": "https://picsum.photos/seed/security-maintenance-MalwareRemoval/800/600"
+        "icon": "🛡️"
       },
       {
         "title": "Routine Maintenance",
         "desc": "Continuous software updates, dependency upgrades, and performance tuning.",
-        "icon": "🛠️",
-        "image": "https://picsum.photos/seed/security-maintenance-RoutineMaintenance/800/600"
+        "icon": "🛠️"
       },
       {
         "title": "Compliance Auditing",
         "desc": "Ensuring strict adherence to GDPR, HIPAA, and PCI DSS standards.",
-        "icon": "⚖️",
-        "image": "https://picsum.photos/seed/security-maintenance-ComplianceAuditing/800/600"
+        "icon": "⚖️"
       }
     ],
     "techStack": [
@@ -2277,93 +1347,7 @@ export const categoryData = {
         "title": "Time & Material",
         "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
       }
-    ],
-    "whyUs": {
-      "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for Security & Maintenance. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
-      "points": [
-        {
-          "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding Security & Maintenance, Perceiving technical issues, and preparing an advanced solution for it.",
-          "icon": "🎯"
-        },
-        {
-          "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
-          "icon": "📊"
-        },
-        {
-          "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
-          "icon": "💼"
-        },
-        {
-          "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen Security & Maintenance product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
-          "icon": "☕"
-        }
-      ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
-    },
-    "flowSection": {
-      "title": "Why you should work with Digitali360?",
-      "points": [
-        {
-          "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest Security & Maintenance frameworks to keep your business ahead of the curve."
-        },
-        {
-          "title": "Customized Excellence",
-          "desc": "Your Security & Maintenance project is built from scratch—no templates, just pure bespoke engineering."
-        },
-        {
-          "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
-        },
-        {
-          "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
-        },
-        {
-          "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
-        }
-      ],
-      "flowSteps": [
-        {
-          "name": "Scope Def",
-          "icon": "Target"
-        },
-        {
-          "name": "Vuln Scan",
-          "icon": "Scan"
-        },
-        {
-          "name": "Threat Model",
-          "icon": "Siren"
-        },
-        {
-          "name": "Pen Testing",
-          "icon": "Crosshair"
-        },
-        {
-          "name": "Report Gen",
-          "icon": "FileText"
-        },
-        {
-          "name": "Patching",
-          "icon": "Shield"
-        },
-        {
-          "name": "Compliance",
-          "icon": "FileCheck"
-        },
-        {
-          "name": "Monitoring",
-          "icon": "ActivitySquare"
-        }
-      ]
-    }
+    ]
   },
   "ai-automation": {
     "title": "AI & Automation",
@@ -2374,38 +1358,32 @@ export const categoryData = {
       {
         "title": "Workflow Automation",
         "desc": "Connecting 100+ apps to trigger actions automatically without human intervention.",
-        "icon": "⚡",
-        "image": "https://picsum.photos/seed/ai-automation-WorkflowAutomation/800/600"
+        "icon": "⚡"
       },
       {
         "title": "AI Image Processing",
         "desc": "Computer vision models that automatically tag, moderate, and analyze visual media.",
-        "icon": "👁️",
-        "image": "https://picsum.photos/seed/ai-automation-AIImageProcessing/800/600"
+        "icon": "👁️"
       },
       {
         "title": "Document Extraction",
         "desc": "Intelligent extraction of data from invoices, PDFs, and unstructured documents.",
-        "icon": "📄",
-        "image": "https://picsum.photos/seed/ai-automation-DocumentExtraction/800/600"
+        "icon": "📄"
       },
       {
         "title": "Predictive Analytics",
         "desc": "Machine learning models forecasting sales, inventory needs, and market trends.",
-        "icon": "📈",
-        "image": "https://picsum.photos/seed/ai-automation-PredictiveAnalytics/800/600"
+        "icon": "📈"
       },
       {
         "title": "Custom RPA Development",
         "desc": "Software bots designed to execute high-volume, repeatable tasks flawlessly.",
-        "icon": "🤖",
-        "image": "https://picsum.photos/seed/ai-automation-CustomRPADevelopment/800/600"
+        "icon": "🤖"
       },
       {
         "title": "Data Parsing Agents",
         "desc": "Web scrapers and NLP agents capable of structuring messy online data streams.",
-        "icon": "🕸️",
-        "image": "https://picsum.photos/seed/ai-automation-DataParsingAgents/800/600"
+        "icon": "🕸️"
       }
     ],
     "techStack": [
@@ -2489,92 +1467,6 @@ export const categoryData = {
         "title": "Time & Material",
         "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
       }
-    ],
-    "whyUs": {
-      "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for AI & Automation. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
-      "points": [
-        {
-          "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding AI & Automation, Perceiving technical issues, and preparing an advanced solution for it.",
-          "icon": "🎯"
-        },
-        {
-          "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
-          "icon": "📊"
-        },
-        {
-          "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
-          "icon": "💼"
-        },
-        {
-          "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen AI & Automation product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
-          "icon": "☕"
-        }
-      ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
-    },
-    "flowSection": {
-      "title": "Why you should work with Digitali360?",
-      "points": [
-        {
-          "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest AI & Automation frameworks to keep your business ahead of the curve."
-        },
-        {
-          "title": "Customized Excellence",
-          "desc": "Your AI & Automation project is built from scratch—no templates, just pure bespoke engineering."
-        },
-        {
-          "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
-        },
-        {
-          "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
-        },
-        {
-          "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
-        }
-      ],
-      "flowSteps": [
-        {
-          "name": "Process Audit",
-          "icon": "SearchCode"
-        },
-        {
-          "name": "ROI Analysis",
-          "icon": "TrendingUp"
-        },
-        {
-          "name": "Bot Logic",
-          "icon": "Cpu"
-        },
-        {
-          "name": "Scripting",
-          "icon": "FileCode"
-        },
-        {
-          "name": "API Setup",
-          "icon": "Link"
-        },
-        {
-          "name": "Dry Run",
-          "icon": "PlaySquare"
-        },
-        {
-          "name": "Refinement",
-          "icon": "Wrench"
-        },
-        {
-          "name": "Full Auto",
-          "icon": "Zap"
-        }
-      ]
-    }
+    ]
   }
 };

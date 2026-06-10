@@ -12,6 +12,7 @@ import ContactPage from './pages/Contact/Contact';
 
 import './index.css';
 import './App.css'; // Contains Navbar and Footer styles
+// Force Vite HMR
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<ServicesPage />} />
+          <Route path="/services/:categoryId" element={<ServicesPage />} />
           <Route path="/originals" element={<OriginalsPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/contact" element={<ContactPage />} />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
 import styles from './Services.module.css';
 
 // Import Components
@@ -26,7 +27,8 @@ import imgServiceStoryboard from './assets/service_storyboard.png';
 import imgServiceTrailer from './assets/service_trailer.png';
 
 const Services = () => {
-  const [selectedCategory, setSelectedCategory] = React.useState(null);
+  const { categoryId } = useParams();
+  const navigate = useNavigate();
 
   const heroImages = [];
 
@@ -130,12 +132,13 @@ const Services = () => {
     { q: "Who owns the rights to the AI generated films?", a: "As a client, you retain full commercial rights to the final delivered films and assets produced by ANIMA STUDIOS during our engagement." }
   ];
 
-  if (selectedCategory && categoryData[selectedCategory]) {
+  if (categoryId && categoryData[categoryId]) {
+    console.log("Rendering category detail for:", categoryId);
     return (
       <CategoryDetail 
-        categoryName={selectedCategory} 
-        data={categoryData[selectedCategory]} 
-        onBack={() => setSelectedCategory(null)} 
+        categoryName={categoryId} 
+        data={categoryData[categoryId]} 
+        onBack={() => navigate('/services')} 
       />
     );
   }
@@ -143,13 +146,13 @@ const Services = () => {
   return (
     <div className={styles.pageContainer}>
       <HeroSection heroImages={heroImages} />
-      <IntroSection introFeatures={introFeatures} onSelectDetail={setSelectedCategory} />
-      <HowYouWorkSection workTypes={workTypes} onSelectCategory={setSelectedCategory} />
-      <FeatureSections featureData={featureData} onSelectDetail={setSelectedCategory} />
+      <IntroSection introFeatures={introFeatures} onSelectDetail={(id) => navigate(`/services/${id}`)} />
+      <HowYouWorkSection workTypes={workTypes} onSelectCategory={(id) => navigate(`/services/${id}`)} />
+      <FeatureSections featureData={featureData} onSelectDetail={(id) => navigate(`/services/${id}`)} />
       <TestimonialsSection testimonials={testimonials} />
       <FaqSection faqs={faqs} />
       <SupportSection />
-      <ConversionSection onSelectDetail={setSelectedCategory} />
+      <ConversionSection onSelectDetail={(id) => navigate(`/services/${id}`)} />
     </div>
   );
 };
