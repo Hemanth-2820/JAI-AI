@@ -85,10 +85,10 @@ def main():
                 img = Image.open(temp_path).convert('RGB')
                 img = img.resize((800, 600), Image.Resampling.LANCZOS)
                 
-                # Darken the image significantly so the bottom text pops
-                # 0.3 means it retains 30% of its original brightness
+                # Darken slightly to keep white text readable but keep image bright
+                # 0.8 means it retains 80% of its original brightness
                 enhancer = ImageEnhance.Brightness(img)
-                img = enhancer.enhance(0.3)
+                img = enhancer.enhance(0.8)
                 
                 out_path = os.path.join(out_dir, f"{seed}.jpg")
                 img.save(out_path, quality=90)
