@@ -20,10 +20,7 @@ const CategoryDetail = ({ categoryName, data, onBack }) => {
 
   return (
     <div className={styles.ssContainer}>
-      {/* Navigation */}
-      <div className={styles.ssNav}>
-        <button onClick={onBack} className={styles.ssBackBtn}>← Back</button>
-      </div>
+      {/* Navigation removed as requested to fix overlap with main navbar */}
 
       {/* Squarespace Hero */}
       <section className={styles.ssHero}>
@@ -35,7 +32,6 @@ const CategoryDetail = ({ categoryName, data, onBack }) => {
         <div className={styles.ssHeroContent}>
           <h1 className={styles.ssHeroTitle}>{data.title}</h1>
           <button className={styles.ssHeroBtn}>GET STARTED</button>
-          <p className={styles.ssHeroSub}>{data.subtitle}</p>
         </div>
       </section>
 

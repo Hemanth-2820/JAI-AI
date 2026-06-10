@@ -1,7 +1,7 @@
 export const categoryData = {
   "web-development": {
     "title": "Web Development",
-    "subtitle": "Custom websites and powerful web applications.",
+    "subtitle": "",
     "description": "In the digital age, your website is your most crucial business asset. We architect and develop stunning, high-performance web solutions that serve as the foundation of your digital presence. From intricate SaaS platforms to elegant corporate landing pages, our engineering team ensures pixel-perfect design combined with robust, scalable backends.",
     "heroImage": "/images/webdev_hero.jpg",
     "features": [
