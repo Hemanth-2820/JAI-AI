@@ -997,7 +997,7 @@ module.exports = {
     "title": "API Integrations",
     "subtitle": "Seamlessly connect your digital ecosystem.",
     "description": "Siloed data destroys productivity. We specialize in building robust API bridges that make your disparate software systems talk to each other. Whether you are connecting legacy on-premise software to modern SaaS platforms or orchestrating microservices, our middleware solutions ensure flawless data synchronization.",
-    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2000&auto=format&fit=crop",
+    "heroImage": "/images/api_hero.jpg",
     "features": [
       {
         "title": "Custom API Development",
@@ -1113,7 +1113,7 @@ module.exports = {
     "title": "E-Commerce Solutions",
     "subtitle": "High-conversion online retail platforms.",
     "description": "We build digital storefronts engineered for scale, speed, and massive conversion rates. From beautifully customized Shopify themes to complex headless commerce architectures on Next.js, our E-commerce solutions provide your customers with friction-free checkout experiences while giving you powerful inventory management.",
-    "heroImage": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2000&auto=format&fit=crop",
+    "heroImage": "/images/ecommerce_hero.jpg",
     "features": [
       {
         "title": "Shopify & WooCommerce",
@@ -1233,7 +1233,7 @@ module.exports = {
     "title": "Security & Maintenance",
     "subtitle": "Protecting your digital assets around the clock.",
     "description": "Cyber threats never sleep, and neither does our security operations center. We provide proactive monitoring, vulnerability patching, and comprehensive site maintenance. Ensure your platforms are impenetrable, fully compliant with data privacy laws, and always performing at their absolute best.",
-    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2000&auto=format&fit=crop",
+    "heroImage": "/images/security_hero.jpg",
     "features": [
       {
         "title": "Vulnerability Auditing",
@@ -1353,7 +1353,7 @@ module.exports = {
     "title": "AI & Automation",
     "subtitle": "Replacing manual tasks with intelligent workflows.",
     "description": "The future belongs to automated enterprises. We design and implement complex AI-driven workflows that eliminate repetitive manual labor. By integrating computer vision, NLP, and robotic process automation (RPA), we help your business achieve unprecedented levels of operational efficiency.",
-    "heroImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2000&auto=format&fit=crop",
+    "heroImage": "/images/automation_hero.jpg",
     "features": [
       {
         "title": "Workflow Automation",

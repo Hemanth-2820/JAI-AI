@@ -3,7 +3,7 @@ export const categoryData = {
     "title": "Web Development",
     "subtitle": "Custom websites and powerful web applications.",
     "description": "In the digital age, your website is your most crucial business asset. We architect and develop stunning, high-performance web solutions that serve as the foundation of your digital presence. From intricate SaaS platforms to elegant corporate landing pages, our engineering team ensures pixel-perfect design combined with robust, scalable backends.",
-    "heroImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop",
+    "heroImage": "/images/webdev_hero.jpg",
     "features": [
       {
         "title": "Business Websites",
@@ -244,7 +244,7 @@ export const categoryData = {
     "title": "App Development",
     "subtitle": "Next-generation mobile experiences.",
     "description": "We build intuitive, high-performance mobile applications that keep your users engaged on the go. Our development lifecycle covers everything from rapid prototyping to cross-platform deployment, ensuring your app runs flawlessly on any device.",
-    "heroImage": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop",
+    "heroImage": "/images/appdev_hero.jpg",
     "features": [
       {
         "title": "Android App Development",
@@ -460,7 +460,7 @@ export const categoryData = {
     "title": "Software Development",
     "subtitle": "Enterprise-grade bespoke software solutions.",
     "description": "Generic off-the-shelf software often forces you to compromise your operational efficiency. We engineer custom software solutions precisely mapped to your business workflows. From complex ERP systems to advanced inventory management, our software transforms operational bottlenecks into automated, high-speed processes.",
-    "heroImage": "https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=2070&auto=format&fit=crop",
+    "heroImage": "/images/software_hero.jpg",
     "features": [
       {
         "title": "Custom Software Development",
@@ -677,7 +677,7 @@ export const categoryData = {
     "title": "AWS & DevOps",
     "subtitle": "Automate, scale, and optimize your cloud infrastructure.",
     "description": "Achieve unparalleled scalability and reliability with our AWS cloud and DevOps engineering. We implement CI/CD pipelines, containerization, and infrastructure-as-code to ensure your applications can handle millions of users with zero downtime. Transitioning to a modern DevOps culture reduces deployment times from weeks to minutes.",
-    "heroImage": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=2000&auto=format&fit=crop",
+    "heroImage": "/images/awsdevops_hero.jpg",
     "features": [
       {
         "title": "AWS Cloud Architecture",
@@ -890,7 +890,7 @@ export const categoryData = {
     "title": "Hosting & Server Management",
     "subtitle": "Secure, lightning-fast hosting solutions.",
     "description": "Your digital operations rely on rock-solid servers. We provide fully managed hosting services, ensuring maximum uptime, blazing-fast load speeds, and impenetrable security perimeters. From dedicated bare-metal servers to auto-scaling cloud instances, we handle all server-side maintenance so you can focus on growing your business.",
-    "heroImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2000&auto=format&fit=crop",
+    "heroImage": "/images/hosting_hero.jpg",
     "features": [
       {
         "title": "Dedicated Server Hosting",
@@ -1102,7 +1102,7 @@ export const categoryData = {
     "title": "Digital Marketing",
     "subtitle": "Data-driven strategies for explosive growth.",
     "description": "Building a great product is only half the battle; getting it in front of the right audience is where we excel. Our full-funnel digital marketing strategies leverage deep data analytics, AI-optimized ad buying, and high-conversion content to turn clicks into loyal customers and multiply your ROI.",
-    "heroImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2000&auto=format&fit=crop",
+    "heroImage": "/images/digitalmarketing_hero.jpg",
     "features": [
       {
         "title": "Search Engine Optimization (SEO)",
@@ -1314,7 +1314,7 @@ export const categoryData = {
     "title": "AI & RAG Chatbots",
     "subtitle": "Intelligent conversational agents powered by LLMs.",
     "description": "Transform your customer support and internal knowledge retrieval with custom Large Language Models. We implement state-of-the-art Retrieval-Augmented Generation (RAG) pipelines so your AI chatbots can securely read your company documents and answer complex queries with zero hallucinations.",
-    "heroImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2000&auto=format&fit=crop",
+    "heroImage": "/images/chatbot_hero.jpg",
     "features": [
       {
         "title": "Custom ChatGPT Integration",
@@ -1526,7 +1526,7 @@ export const categoryData = {
     "title": "IVR Solutions",
     "subtitle": "Advanced telephony and voice automation.",
     "description": "Modernize your call center with intelligent Interactive Voice Response (IVR) systems. We bridge traditional telephony with cloud computing and AI, allowing your business to handle massive call volumes, route customers intelligently, and process voice-based transactions securely without human intervention.",
-    "heroImage": "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2000&auto=format&fit=crop",
+    "heroImage": "/images/ivr_hero.jpg",
     "features": [
       {
         "title": "Cloud IVR Deployment",
@@ -1737,7 +1737,7 @@ export const categoryData = {
     "title": "API Integrations",
     "subtitle": "Seamlessly connect your digital ecosystem.",
     "description": "Siloed data destroys productivity. We specialize in building robust API bridges that make your disparate software systems talk to each other. Whether you are connecting legacy on-premise software to modern SaaS platforms or orchestrating microservices, our middleware solutions ensure flawless data synchronization.",
-    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2000&auto=format&fit=crop",
+    "heroImage": "/images/api_hero.jpg",
     "features": [
       {
         "title": "Custom API Development",
@@ -1945,7 +1945,7 @@ export const categoryData = {
     "title": "E-Commerce Solutions",
     "subtitle": "High-conversion online retail platforms.",
     "description": "We build digital storefronts engineered for scale, speed, and massive conversion rates. From beautifully customized Shopify themes to complex headless commerce architectures on Next.js, our E-commerce solutions provide your customers with friction-free checkout experiences while giving you powerful inventory management.",
-    "heroImage": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2000&auto=format&fit=crop",
+    "heroImage": "/images/ecommerce_hero.jpg",
     "features": [
       {
         "title": "Shopify & WooCommerce",
@@ -2157,7 +2157,7 @@ export const categoryData = {
     "title": "Security & Maintenance",
     "subtitle": "Protecting your digital assets around the clock.",
     "description": "Cyber threats never sleep, and neither does our security operations center. We provide proactive monitoring, vulnerability patching, and comprehensive site maintenance. Ensure your platforms are impenetrable, fully compliant with data privacy laws, and always performing at their absolute best.",
-    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2000&auto=format&fit=crop",
+    "heroImage": "/images/security_hero.jpg",
     "features": [
       {
         "title": "Vulnerability Auditing",
@@ -2369,7 +2369,7 @@ export const categoryData = {
     "title": "AI & Automation",
     "subtitle": "Replacing manual tasks with intelligent workflows.",
     "description": "The future belongs to automated enterprises. We design and implement complex AI-driven workflows that eliminate repetitive manual labor. By integrating computer vision, NLP, and robotic process automation (RPA), we help your business achieve unprecedented levels of operational efficiency.",
-    "heroImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2000&auto=format&fit=crop",
+    "heroImage": "/images/automation_hero.jpg",
     "features": [
       {
         "title": "Workflow Automation",

@@ -27,18 +27,20 @@ const Navbar = () => {
             <div className="dropdownMenu">
               <div className="dropdownColumn">
                 <h4>IT Services</h4>
-                <Link to="/services/web-development" className="dropdownLink">Web Development</Link>
-                <Link to="/services/app-development" className="dropdownLink">App Development</Link>
-                <Link to="/services/software-development" className="dropdownLink">Software Development</Link>
-                <Link to="/services/aws-devops" className="dropdownLink">AWS & DevOps</Link>
-                <Link to="/services/hosting-server" className="dropdownLink">Hosting & Server</Link>
-                <Link to="/services/digital-marketing" className="dropdownLink">Digital Marketing</Link>
-                <Link to="/services/ai-chatbot" className="dropdownLink">AI & Chatbots</Link>
-                <Link to="/services/ivr-services" className="dropdownLink">IVR Services</Link>
-                <Link to="/services/api-integration" className="dropdownLink">API Integrations</Link>
-                <Link to="/services/ecommerce-solutions" className="dropdownLink">E-Commerce</Link>
-                <Link to="/services/security-maintenance" className="dropdownLink">Security & Maintenance</Link>
-                <Link to="/services/ai-automation" className="dropdownLink">AI & Automation</Link>
+                <div className="twoCol">
+                  <Link to="/services/web-development" className="dropdownLink">Web Development</Link>
+                  <Link to="/services/app-development" className="dropdownLink">App Development</Link>
+                  <Link to="/services/software-development" className="dropdownLink">Software Development</Link>
+                  <Link to="/services/aws-devops" className="dropdownLink">AWS &amp; DevOps</Link>
+                  <Link to="/services/hosting-server" className="dropdownLink">Hosting &amp; Server</Link>
+                  <Link to="/services/digital-marketing" className="dropdownLink">Digital Marketing</Link>
+                  <Link to="/services/ai-chatbot" className="dropdownLink">AI &amp; Chatbots</Link>
+                  <Link to="/services/ivr-services" className="dropdownLink">IVR Services</Link>
+                  <Link to="/services/api-integration" className="dropdownLink">API Integrations</Link>
+                  <Link to="/services/ecommerce-solutions" className="dropdownLink">E-Commerce</Link>
+                  <Link to="/services/security-maintenance" className="dropdownLink">Security &amp; Maintenance</Link>
+                  <Link to="/services/ai-automation" className="dropdownLink">AI &amp; Automation</Link>
+                </div>
               </div>
               <div className="dropdownColumn">
                 <h4>AI Film Services</h4>
