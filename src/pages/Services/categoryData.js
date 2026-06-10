@@ -7,61 +7,61 @@ export const categoryData = {
     "features": [
       {
         "title": "Business Websites",
-        "desc": "Professional websites tailored to drive business growth.",
+        "desc": "Professional websites tailored to drive business growth. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "🏢",
         "image": "/images/features/web-development-BusinessWebsites.jpg"
       },
       {
         "title": "Company Websites",
-        "desc": "Corporate portals establishing authority and trust.",
+        "desc": "Corporate portals establishing authority and trust. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "🏛️",
         "image": "/images/features/web-development-CompanyWebsites.jpg"
       },
       {
         "title": "Portfolio Websites",
-        "desc": "Showcase your work with stunning visual portfolios.",
+        "desc": "Showcase your work with stunning visual portfolios. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "🎨",
         "image": "/images/features/web-development-PortfolioWebsites.jpg"
       },
       {
         "title": "Landing Pages",
-        "desc": "High-conversion, single-page designs for campaigns.",
+        "desc": "High-conversion, single-page designs for campaigns. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "🎯",
         "image": "/images/features/web-development-LandingPages.jpg"
       },
       {
         "title": "E-Commerce Websites",
-        "desc": "Secure online stores to sell products globally.",
+        "desc": "Secure online stores to sell products globally. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "🛍️",
         "image": "/images/features/web-development-E-CommerceWebsites.jpg"
       },
       {
         "title": "Custom Web Applications",
-        "desc": "Complex, data-driven web apps built from scratch.",
+        "desc": "Complex, data-driven web apps built from scratch. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "⚙️",
         "image": "/images/features/web-development-CustomWebApplications.jpg"
       },
       {
         "title": "Admin Dashboards",
-        "desc": "Intuitive analytics and management interfaces.",
+        "desc": "Intuitive analytics and management interfaces. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "📊",
         "image": "/images/features/web-development-AdminDashboards.jpg"
       },
       {
         "title": "SaaS Platforms",
-        "desc": "Multi-tenant architectures for software as a service.",
+        "desc": "Multi-tenant architectures for software as a service. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "☁️",
         "image": "/images/features/web-development-SaaSPlatforms.jpg"
       },
       {
         "title": "Responsive Website Design",
-        "desc": "Mobile-first designs ensuring flawless viewing on any device.",
+        "desc": "Mobile-first designs ensuring flawless viewing on any device. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "📱",
         "image": "/images/features/web-development-ResponsiveWebsiteDesign.jpg"
       },
       {
         "title": "Website Redesign",
-        "desc": "Modernizing legacy websites with cutting-edge tech.",
+        "desc": "Modernizing legacy websites with cutting-edge tech. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "🔄",
         "image": "/images/features/web-development-WebsiteRedesign.jpg"
       }
@@ -80,22 +80,22 @@ export const categoryData = {
       {
         "step": "01",
         "title": "Discovery",
-        "desc": "We analyze your business goals, target audience, and required functionalities."
+        "desc": "We analyze your business goals, target audience, and required functionalities. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "step": "02",
         "title": "UI/UX Design",
-        "desc": "Crafting wireframes and high-fidelity mockups for a pixel-perfect user experience."
+        "desc": "Crafting wireframes and high-fidelity mockups for a pixel-perfect user experience. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "step": "03",
         "title": "Development",
-        "desc": "Writing clean, scalable code for both the frontend interfaces and backend architecture."
+        "desc": "Writing clean, scalable code for both the frontend interfaces and backend architecture. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "step": "04",
         "title": "Launch & QA",
-        "desc": "Rigorous performance, security, and responsive testing before taking your site live."
+        "desc": "Rigorous performance, security, and responsive testing before taking your site live. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       }
     ],
     "faqs": [
@@ -142,39 +142,39 @@ export const categoryData = {
     "engagementModels": [
       {
         "title": "Fixed Price Model",
-        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay."
+        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "title": "Dedicated Team",
-        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling."
+        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "title": "Time & Material",
-        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
+        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       }
     ],
     "whyUs": {
       "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for Web Development. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
+      "desc": "You provide the concept And We provide you with the best technical solution for Web Development. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
       "points": [
         {
           "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding Web Development, Perceiving technical issues, and preparing an advanced solution for it.",
+          "desc": "Understanding client's ideas and requirements regarding Web Development, Perceiving technical issues, and preparing an advanced solution for it. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
           "icon": "🎯"
         },
         {
           "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
+          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
           "icon": "📊"
         },
         {
           "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
+          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
           "icon": "💼"
         },
         {
           "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen Web Development product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
+          "desc": "Our team analyses and builds a framework, that matches the foreseen Web Development product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
           "icon": "☕"
         }
       ],
@@ -185,23 +185,23 @@ export const categoryData = {
       "points": [
         {
           "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest Web Development frameworks to keep your business ahead of the curve."
+          "desc": "We use the latest Web Development frameworks to keep your business ahead of the curve. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         },
         {
           "title": "Customized Excellence",
-          "desc": "Your Web Development project is built from scratch—no templates, just pure bespoke engineering."
+          "desc": "Your Web Development project is built from scratch—no templates, just pure bespoke engineering. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         },
         {
           "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
+          "desc": "We design the flow of your product entirely around your end-users to maximize retention. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         },
         {
           "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
+          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         },
         {
           "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
+          "desc": "We build the architecture so your application can scale to millions of users without breaking. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         }
       ],
       "flowSteps": [
@@ -248,37 +248,37 @@ export const categoryData = {
     "features": [
       {
         "title": "Android App Development",
-        "desc": "Native applications for the Android ecosystem.",
+        "desc": "Native applications for the Android ecosystem. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "🤖",
         "image": "/images/features/app-development-AndroidAppDevelopment.jpg"
       },
       {
         "title": "Cross Platform Apps",
-        "desc": "Hybrid apps that run smoothly on iOS and Android.",
+        "desc": "Hybrid apps that run smoothly on iOS and Android. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "⚡",
         "image": "/images/features/app-development-CrossPlatformApps.jpg"
       },
       {
         "title": "Business Applications",
-        "desc": "Internal tools to streamline company operations.",
+        "desc": "Internal tools to streamline company operations. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "💼",
         "image": "/images/features/app-development-BusinessApplications.jpg"
       },
       {
         "title": "E-Commerce Apps",
-        "desc": "Mobile storefronts featuring secure payment gateways.",
+        "desc": "Mobile storefronts featuring secure payment gateways. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "🛒",
         "image": "/images/features/app-development-E-CommerceApps.jpg"
       },
       {
         "title": "Custom Mobile Apps",
-        "desc": "Bespoke mobile software tailored to unique requirements.",
+        "desc": "Bespoke mobile software tailored to unique requirements. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "🛠️",
         "image": "/images/features/app-development-CustomMobileApps.jpg"
       },
       {
         "title": "API-Based Mobile Apps",
-        "desc": "Cloud-connected mobile apps that sync real-time data.",
+        "desc": "Cloud-connected mobile apps that sync real-time data. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "🔗",
         "image": "/images/features/app-development-API-BasedMobileApps.jpg"
       }
@@ -296,22 +296,22 @@ export const categoryData = {
       {
         "step": "01",
         "title": "Strategy",
-        "desc": "Mapping out the app architecture, API requirements, and monetization strategy."
+        "desc": "Mapping out the app architecture, API requirements, and monetization strategy. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "step": "02",
         "title": "Prototyping",
-        "desc": "Creating interactive prototypes so you can feel the app before coding begins."
+        "desc": "Creating interactive prototypes so you can feel the app before coding begins. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "step": "03",
         "title": "Engineering",
-        "desc": "Developing the frontend and linking it to secure cloud backends and databases."
+        "desc": "Developing the frontend and linking it to secure cloud backends and databases. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "step": "04",
         "title": "Store Deployment",
-        "desc": "Handling the rigorous approval processes for both the Apple App Store and Google Play."
+        "desc": "Handling the rigorous approval processes for both the Apple App Store and Google Play. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       }
     ],
     "faqs": [
@@ -358,39 +358,39 @@ export const categoryData = {
     "engagementModels": [
       {
         "title": "Fixed Price Model",
-        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay."
+        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "title": "Dedicated Team",
-        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling."
+        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "title": "Time & Material",
-        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
+        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       }
     ],
     "whyUs": {
       "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for App Development. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
+      "desc": "You provide the concept And We provide you with the best technical solution for App Development. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
       "points": [
         {
           "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding App Development, Perceiving technical issues, and preparing an advanced solution for it.",
+          "desc": "Understanding client's ideas and requirements regarding App Development, Perceiving technical issues, and preparing an advanced solution for it. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
           "icon": "🎯"
         },
         {
           "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
+          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
           "icon": "📊"
         },
         {
           "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
+          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
           "icon": "💼"
         },
         {
           "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen App Development product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
+          "desc": "Our team analyses and builds a framework, that matches the foreseen App Development product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
           "icon": "☕"
         }
       ],
@@ -401,23 +401,23 @@ export const categoryData = {
       "points": [
         {
           "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest App Development frameworks to keep your business ahead of the curve."
+          "desc": "We use the latest App Development frameworks to keep your business ahead of the curve. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         },
         {
           "title": "Customized Excellence",
-          "desc": "Your App Development project is built from scratch—no templates, just pure bespoke engineering."
+          "desc": "Your App Development project is built from scratch—no templates, just pure bespoke engineering. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         },
         {
           "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
+          "desc": "We design the flow of your product entirely around your end-users to maximize retention. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         },
         {
           "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
+          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         },
         {
           "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
+          "desc": "We build the architecture so your application can scale to millions of users without breaking. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         }
       ],
       "flowSteps": [
@@ -464,37 +464,37 @@ export const categoryData = {
     "features": [
       {
         "title": "Custom Software Development",
-        "desc": "End-to-end custom software architecture.",
+        "desc": "End-to-end custom software architecture. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "💻",
         "image": "/images/features/software-development-CustomSoftwareDevelopment.jpg"
       },
       {
         "title": "Billing Software",
-        "desc": "Automated, tax-compliant billing solutions.",
+        "desc": "Automated, tax-compliant billing solutions. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "🧾",
         "image": "/images/features/software-development-BillingSoftware.jpg"
       },
       {
         "title": "Inventory Management Systems",
-        "desc": "Real-time tracking and supply chain management.",
+        "desc": "Real-time tracking and supply chain management. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "📦",
         "image": "/images/features/software-development-InventoryManagementSystems.jpg"
       },
       {
         "title": "CRM & ERP Integrations",
-        "desc": "Connecting departments for unified workflows.",
+        "desc": "Connecting departments for unified workflows. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "🏭",
         "image": "/images/features/software-development-CRM%26ERPIntegrations.jpg"
       },
       {
         "title": "Legacy System Upgrades",
-        "desc": "Modernizing old software into scalable cloud platforms.",
+        "desc": "Modernizing old software into scalable cloud platforms. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "🔄",
         "image": "/images/features/software-development-LegacySystemUpgrades.jpg"
       },
       {
         "title": "Workflow Automation",
-        "desc": "Digital transformation of manual business processes.",
+        "desc": "Digital transformation of manual business processes. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "⚡",
         "image": "/images/features/software-development-WorkflowAutomation.jpg"
       }
@@ -513,22 +513,22 @@ export const categoryData = {
       {
         "step": "01",
         "title": "Workflow Audit",
-        "desc": "We study your business operations deeply to find friction points software can solve."
+        "desc": "We study your business operations deeply to find friction points software can solve. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "step": "02",
         "title": "Architecture Design",
-        "desc": "Structuring databases and backend logic to handle enterprise-level data scales."
+        "desc": "Structuring databases and backend logic to handle enterprise-level data scales. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "step": "03",
         "title": "Agile Sprints",
-        "desc": "Building the software in two-week iterative sprints, gathering your feedback continuously."
+        "desc": "Building the software in two-week iterative sprints, gathering your feedback continuously. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "step": "04",
         "title": "Deployment & Training",
-        "desc": "Installing the software on your servers and training your staff on how to use it."
+        "desc": "Installing the software on your servers and training your staff on how to use it. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       }
     ],
     "faqs": [
@@ -575,39 +575,39 @@ export const categoryData = {
     "engagementModels": [
       {
         "title": "Fixed Price Model",
-        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay."
+        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "title": "Dedicated Team",
-        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling."
+        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "title": "Time & Material",
-        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
+        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       }
     ],
     "whyUs": {
       "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for Software Development. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
+      "desc": "You provide the concept And We provide you with the best technical solution for Software Development. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
       "points": [
         {
           "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding Software Development, Perceiving technical issues, and preparing an advanced solution for it.",
+          "desc": "Understanding client's ideas and requirements regarding Software Development, Perceiving technical issues, and preparing an advanced solution for it. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
           "icon": "🎯"
         },
         {
           "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
+          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
           "icon": "📊"
         },
         {
           "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
+          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
           "icon": "💼"
         },
         {
           "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen Software Development product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
+          "desc": "Our team analyses and builds a framework, that matches the foreseen Software Development product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
           "icon": "☕"
         }
       ],
@@ -618,23 +618,23 @@ export const categoryData = {
       "points": [
         {
           "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest Software Development frameworks to keep your business ahead of the curve."
+          "desc": "We use the latest Software Development frameworks to keep your business ahead of the curve. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         },
         {
           "title": "Customized Excellence",
-          "desc": "Your Software Development project is built from scratch—no templates, just pure bespoke engineering."
+          "desc": "Your Software Development project is built from scratch—no templates, just pure bespoke engineering. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         },
         {
           "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
+          "desc": "We design the flow of your product entirely around your end-users to maximize retention. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         },
         {
           "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
+          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         },
         {
           "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
+          "desc": "We build the architecture so your application can scale to millions of users without breaking. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         }
       ],
       "flowSteps": [
@@ -681,37 +681,37 @@ export const categoryData = {
     "features": [
       {
         "title": "AWS Cloud Architecture",
-        "desc": "Designing highly available, fault-tolerant infrastructure using native AWS services.",
+        "desc": "Designing highly available, fault-tolerant infrastructure using native AWS services. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "☁️",
         "image": "/images/features/aws-devops-AWSCloudArchitecture.jpg"
       },
       {
         "title": "CI/CD Pipelines",
-        "desc": "Automated testing and continuous delivery workflows using Jenkins, GitHub Actions, and AWS CodePipeline.",
+        "desc": "Automated testing and continuous delivery workflows using Jenkins, GitHub Actions, and AWS CodePipeline. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "🔄",
         "image": "/images/features/aws-devops-CI%2FCDPipelines.jpg"
       },
       {
         "title": "Containerization (Docker & K8s)",
-        "desc": "Packaging applications with Docker and orchestrating massive clusters with Kubernetes.",
+        "desc": "Packaging applications with Docker and orchestrating massive clusters with Kubernetes. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "🐳",
         "image": "/images/features/aws-devops-Containerization(Docker%26K8s).jpg"
       },
       {
         "title": "Infrastructure as Code",
-        "desc": "Provisioning dynamic cloud environments using Terraform and AWS CloudFormation.",
+        "desc": "Provisioning dynamic cloud environments using Terraform and AWS CloudFormation. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "🏗️",
         "image": "/images/features/aws-devops-InfrastructureasCode.jpg"
       },
       {
         "title": "Performance Monitoring",
-        "desc": "24/7 telemetry and observability using Datadog, Prometheus, and Grafana.",
+        "desc": "24/7 telemetry and observability using Datadog, Prometheus, and Grafana. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "📈",
         "image": "/images/features/aws-devops-PerformanceMonitoring.jpg"
       },
       {
         "title": "Cloud Security Auditing",
-        "desc": "Ensuring deep compliance, IAM hardening, and impenetrable VPC setups.",
+        "desc": "Ensuring deep compliance, IAM hardening, and impenetrable VPC setups. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "🔒",
         "image": "/images/features/aws-devops-CloudSecurityAuditing.jpg"
       }
@@ -730,22 +730,22 @@ export const categoryData = {
       {
         "step": "01",
         "title": "Infrastructure Audit",
-        "desc": "Reviewing your current servers for security vulnerabilities and cost inefficiencies."
+        "desc": "Reviewing your current servers for security vulnerabilities and cost inefficiencies. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "step": "02",
         "title": "Architecture Redesign",
-        "desc": "Drafting a scalable AWS topology tailored to your projected traffic loads."
+        "desc": "Drafting a scalable AWS topology tailored to your projected traffic loads. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "step": "03",
         "title": "Automation Scripting",
-        "desc": "Writing Terraform and CI/CD scripts to automate server provisioning and deployments."
+        "desc": "Writing Terraform and CI/CD scripts to automate server provisioning and deployments. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "step": "04",
         "title": "Migration & Cutover",
-        "desc": "Seamlessly moving your databases and traffic to the new cloud without downtime."
+        "desc": "Seamlessly moving your databases and traffic to the new cloud without downtime. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       }
     ],
     "faqs": [
@@ -788,39 +788,39 @@ export const categoryData = {
     "engagementModels": [
       {
         "title": "Fixed Price Model",
-        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay."
+        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "title": "Dedicated Team",
-        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling."
+        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "title": "Time & Material",
-        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
+        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       }
     ],
     "whyUs": {
       "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for AWS & DevOps. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
+      "desc": "You provide the concept And We provide you with the best technical solution for AWS & DevOps. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
       "points": [
         {
           "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding AWS & DevOps, Perceiving technical issues, and preparing an advanced solution for it.",
+          "desc": "Understanding client's ideas and requirements regarding AWS & DevOps, Perceiving technical issues, and preparing an advanced solution for it. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
           "icon": "🎯"
         },
         {
           "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
+          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
           "icon": "📊"
         },
         {
           "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
+          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
           "icon": "💼"
         },
         {
           "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen AWS & DevOps product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
+          "desc": "Our team analyses and builds a framework, that matches the foreseen AWS & DevOps product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
           "icon": "☕"
         }
       ],
@@ -831,23 +831,23 @@ export const categoryData = {
       "points": [
         {
           "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest AWS & DevOps frameworks to keep your business ahead of the curve."
+          "desc": "We use the latest AWS & DevOps frameworks to keep your business ahead of the curve. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         },
         {
           "title": "Customized Excellence",
-          "desc": "Your AWS & DevOps project is built from scratch—no templates, just pure bespoke engineering."
+          "desc": "Your AWS & DevOps project is built from scratch—no templates, just pure bespoke engineering. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         },
         {
           "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
+          "desc": "We design the flow of your product entirely around your end-users to maximize retention. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         },
         {
           "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
+          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         },
         {
           "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
+          "desc": "We build the architecture so your application can scale to millions of users without breaking. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         }
       ],
       "flowSteps": [
@@ -894,37 +894,37 @@ export const categoryData = {
     "features": [
       {
         "title": "Dedicated Server Hosting",
-        "desc": "High-performance bare-metal servers for data-intensive enterprise applications.",
+        "desc": "High-performance bare-metal servers for data-intensive enterprise applications. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "🖥️",
         "image": "/images/features/hosting-server-DedicatedServerHosting.jpg"
       },
       {
         "title": "Cloud VPS Management",
-        "desc": "Scalable Virtual Private Servers optimized for speed and cost-efficiency.",
+        "desc": "Scalable Virtual Private Servers optimized for speed and cost-efficiency. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "☁️",
         "image": "/images/features/hosting-server-CloudVPSManagement.jpg"
       },
       {
         "title": "Database Administration",
-        "desc": "Optimization, clustering, and backup management for MySQL, PostgreSQL, and MongoDB.",
+        "desc": "Optimization, clustering, and backup management for MySQL, PostgreSQL, and MongoDB. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "🗄️",
         "image": "/images/features/hosting-server-DatabaseAdministration.jpg"
       },
       {
         "title": "DDoS Protection & Firewall",
-        "desc": "Enterprise-grade web application firewalls to block malicious traffic instantly.",
+        "desc": "Enterprise-grade web application firewalls to block malicious traffic instantly. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "🛡️",
         "image": "/images/features/hosting-server-DDoSProtection%26Firewall.jpg"
       },
       {
         "title": "24/7 Uptime Monitoring",
-        "desc": "Round-the-clock server health tracking with instant incident response.",
+        "desc": "Round-the-clock server health tracking with instant incident response. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "⏱️",
         "image": "/images/features/hosting-server-24%2F7UptimeMonitoring.jpg"
       },
       {
         "title": "Domain & DNS Setup",
-        "desc": "Configuring robust DNS routing and custom domain ecosystems.",
+        "desc": "Configuring robust DNS routing and custom domain ecosystems. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "🌐",
         "image": "/images/features/hosting-server-Domain%26DNSSetup.jpg"
       }
@@ -942,22 +942,22 @@ export const categoryData = {
       {
         "step": "01",
         "title": "Requirement Analysis",
-        "desc": "Determining CPU, RAM, and bandwidth needs based on your application size."
+        "desc": "Determining CPU, RAM, and bandwidth needs based on your application size. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "step": "02",
         "title": "Server Provisioning",
-        "desc": "Setting up the bare-metal or virtual servers with hardened operating systems."
+        "desc": "Setting up the bare-metal or virtual servers with hardened operating systems. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "step": "03",
         "title": "Network Configuration",
-        "desc": "Installing firewalls, SSL certificates, and configuring reverse proxies."
+        "desc": "Installing firewalls, SSL certificates, and configuring reverse proxies. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "step": "04",
         "title": "Active Monitoring",
-        "desc": "Deploying 24/7 alert systems to notify our team of any latency or downtime."
+        "desc": "Deploying 24/7 alert systems to notify our team of any latency or downtime. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       }
     ],
     "faqs": [
@@ -1000,39 +1000,39 @@ export const categoryData = {
     "engagementModels": [
       {
         "title": "Fixed Price Model",
-        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay."
+        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "title": "Dedicated Team",
-        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling."
+        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "title": "Time & Material",
-        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
+        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       }
     ],
     "whyUs": {
       "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for Hosting & Server Management. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
+      "desc": "You provide the concept And We provide you with the best technical solution for Hosting & Server Management. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
       "points": [
         {
           "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding Hosting & Server Management, Perceiving technical issues, and preparing an advanced solution for it.",
+          "desc": "Understanding client's ideas and requirements regarding Hosting & Server Management, Perceiving technical issues, and preparing an advanced solution for it. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
           "icon": "🎯"
         },
         {
           "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
+          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
           "icon": "📊"
         },
         {
           "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
+          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
           "icon": "💼"
         },
         {
           "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen Hosting & Server Management product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
+          "desc": "Our team analyses and builds a framework, that matches the foreseen Hosting & Server Management product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
           "icon": "☕"
         }
       ],
@@ -1043,23 +1043,23 @@ export const categoryData = {
       "points": [
         {
           "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest Hosting & Server Management frameworks to keep your business ahead of the curve."
+          "desc": "We use the latest Hosting & Server Management frameworks to keep your business ahead of the curve. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         },
         {
           "title": "Customized Excellence",
-          "desc": "Your Hosting & Server Management project is built from scratch—no templates, just pure bespoke engineering."
+          "desc": "Your Hosting & Server Management project is built from scratch—no templates, just pure bespoke engineering. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         },
         {
           "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
+          "desc": "We design the flow of your product entirely around your end-users to maximize retention. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         },
         {
           "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
+          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         },
         {
           "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
+          "desc": "We build the architecture so your application can scale to millions of users without breaking. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         }
       ],
       "flowSteps": [
@@ -1106,37 +1106,37 @@ export const categoryData = {
     "features": [
       {
         "title": "Search Engine Optimization (SEO)",
-        "desc": "Dominate search rankings with technical SEO, backlink building, and semantic content.",
+        "desc": "Dominate search rankings with technical SEO, backlink building, and semantic content. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "🔍",
         "image": "/images/features/digital-marketing-SearchEngineOptimization(SEO).jpg"
       },
       {
         "title": "Performance Ad Campaigns",
-        "desc": "Hyper-targeted Google Ads and Meta Ads optimized by machine learning algorithms.",
+        "desc": "Hyper-targeted Google Ads and Meta Ads optimized by machine learning algorithms. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "💰",
         "image": "/images/features/digital-marketing-PerformanceAdCampaigns.jpg"
       },
       {
         "title": "Social Media Strategy",
-        "desc": "Engaging, viral-ready content creation and community management across all platforms.",
+        "desc": "Engaging, viral-ready content creation and community management across all platforms. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "📱",
         "image": "/images/features/digital-marketing-SocialMediaStrategy.jpg"
       },
       {
         "title": "Email Marketing Automation",
-        "desc": "Personalized drip campaigns that nurture leads and drastically increase retention.",
+        "desc": "Personalized drip campaigns that nurture leads and drastically increase retention. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "📧",
         "image": "/images/features/digital-marketing-EmailMarketingAutomation.jpg"
       },
       {
         "title": "Conversion Rate Optimization",
-        "desc": "A/B testing and behavioral analytics to maximize your website's sales funnel.",
+        "desc": "A/B testing and behavioral analytics to maximize your website's sales funnel. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "📈",
         "image": "/images/features/digital-marketing-ConversionRateOptimization.jpg"
       },
       {
         "title": "Content Marketing",
-        "desc": "Deep, value-driven blogs, whitepapers, and videos to capture organic traffic.",
+        "desc": "Deep, value-driven blogs, whitepapers, and videos to capture organic traffic. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "📝",
         "image": "/images/features/digital-marketing-ContentMarketing.jpg"
       }
@@ -1154,22 +1154,22 @@ export const categoryData = {
       {
         "step": "01",
         "title": "Market Research",
-        "desc": "Deep competitor analysis and keyword research to find your untapped audience."
+        "desc": "Deep competitor analysis and keyword research to find your untapped audience. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "step": "02",
         "title": "Campaign Blueprint",
-        "desc": "Designing ad creatives, writing sales copy, and building targeted landing pages."
+        "desc": "Designing ad creatives, writing sales copy, and building targeted landing pages. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "step": "03",
         "title": "Execution & Bidding",
-        "desc": "Launching the campaigns and configuring algorithmic bidding strategies."
+        "desc": "Launching the campaigns and configuring algorithmic bidding strategies. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "step": "04",
         "title": "Optimization",
-        "desc": "Daily A/B testing of ads and budgets to drastically lower your Cost Per Acquisition."
+        "desc": "Daily A/B testing of ads and budgets to drastically lower your Cost Per Acquisition. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       }
     ],
     "faqs": [
@@ -1212,39 +1212,39 @@ export const categoryData = {
     "engagementModels": [
       {
         "title": "Fixed Price Model",
-        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay."
+        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "title": "Dedicated Team",
-        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling."
+        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "title": "Time & Material",
-        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
+        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       }
     ],
     "whyUs": {
       "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for Digital Marketing. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
+      "desc": "You provide the concept And We provide you with the best technical solution for Digital Marketing. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
       "points": [
         {
           "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding Digital Marketing, Perceiving technical issues, and preparing an advanced solution for it.",
+          "desc": "Understanding client's ideas and requirements regarding Digital Marketing, Perceiving technical issues, and preparing an advanced solution for it. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
           "icon": "🎯"
         },
         {
           "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
+          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
           "icon": "📊"
         },
         {
           "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
+          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
           "icon": "💼"
         },
         {
           "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen Digital Marketing product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
+          "desc": "Our team analyses and builds a framework, that matches the foreseen Digital Marketing product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
           "icon": "☕"
         }
       ],
@@ -1255,23 +1255,23 @@ export const categoryData = {
       "points": [
         {
           "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest Digital Marketing frameworks to keep your business ahead of the curve."
+          "desc": "We use the latest Digital Marketing frameworks to keep your business ahead of the curve. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         },
         {
           "title": "Customized Excellence",
-          "desc": "Your Digital Marketing project is built from scratch—no templates, just pure bespoke engineering."
+          "desc": "Your Digital Marketing project is built from scratch—no templates, just pure bespoke engineering. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         },
         {
           "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
+          "desc": "We design the flow of your product entirely around your end-users to maximize retention. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         },
         {
           "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
+          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         },
         {
           "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
+          "desc": "We build the architecture so your application can scale to millions of users without breaking. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         }
       ],
       "flowSteps": [
@@ -1318,37 +1318,37 @@ export const categoryData = {
     "features": [
       {
         "title": "Custom ChatGPT Integration",
-        "desc": "Embed GPT-4 turbo directly into your web applications for dynamic conversations.",
+        "desc": "Embed GPT-4 turbo directly into your web applications for dynamic conversations. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "🤖",
         "image": "/images/features/ai-chatbot-CustomChatGPTIntegration.jpg"
       },
       {
         "title": "RAG Pipeline Development",
-        "desc": "Vector databases (Pinecone/Milvus) that allow AI to search your internal PDFs and docs.",
+        "desc": "Vector databases (Pinecone/Milvus) that allow AI to search your internal PDFs and docs. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "📚",
         "image": "/images/features/ai-chatbot-RAGPipelineDevelopment.jpg"
       },
       {
         "title": "Customer Support Automation",
-        "desc": "24/7 intelligent agents that resolve 80% of tier-1 support tickets instantly.",
+        "desc": "24/7 intelligent agents that resolve 80% of tier-1 support tickets instantly. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "🎧",
         "image": "/images/features/ai-chatbot-CustomerSupportAutomation.jpg"
       },
       {
         "title": "Lead Generation Bots",
-        "desc": "Conversational forms that qualify leads and sync directly with your CRM.",
+        "desc": "Conversational forms that qualify leads and sync directly with your CRM. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "💬",
         "image": "/images/features/ai-chatbot-LeadGenerationBots.jpg"
       },
       {
         "title": "Multi-language Support",
-        "desc": "Auto-translating AI agents capable of communicating natively in 50+ languages.",
+        "desc": "Auto-translating AI agents capable of communicating natively in 50+ languages. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "🌍",
         "image": "/images/features/ai-chatbot-Multi-languageSupport.jpg"
       },
       {
         "title": "Analytics & Handover",
-        "desc": "Smooth escalation to human agents with full conversation context and sentiment analysis.",
+        "desc": "Smooth escalation to human agents with full conversation context and sentiment analysis. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "📊",
         "image": "/images/features/ai-chatbot-Analytics%26Handover.jpg"
       }
@@ -1366,22 +1366,22 @@ export const categoryData = {
       {
         "step": "01",
         "title": "Knowledge Ingestion",
-        "desc": "We scrape your website and PDFs to build a custom vector database."
+        "desc": "We scrape your website and PDFs to build a custom vector database. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "step": "02",
         "title": "Prompt Engineering",
-        "desc": "Designing system prompts to give your AI the perfect brand voice and constraints."
+        "desc": "Designing system prompts to give your AI the perfect brand voice and constraints. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "step": "03",
         "title": "RAG Development",
-        "desc": "Coding the logic that links user queries to your database for accurate answers."
+        "desc": "Coding the logic that links user queries to your database for accurate answers. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "step": "04",
         "title": "UI Integration",
-        "desc": "Deploying the chat widget to your website or WhatsApp Business accounts."
+        "desc": "Deploying the chat widget to your website or WhatsApp Business accounts. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       }
     ],
     "faqs": [
@@ -1424,39 +1424,39 @@ export const categoryData = {
     "engagementModels": [
       {
         "title": "Fixed Price Model",
-        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay."
+        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "title": "Dedicated Team",
-        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling."
+        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "title": "Time & Material",
-        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
+        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       }
     ],
     "whyUs": {
       "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for AI & RAG Chatbots. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
+      "desc": "You provide the concept And We provide you with the best technical solution for AI & RAG Chatbots. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
       "points": [
         {
           "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding AI & RAG Chatbots, Perceiving technical issues, and preparing an advanced solution for it.",
+          "desc": "Understanding client's ideas and requirements regarding AI & RAG Chatbots, Perceiving technical issues, and preparing an advanced solution for it. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
           "icon": "🎯"
         },
         {
           "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
+          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
           "icon": "📊"
         },
         {
           "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
+          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
           "icon": "💼"
         },
         {
           "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen AI & RAG Chatbots product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
+          "desc": "Our team analyses and builds a framework, that matches the foreseen AI & RAG Chatbots product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
           "icon": "☕"
         }
       ],
@@ -1467,23 +1467,23 @@ export const categoryData = {
       "points": [
         {
           "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest AI & RAG Chatbots frameworks to keep your business ahead of the curve."
+          "desc": "We use the latest AI & RAG Chatbots frameworks to keep your business ahead of the curve. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         },
         {
           "title": "Customized Excellence",
-          "desc": "Your AI & RAG Chatbots project is built from scratch—no templates, just pure bespoke engineering."
+          "desc": "Your AI & RAG Chatbots project is built from scratch—no templates, just pure bespoke engineering. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         },
         {
           "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
+          "desc": "We design the flow of your product entirely around your end-users to maximize retention. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         },
         {
           "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
+          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         },
         {
           "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
+          "desc": "We build the architecture so your application can scale to millions of users without breaking. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         }
       ],
       "flowSteps": [
@@ -1530,37 +1530,37 @@ export const categoryData = {
     "features": [
       {
         "title": "Cloud IVR Deployment",
-        "desc": "Scalable voice menus hosted on the cloud, removing the need for on-premise hardware.",
+        "desc": "Scalable voice menus hosted on the cloud, removing the need for on-premise hardware. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "☁️",
         "image": "/images/features/ivr-services-CloudIVRDeployment.jpg"
       },
       {
         "title": "Conversational Voice AI",
-        "desc": "Speech recognition (NLP) allowing callers to simply say what they need.",
+        "desc": "Speech recognition (NLP) allowing callers to simply say what they need. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "🗣️",
         "image": "/images/features/ivr-services-ConversationalVoiceAI.jpg"
       },
       {
         "title": "Smart Call Routing",
-        "desc": "Skill-based routing to ensure clients speak to the right agent every time.",
+        "desc": "Skill-based routing to ensure clients speak to the right agent every time. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "🔀",
         "image": "/images/features/ivr-services-SmartCallRouting.jpg"
       },
       {
         "title": "Automated Surveys & Billing",
-        "desc": "Secure DTMF capture for over-the-phone payments and customer feedback.",
+        "desc": "Secure DTMF capture for over-the-phone payments and customer feedback. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "💳",
         "image": "/images/features/ivr-services-AutomatedSurveys%26Billing.jpg"
       },
       {
         "title": "CRM & API Integration",
-        "desc": "Screen-pops that show caller data to your agents before they even say hello.",
+        "desc": "Screen-pops that show caller data to your agents before they even say hello. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "🖥️",
         "image": "/images/features/ivr-services-CRM%26APIIntegration.jpg"
       },
       {
         "title": "Call Analytics",
-        "desc": "Deep insights into call volumes, drop-off rates, and agent performance.",
+        "desc": "Deep insights into call volumes, drop-off rates, and agent performance. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "📈",
         "image": "/images/features/ivr-services-CallAnalytics.jpg"
       }
@@ -1577,22 +1577,22 @@ export const categoryData = {
       {
         "step": "01",
         "title": "Call Flow Design",
-        "desc": "Mapping out every possible path a caller could take in an intuitive flowchart."
+        "desc": "Mapping out every possible path a caller could take in an intuitive flowchart. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "step": "02",
         "title": "Voice Talent & Synthesis",
-        "desc": "Recording professional voice actors or setting up hyper-realistic AI text-to-speech."
+        "desc": "Recording professional voice actors or setting up hyper-realistic AI text-to-speech. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "step": "03",
         "title": "Programming",
-        "desc": "Developing the logic for routing, DTMF capture, and backend API requests."
+        "desc": "Developing the logic for routing, DTMF capture, and backend API requests. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "step": "04",
         "title": "Load Testing",
-        "desc": "Simulating thousands of concurrent calls to ensure the system remains stable."
+        "desc": "Simulating thousands of concurrent calls to ensure the system remains stable. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       }
     ],
     "faqs": [
@@ -1635,39 +1635,39 @@ export const categoryData = {
     "engagementModels": [
       {
         "title": "Fixed Price Model",
-        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay."
+        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "title": "Dedicated Team",
-        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling."
+        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "title": "Time & Material",
-        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
+        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       }
     ],
     "whyUs": {
       "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for IVR Solutions. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
+      "desc": "You provide the concept And We provide you with the best technical solution for IVR Solutions. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
       "points": [
         {
           "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding IVR Solutions, Perceiving technical issues, and preparing an advanced solution for it.",
+          "desc": "Understanding client's ideas and requirements regarding IVR Solutions, Perceiving technical issues, and preparing an advanced solution for it. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
           "icon": "🎯"
         },
         {
           "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
+          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
           "icon": "📊"
         },
         {
           "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
+          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
           "icon": "💼"
         },
         {
           "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen IVR Solutions product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
+          "desc": "Our team analyses and builds a framework, that matches the foreseen IVR Solutions product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
           "icon": "☕"
         }
       ],
@@ -1678,23 +1678,23 @@ export const categoryData = {
       "points": [
         {
           "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest IVR Solutions frameworks to keep your business ahead of the curve."
+          "desc": "We use the latest IVR Solutions frameworks to keep your business ahead of the curve. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         },
         {
           "title": "Customized Excellence",
-          "desc": "Your IVR Solutions project is built from scratch—no templates, just pure bespoke engineering."
+          "desc": "Your IVR Solutions project is built from scratch—no templates, just pure bespoke engineering. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         },
         {
           "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
+          "desc": "We design the flow of your product entirely around your end-users to maximize retention. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         },
         {
           "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
+          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         },
         {
           "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
+          "desc": "We build the architecture so your application can scale to millions of users without breaking. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         }
       ],
       "flowSteps": [
@@ -1741,37 +1741,37 @@ export const categoryData = {
     "features": [
       {
         "title": "Custom API Development",
-        "desc": "Building secure, RESTful, and GraphQL APIs tailored to expose your business logic.",
+        "desc": "Building secure, RESTful, and GraphQL APIs tailored to expose your business logic. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "⚡",
         "image": "/images/features/api-integration-CustomAPIDevelopment.jpg"
       },
       {
         "title": "Third-Party Integrations",
-        "desc": "Seamless connections with Stripe, Twilio, Salesforce, Shopify, and thousands more.",
+        "desc": "Seamless connections with Stripe, Twilio, Salesforce, Shopify, and thousands more. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "🔌",
         "image": "/images/features/api-integration-Third-PartyIntegrations.jpg"
       },
       {
         "title": "Middleware & Microservices",
-        "desc": "Architecting robust middleware to sync real-time data across microservices.",
+        "desc": "Architecting robust middleware to sync real-time data across microservices. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "🔄",
         "image": "/images/features/api-integration-Middleware%26Microservices.jpg"
       },
       {
         "title": "Legacy System Modernization",
-        "desc": "Creating API wrappers around old SOAP/XML systems for modern web consumption.",
+        "desc": "Creating API wrappers around old SOAP/XML systems for modern web consumption. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "🏗️",
         "image": "/images/features/api-integration-LegacySystemModernization.jpg"
       },
       {
         "title": "Webhooks & Event Driven",
-        "desc": "Implementing real-time webhook architectures for instant system updates.",
+        "desc": "Implementing real-time webhook architectures for instant system updates. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "🔔",
         "image": "/images/features/api-integration-Webhooks%26EventDriven.jpg"
       },
       {
         "title": "API Documentation",
-        "desc": "Generating crystal-clear Swagger/OpenAPI docs for external developers.",
+        "desc": "Generating crystal-clear Swagger/OpenAPI docs for external developers. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "📚",
         "image": "/images/features/api-integration-APIDocumentation.jpg"
       }
@@ -1789,22 +1789,22 @@ export const categoryData = {
       {
         "step": "01",
         "title": "Endpoint Planning",
-        "desc": "Defining data payloads, security protocols, and endpoint structures."
+        "desc": "Defining data payloads, security protocols, and endpoint structures. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "step": "02",
         "title": "Development",
-        "desc": "Writing the middleware logic and configuring OAuth or JWT authentication."
+        "desc": "Writing the middleware logic and configuring OAuth or JWT authentication. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "step": "03",
         "title": "Testing",
-        "desc": "Rigorous unit testing and load testing of the endpoints using Postman."
+        "desc": "Rigorous unit testing and load testing of the endpoints using Postman. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "step": "04",
         "title": "Documentation",
-        "desc": "Publishing developer-friendly documentation for your engineering team."
+        "desc": "Publishing developer-friendly documentation for your engineering team. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       }
     ],
     "faqs": [
@@ -1843,39 +1843,39 @@ export const categoryData = {
     "engagementModels": [
       {
         "title": "Fixed Price Model",
-        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay."
+        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "title": "Dedicated Team",
-        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling."
+        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "title": "Time & Material",
-        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
+        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       }
     ],
     "whyUs": {
       "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for API Integrations. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
+      "desc": "You provide the concept And We provide you with the best technical solution for API Integrations. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
       "points": [
         {
           "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding API Integrations, Perceiving technical issues, and preparing an advanced solution for it.",
+          "desc": "Understanding client's ideas and requirements regarding API Integrations, Perceiving technical issues, and preparing an advanced solution for it. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
           "icon": "🎯"
         },
         {
           "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
+          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
           "icon": "📊"
         },
         {
           "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
+          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
           "icon": "💼"
         },
         {
           "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen API Integrations product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
+          "desc": "Our team analyses and builds a framework, that matches the foreseen API Integrations product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
           "icon": "☕"
         }
       ],
@@ -1886,23 +1886,23 @@ export const categoryData = {
       "points": [
         {
           "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest API Integrations frameworks to keep your business ahead of the curve."
+          "desc": "We use the latest API Integrations frameworks to keep your business ahead of the curve. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         },
         {
           "title": "Customized Excellence",
-          "desc": "Your API Integrations project is built from scratch—no templates, just pure bespoke engineering."
+          "desc": "Your API Integrations project is built from scratch—no templates, just pure bespoke engineering. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         },
         {
           "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
+          "desc": "We design the flow of your product entirely around your end-users to maximize retention. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         },
         {
           "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
+          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         },
         {
           "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
+          "desc": "We build the architecture so your application can scale to millions of users without breaking. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         }
       ],
       "flowSteps": [
@@ -1949,37 +1949,37 @@ export const categoryData = {
     "features": [
       {
         "title": "Shopify & WooCommerce",
-        "desc": "Custom theme development and optimized setups for the world's best platforms.",
+        "desc": "Custom theme development and optimized setups for the world's best platforms. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "🛍️",
         "image": "/images/features/ecommerce-solutions-Shopify%26WooCommerce.jpg"
       },
       {
         "title": "Headless Commerce",
-        "desc": "Decoupling the frontend (React/Next.js) from the backend for lightning-fast load times.",
+        "desc": "Decoupling the frontend (React/Next.js) from the backend for lightning-fast load times. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "⚡",
         "image": "/images/features/ecommerce-solutions-HeadlessCommerce.jpg"
       },
       {
         "title": "Payment Gateway Integration",
-        "desc": "Secure, multi-currency payment setups including Stripe, PayPal, and Crypto.",
+        "desc": "Secure, multi-currency payment setups including Stripe, PayPal, and Crypto. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "💳",
         "image": "/images/features/ecommerce-solutions-PaymentGatewayIntegration.jpg"
       },
       {
         "title": "Inventory & Fulfillment",
-        "desc": "Automated syncing between your web store, warehouses, and dropshipping partners.",
+        "desc": "Automated syncing between your web store, warehouses, and dropshipping partners. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "📦",
         "image": "/images/features/ecommerce-solutions-Inventory%26Fulfillment.jpg"
       },
       {
         "title": "B2B Wholesale Portals",
-        "desc": "Complex pricing tiers and massive catalog management for enterprise B2B sales.",
+        "desc": "Complex pricing tiers and massive catalog management for enterprise B2B sales. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "🏢",
         "image": "/images/features/ecommerce-solutions-B2BWholesalePortals.jpg"
       },
       {
         "title": "Abandoned Cart Recovery",
-        "desc": "Implementing intelligent marketing funnels to capture lost revenue.",
+        "desc": "Implementing intelligent marketing funnels to capture lost revenue. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "💰",
         "image": "/images/features/ecommerce-solutions-AbandonedCartRecovery.jpg"
       }
@@ -1997,22 +1997,22 @@ export const categoryData = {
       {
         "step": "01",
         "title": "Platform Selection",
-        "desc": "Choosing between Shopify, Magento, or Custom Headless based on your SKUs."
+        "desc": "Choosing between Shopify, Magento, or Custom Headless based on your SKUs. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "step": "02",
         "title": "UX/UI Design",
-        "desc": "Designing high-conversion product pages and friction-free checkout flows."
+        "desc": "Designing high-conversion product pages and friction-free checkout flows. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "step": "03",
         "title": "Payment & API Setup",
-        "desc": "Connecting shipping calculators, ERPs, and secure payment processors."
+        "desc": "Connecting shipping calculators, ERPs, and secure payment processors. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "step": "04",
         "title": "Launch & SEO",
-        "desc": "Migrating products safely and executing technical SEO for immediate indexation."
+        "desc": "Migrating products safely and executing technical SEO for immediate indexation. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       }
     ],
     "faqs": [
@@ -2055,39 +2055,39 @@ export const categoryData = {
     "engagementModels": [
       {
         "title": "Fixed Price Model",
-        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay."
+        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "title": "Dedicated Team",
-        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling."
+        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "title": "Time & Material",
-        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
+        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       }
     ],
     "whyUs": {
       "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for E-Commerce Solutions. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
+      "desc": "You provide the concept And We provide you with the best technical solution for E-Commerce Solutions. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
       "points": [
         {
           "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding E-Commerce Solutions, Perceiving technical issues, and preparing an advanced solution for it.",
+          "desc": "Understanding client's ideas and requirements regarding E-Commerce Solutions, Perceiving technical issues, and preparing an advanced solution for it. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
           "icon": "🎯"
         },
         {
           "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
+          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
           "icon": "📊"
         },
         {
           "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
+          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
           "icon": "💼"
         },
         {
           "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen E-Commerce Solutions product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
+          "desc": "Our team analyses and builds a framework, that matches the foreseen E-Commerce Solutions product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
           "icon": "☕"
         }
       ],
@@ -2098,23 +2098,23 @@ export const categoryData = {
       "points": [
         {
           "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest E-Commerce Solutions frameworks to keep your business ahead of the curve."
+          "desc": "We use the latest E-Commerce Solutions frameworks to keep your business ahead of the curve. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         },
         {
           "title": "Customized Excellence",
-          "desc": "Your E-Commerce Solutions project is built from scratch—no templates, just pure bespoke engineering."
+          "desc": "Your E-Commerce Solutions project is built from scratch—no templates, just pure bespoke engineering. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         },
         {
           "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
+          "desc": "We design the flow of your product entirely around your end-users to maximize retention. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         },
         {
           "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
+          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         },
         {
           "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
+          "desc": "We build the architecture so your application can scale to millions of users without breaking. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         }
       ],
       "flowSteps": [
@@ -2161,37 +2161,37 @@ export const categoryData = {
     "features": [
       {
         "title": "Vulnerability Auditing",
-        "desc": "Deep penetration testing to identify and patch zero-day vulnerabilities in your code.",
+        "desc": "Deep penetration testing to identify and patch zero-day vulnerabilities in your code. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "🔍",
         "image": "/images/features/security-maintenance-VulnerabilityAuditing.jpg"
       },
       {
         "title": "SSL & Encryption",
-        "desc": "End-to-end data encryption and strict SSL enforcement for data at rest and in transit.",
+        "desc": "End-to-end data encryption and strict SSL enforcement for data at rest and in transit. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "🔒",
         "image": "/images/features/security-maintenance-SSL%26Encryption.jpg"
       },
       {
         "title": "Automated Backups",
-        "desc": "Daily, redundant off-site backups ensuring zero data loss during catastrophic failures.",
+        "desc": "Daily, redundant off-site backups ensuring zero data loss during catastrophic failures. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "💾",
         "image": "/images/features/security-maintenance-AutomatedBackups.jpg"
       },
       {
         "title": "Malware Removal",
-        "desc": "Instant quarantine and eradication of malicious scripts and backdoor injections.",
+        "desc": "Instant quarantine and eradication of malicious scripts and backdoor injections. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "🛡️",
         "image": "/images/features/security-maintenance-MalwareRemoval.jpg"
       },
       {
         "title": "Routine Maintenance",
-        "desc": "Continuous software updates, dependency upgrades, and performance tuning.",
+        "desc": "Continuous software updates, dependency upgrades, and performance tuning. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "🛠️",
         "image": "/images/features/security-maintenance-RoutineMaintenance.jpg"
       },
       {
         "title": "Compliance Auditing",
-        "desc": "Ensuring strict adherence to GDPR, HIPAA, and PCI DSS standards.",
+        "desc": "Ensuring strict adherence to GDPR, HIPAA, and PCI DSS standards. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "⚖️",
         "image": "/images/features/security-maintenance-ComplianceAuditing.jpg"
       }
@@ -2209,22 +2209,22 @@ export const categoryData = {
       {
         "step": "01",
         "title": "Threat Assessment",
-        "desc": "Executing automated scans and manual penetration tests on your infrastructure."
+        "desc": "Executing automated scans and manual penetration tests on your infrastructure. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "step": "02",
         "title": "Patch & Remediate",
-        "desc": "Instantly updating outdated dependencies and closing exposed server ports."
+        "desc": "Instantly updating outdated dependencies and closing exposed server ports. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "step": "03",
         "title": "WAF Implementation",
-        "desc": "Installing Web Application Firewalls to block SQL injections and DDoS attacks."
+        "desc": "Installing Web Application Firewalls to block SQL injections and DDoS attacks. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       },
       {
         "step": "04",
         "title": "Continuous Monitoring",
-        "desc": "Providing 24/7 endpoint protection and daily encrypted backups."
+        "desc": "Providing 24/7 endpoint protection and daily encrypted backups. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       }
     ],
     "faqs": [
@@ -2267,39 +2267,39 @@ export const categoryData = {
     "engagementModels": [
       {
         "title": "Fixed Price Model",
-        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay."
+        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "title": "Dedicated Team",
-        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling."
+        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "title": "Time & Material",
-        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
+        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       }
     ],
     "whyUs": {
       "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for Security & Maintenance. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
+      "desc": "You provide the concept And We provide you with the best technical solution for Security & Maintenance. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
       "points": [
         {
           "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding Security & Maintenance, Perceiving technical issues, and preparing an advanced solution for it.",
+          "desc": "Understanding client's ideas and requirements regarding Security & Maintenance, Perceiving technical issues, and preparing an advanced solution for it. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
           "icon": "🎯"
         },
         {
           "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
+          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
           "icon": "📊"
         },
         {
           "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
+          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
           "icon": "💼"
         },
         {
           "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen Security & Maintenance product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
+          "desc": "Our team analyses and builds a framework, that matches the foreseen Security & Maintenance product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
           "icon": "☕"
         }
       ],
@@ -2310,23 +2310,23 @@ export const categoryData = {
       "points": [
         {
           "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest Security & Maintenance frameworks to keep your business ahead of the curve."
+          "desc": "We use the latest Security & Maintenance frameworks to keep your business ahead of the curve. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         },
         {
           "title": "Customized Excellence",
-          "desc": "Your Security & Maintenance project is built from scratch—no templates, just pure bespoke engineering."
+          "desc": "Your Security & Maintenance project is built from scratch—no templates, just pure bespoke engineering. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         },
         {
           "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
+          "desc": "We design the flow of your product entirely around your end-users to maximize retention. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         },
         {
           "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
+          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         },
         {
           "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
+          "desc": "We build the architecture so your application can scale to millions of users without breaking. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         }
       ],
       "flowSteps": [
@@ -2373,37 +2373,37 @@ export const categoryData = {
     "features": [
       {
         "title": "Workflow Automation",
-        "desc": "Connecting 100+ apps to trigger actions automatically without human intervention.",
+        "desc": "Connecting 100+ apps to trigger actions automatically without human intervention. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "⚡",
         "image": "/images/features/ai-automation-WorkflowAutomation.jpg"
       },
       {
         "title": "AI Image Processing",
-        "desc": "Computer vision models that automatically tag, moderate, and analyze visual media.",
+        "desc": "Computer vision models that automatically tag, moderate, and analyze visual media. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "👁️",
         "image": "/images/features/ai-automation-AIImageProcessing.jpg"
       },
       {
         "title": "Document Extraction",
-        "desc": "Intelligent extraction of data from invoices, PDFs, and unstructured documents.",
+        "desc": "Intelligent extraction of data from invoices, PDFs, and unstructured documents. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
         "icon": "📄",
         "image": "/images/features/ai-automation-DocumentExtraction.jpg"
       },
       {
         "title": "Predictive Analytics",
-        "desc": "Machine learning models forecasting sales, inventory needs, and market trends.",
+        "desc": "Machine learning models forecasting sales, inventory needs, and market trends. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
         "icon": "📈",
         "image": "/images/features/ai-automation-PredictiveAnalytics.jpg"
       },
       {
         "title": "Custom RPA Development",
-        "desc": "Software bots designed to execute high-volume, repeatable tasks flawlessly.",
+        "desc": "Software bots designed to execute high-volume, repeatable tasks flawlessly. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
         "icon": "🤖",
         "image": "/images/features/ai-automation-CustomRPADevelopment.jpg"
       },
       {
         "title": "Data Parsing Agents",
-        "desc": "Web scrapers and NLP agents capable of structuring messy online data streams.",
+        "desc": "Web scrapers and NLP agents capable of structuring messy online data streams. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
         "icon": "🕸️",
         "image": "/images/features/ai-automation-DataParsingAgents.jpg"
       }
@@ -2421,22 +2421,22 @@ export const categoryData = {
       {
         "step": "01",
         "title": "Process Mapping",
-        "desc": "Identifying the most repetitive, time-consuming tasks in your daily operations."
+        "desc": "Identifying the most repetitive, time-consuming tasks in your daily operations. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "step": "02",
         "title": "Scripting & AI Setup",
-        "desc": "Building the connective tissue and training models for OCR or data classification."
+        "desc": "Building the connective tissue and training models for OCR or data classification. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "step": "03",
         "title": "Testing in Sandbox",
-        "desc": "Running the automations on test data to ensure zero errors."
+        "desc": "Running the automations on test data to ensure zero errors. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       },
       {
         "step": "04",
         "title": "Deployment",
-        "desc": "Activating the automation and saving your team hundreds of hours per month."
+        "desc": "Activating the automation and saving your team hundreds of hours per month. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
       }
     ],
     "faqs": [
@@ -2479,39 +2479,39 @@ export const categoryData = {
     "engagementModels": [
       {
         "title": "Fixed Price Model",
-        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay."
+        "desc": "Perfect for projects with clearly defined requirements and strict deadlines. You know exactly what you pay. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
       },
       {
         "title": "Dedicated Team",
-        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling."
+        "desc": "Hire our engineers full-time. Best for long-term projects requiring continuous development and scaling. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
       },
       {
         "title": "Time & Material",
-        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time."
+        "desc": "Agile and flexible. Best for evolving startups where the scope of work changes dynamically over time. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
       }
     ],
     "whyUs": {
       "title": "Why us?",
-      "desc": "You provide the concept And We provide you with the best technical solution for AI & Automation. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product.",
+      "desc": "You provide the concept And We provide you with the best technical solution for AI & Automation. DGT gives assurance and looks after your product requirements. Our team techies are creative and use brand new technologies, and the best tools for analysis and design process to modify your idea into a successful new product. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
       "points": [
         {
           "title": "Strategy:",
-          "desc": "Understanding client's ideas and requirements regarding AI & Automation, Perceiving technical issues, and preparing an advanced solution for it.",
+          "desc": "Understanding client's ideas and requirements regarding AI & Automation, Perceiving technical issues, and preparing an advanced solution for it. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets.",
           "icon": "🎯"
         },
         {
           "title": "Bracing:",
-          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions.",
+          "desc": "Our database is secured. We guarantee to safeguard our ideas and our important statistics from our projects. we back up to data, to avoid future interventions. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements.",
           "icon": "📊"
         },
         {
           "title": "Head Start:",
-          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions.",
+          "desc": "We as a team are 24x7 available, technically and mentally to thrive in challenges and deliver secure solutions. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency.",
           "icon": "💼"
         },
         {
           "title": "Analysis:",
-          "desc": "Our team analyses and builds a framework, that matches the foreseen AI & Automation product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance.",
+          "desc": "Our team analyses and builds a framework, that matches the foreseen AI & Automation product. Our experts can fix errors. redefine models, and provide maintenance and support. Our services are time bound and we believe in fast and accurate service deliverance. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience.",
           "icon": "☕"
         }
       ],
@@ -2522,23 +2522,23 @@ export const categoryData = {
       "points": [
         {
           "title": "Cutting-Edge Innovation",
-          "desc": "We use the latest AI & Automation frameworks to keep your business ahead of the curve."
+          "desc": "We use the latest AI & Automation frameworks to keep your business ahead of the curve. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         },
         {
           "title": "Customized Excellence",
-          "desc": "Your AI & Automation project is built from scratch—no templates, just pure bespoke engineering."
+          "desc": "Your AI & Automation project is built from scratch—no templates, just pure bespoke engineering. Our dedicated team ensures highly scalable, secure, and customized implementation tailored perfectly to your unique business requirements."
         },
         {
           "title": "User-Centric Approach",
-          "desc": "We design the flow of your product entirely around your end-users to maximize retention."
+          "desc": "We design the flow of your product entirely around your end-users to maximize retention. We leverage industry-leading best practices to deliver robust, high-performance solutions that drive measurable growth and efficiency."
         },
         {
           "title": "Agile Methodology",
-          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project."
+          "desc": "Our 2-week sprint cycles ensure you see constant progress on your project. Designed with future-proofing in mind, this approach guarantees seamless integration, maximum reliability, and an exceptional user experience."
         },
         {
           "title": "Scalability",
-          "desc": "We build the architecture so your application can scale to millions of users without breaking."
+          "desc": "We build the architecture so your application can scale to millions of users without breaking. Through advanced methodologies and precise execution, we transform complex challenges into streamlined, user-friendly digital assets."
         }
       ],
       "flowSteps": [

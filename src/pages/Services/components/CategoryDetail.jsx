@@ -56,7 +56,6 @@ const CategoryDetail = ({ categoryName, data, onBack }) => {
                   <div className={styles.featureHoverOverlay}>
                     <h3>{feat.title}</h3>
                     <p>{feat.desc}</p>
-                    <button className={styles.featureReadMore}>Read More</button>
                   </div>
                 </div>
              ))}
