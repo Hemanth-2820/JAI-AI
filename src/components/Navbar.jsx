@@ -21,9 +21,9 @@ const Navbar = () => {
           <NavLink to="/" className={({ isActive }) => isActive ? "navLink active" : "navLink"}>Home</NavLink>
           
           <div className="navDropdownWrapper">
-            <NavLink to="/services" className={({ isActive }) => isActive ? "navLink active" : "navLink"}>
+            <span className="navLink" style={{ cursor: 'pointer' }}>
               Services <span className="dropdownArrow">▼</span>
-            </NavLink>
+            </span>
             <div className="dropdownMenu">
               <div className="dropdownColumn">
                 <h4>IT Services</h4>
