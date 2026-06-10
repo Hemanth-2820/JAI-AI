@@ -1,19 +1,22 @@
 /* Navbar CSS */
 .navbar {
   position: absolute;
-  top: 0;
+  top: -30px;
+  /* Negative top to pull it higher than the screen edge */
   left: 0;
   width: 100%;
   z-index: 100;
-  padding: 35px 0; /* Exact spacing from top */
+  padding: 0;
+  /* Moved to the very top edge */
   transition: all 0.4s ease;
 }
 
 .navbarScrolled {
   position: fixed;
-  background: rgba(0, 0, 0, 0.85); /* Slightly translucent dark background on scroll */
+  background: rgba(0, 0, 0, 0.85);
+  /* Slightly translucent dark background on scroll */
   backdrop-filter: blur(10px);
-  padding: 20px 0;
+  padding: 5px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
@@ -21,23 +24,27 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  padding: 0 4%; /* Ensure alignment with page content edges */
+  padding: 0 4%;
+  /* Ensure alignment with page content edges */
   max-width: 100%;
 }
 
 .leftLinks {
   display: flex;
-  gap: 32px; /* Spacing between links */
+  gap: 32px;
+  /* Spacing between links */
   align-items: center;
 }
 
 .navLink {
   font-family: var(--font-inter);
-  font-size: 1.05rem; /* Exactly matched font size */
+  font-size: 1.05rem;
+  /* Exactly matched font size */
   font-weight: 500;
   color: #ffffff;
   text-decoration: none;
-  padding-bottom: 4px; /* Space for underline */
+  padding-bottom: 4px;
+  /* Space for underline */
   position: relative;
   transition: opacity 0.3s ease;
 }
@@ -62,8 +69,10 @@
 }
 
 .navLogo {
-  max-height: 65px; /* Larger logo size */
+  max-height: 180px;
+  /* Extremely large logo size */
   width: auto;
+  filter: brightness(1.35) contrast(1.15) drop-shadow(0 0 15px rgba(255, 215, 0, 0.15));
 }
 
 .rightLinks {
@@ -76,10 +85,13 @@
   font-family: var(--font-inter);
   font-size: 0.85rem;
   font-weight: 600;
-  letter-spacing: 0.05em; /* Spacing out letters */
+  letter-spacing: 0.05em;
+  /* Spacing out letters */
   color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.5); /* Lighter border */
-  border-radius: 4px; /* Slight rounding if any */
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  /* Lighter border */
+  border-radius: 4px;
+  /* Slight rounding if any */
   padding: 14px 28px;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -94,7 +106,8 @@
 .navDropdownWrapper {
   position: relative;
   display: inline-block;
-  padding-bottom: 20px; /* Expand hover area */
+  padding-bottom: 20px;
+  /* Expand hover area */
   margin-bottom: -20px;
 }
 
@@ -174,27 +187,36 @@
 
 .dropdownLink:hover {
   opacity: 1;
-  color: #79d7f6; /* Cyan accent color */
+  color: #79d7f6;
+  /* Cyan accent color */
   transform: translateX(4px);
 }
 
 @media (max-width: 1024px) {
   .leftLinks {
-    display: none; /* Hide main links on tablet/mobile for now to keep it clean */
+    display: none;
+    /* Hide main links on tablet/mobile for now to keep it clean */
   }
+
   .navContainer {
-    grid-template-columns: auto auto; /* Just Logo and Button */
+    grid-template-columns: auto auto;
+    /* Just Logo and Button */
     justify-content: space-between;
   }
+
   .logoWrapper {
-    justify-content: flex-start; /* Align logo to left when links are hidden */
+    justify-content: flex-start;
+    /* Align logo to left when links are hidden */
   }
+
   .navButton {
     padding: 10px 18px;
     font-size: 0.75rem;
   }
+
   .navLogo {
-    max-height: 50px; /* Scale down logo slightly */
+    max-height: 110px;
+    /* Scale down logo slightly for tablet */
   }
 }
 
@@ -202,26 +224,32 @@
   .navContainer {
     padding: 0 5%;
   }
+
   .navButton {
     padding: 8px 14px;
     font-size: 0.7rem;
     letter-spacing: 0;
   }
+
   .navLogo {
-    max-height: 40px;
+    max-height: 120px;
+    /* Increased mobile logo size */
+    width: auto;
   }
 }
 
 /* Footer CSS */
 .footer {
   background-color: #000000;
-  padding: 60px 0 20px 0; /* More padding top, less bottom for cookie prefs */
+  padding: 60px 0 20px 0;
+  /* More padding top, less bottom for cookie prefs */
   width: 100%;
 }
 
 .footerContent {
   display: flex;
-  align-items: flex-start; /* Align to top instead of center */
+  align-items: flex-start;
+  /* Align to top instead of center */
   justify-content: space-between;
   width: 100%;
   max-width: 1600px;
@@ -233,12 +261,14 @@
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 40px; /* Space between logo and cookie prefs */
+  gap: 40px;
+  /* Space between logo and cookie prefs */
 }
 
 .footerLogo {
-  height: 50px;
+  height: 200px;
   width: auto;
+  filter: brightness(1.35) contrast(1.15) drop-shadow(0 0 15px rgba(255, 215, 0, 0.15));
 }
 
 .cookiePrefsBtn {
@@ -261,7 +291,8 @@
 
 .footerLinkCol {
   flex: 0 0 auto;
-  padding-top: 15px; /* Align with info column text */
+  padding-top: 15px;
+  /* Align with info column text */
 }
 
 .footerLink {
@@ -269,7 +300,8 @@
   color: #ffffff;
   text-decoration: none;
   font-size: 0.95rem;
-  border-bottom: 1px solid #ffffff; /* Solid white underline */
+  border-bottom: 1px solid #ffffff;
+  /* Solid white underline */
   padding-bottom: 1px;
   transition: opacity 0.3s ease;
 }
@@ -283,7 +315,8 @@
   text-align: center;
   font-family: var(--font-inter);
   color: #ffffff;
-  font-size: 0.95rem; /* Match size with links */
+  font-size: 0.95rem;
+  /* Match size with links */
   line-height: 1.8;
 }
 
@@ -296,7 +329,8 @@
 }
 
 .footerEmail {
-  color: #79d7f6; /* Cyan/blue color from original */
+  color: #79d7f6;
+  /* Cyan/blue color from original */
   text-decoration: none;
   transition: opacity 0.3s ease;
 }
@@ -310,7 +344,8 @@
   gap: 25px;
   align-items: center;
   flex: 0 0 auto;
-  padding-top: 10px; /* Align with info column */
+  padding-top: 10px;
+  /* Align with info column */
 }
 
 .footerSocialIcon {
@@ -331,6 +366,7 @@
     gap: 30px;
     padding: 0 6%;
   }
+
   .footerLogoCol {
     align-items: center;
     text-align: center;
@@ -341,21 +377,26 @@
   .footer {
     padding: 40px 0 20px 0;
   }
+
   .footerContent {
     flex-direction: column;
     text-align: center;
     gap: 40px;
     align-items: center;
   }
+
   .footerLogoCol {
     gap: 20px;
   }
+
   .cookiePrefsBtn {
     text-align: center;
   }
+
   .footerLinkCol {
     padding-top: 0;
   }
+
   .footerSocialCol {
     padding-top: 0;
     gap: 30px;
@@ -366,9 +407,11 @@
   .footerInfoCol {
     font-size: 0.85rem;
   }
+
   .footerLink {
     font-size: 0.85rem;
   }
+
   .footerSocialIcon {
     font-size: 1.2rem;
   }

@@ -60,8 +60,8 @@ const Navbar = () => {
 
         <Link to="/" className="logoWrapper">
           <img 
-            src="https://images.squarespace-cdn.com/content/v1/6701097f9e93b178e9a6a834/636e9411-2bf8-4818-afc5-7b4d6befbf8d/Bianco_trasparente.png?format=1500w" 
-            alt="Anima Studios" 
+            src="/images/logo_final_cropped.png" 
+            alt="JAI TECH FILM CITY PVT LTD" 
             className="navLogo" 
           />
         </Link>

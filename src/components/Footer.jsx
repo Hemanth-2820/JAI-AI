@@ -8,8 +8,8 @@ const Footer = () => {
         
         <div className="footerLogoCol">
           <img 
-            src="https://images.squarespace-cdn.com/content/v1/6701097f9e93b178e9a6a834/15c2a891-45a1-4369-835f-05a254cfff2b/Bianco_trasparente.png" 
-            alt="Anima Studios" 
+            src="/images/logo_final_cropped.png" 
+            alt="JAI TECH FILM CITY PVT LTD" 
             className="footerLogo" 
           />
          

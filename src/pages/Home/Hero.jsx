@@ -20,10 +20,16 @@ const Hero = () => {
   useEffect(() => {
     // Whenever the index changes, load and play the new video
     if (videoRef.current) {
+      // Force muted for mobile browsers to allow autoplay
+      videoRef.current.defaultMuted = true;
+      videoRef.current.muted = true;
       videoRef.current.load();
-      videoRef.current.play().catch(error => {
-        console.log("Autoplay was prevented by the browser:", error);
-      });
+      const playPromise = videoRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(error => {
+          console.log("Autoplay was prevented by the browser, falling back to poster:", error);
+        });
+      }
     }
   }, [currentVideoIndex]);
 
