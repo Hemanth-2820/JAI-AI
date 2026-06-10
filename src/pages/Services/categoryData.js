@@ -178,7 +178,7 @@ export const categoryData = {
           "icon": "☕"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
+      "image": "/images/features/web-development-BusinessWebsites.jpg"
     },
     "flowSection": {
       "title": "Why you should work with Digitali360?",
@@ -611,7 +611,7 @@ export const categoryData = {
           "icon": "☕"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
+      "image": "/images/features/software-development-CustomSoftwareDevelopment.jpg"
     },
     "flowSection": {
       "title": "Why you should work with Digitali360?",
@@ -824,7 +824,7 @@ export const categoryData = {
           "icon": "☕"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
+      "image": "/images/features/aws-devops-AWSCloudArchitecture.jpg"
     },
     "flowSection": {
       "title": "Why you should work with Digitali360?",
@@ -1036,7 +1036,7 @@ export const categoryData = {
           "icon": "☕"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
+      "image": "/images/features/hosting-server-DedicatedServerHosting.jpg"
     },
     "flowSection": {
       "title": "Why you should work with Digitali360?",
@@ -1460,7 +1460,7 @@ export const categoryData = {
           "icon": "☕"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
+      "image": "/images/features/ai-chatbot-CustomChatGPTIntegration.jpg"
     },
     "flowSection": {
       "title": "Why you should work with Digitali360?",
@@ -1671,7 +1671,7 @@ export const categoryData = {
           "icon": "☕"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
+      "image": "/images/features/ivr-services-CloudIVRDeployment.jpg"
     },
     "flowSection": {
       "title": "Why you should work with Digitali360?",
@@ -1879,7 +1879,7 @@ export const categoryData = {
           "icon": "☕"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
+      "image": "/images/features/api-integration-CustomAPIDevelopment.jpg"
     },
     "flowSection": {
       "title": "Why you should work with Digitali360?",
@@ -2091,7 +2091,7 @@ export const categoryData = {
           "icon": "☕"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
+      "image": "/images/features/ecommerce-solutions-Shopify%26WooCommerce.jpg"
     },
     "flowSection": {
       "title": "Why you should work with Digitali360?",
@@ -2303,7 +2303,7 @@ export const categoryData = {
           "icon": "☕"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
+      "image": "/images/features/security-maintenance-VulnerabilityAuditing.jpg"
     },
     "flowSection": {
       "title": "Why you should work with Digitali360?",
@@ -2515,7 +2515,7 @@ export const categoryData = {
           "icon": "☕"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
+      "image": "/images/features/ai-automation-WorkflowAutomation.jpg"
     },
     "flowSection": {
       "title": "Why you should work with Digitali360?",
