@@ -4,6 +4,57 @@ export const categoryData = {
     "subtitle": "",
     "description": "In the digital age, your website is your most crucial business asset. We architect and develop stunning, high-performance web solutions that serve as the foundation of your digital presence. From intricate SaaS platforms to elegant corporate landing pages, our engineering team ensures pixel-perfect design combined with robust, scalable backends.",
     "heroImage": "/images/webdev_hero.jpg",
+        "extendedCapabilities": [
+      {
+        "title": "Headless Architecture",
+        "desc": "Decoupled front-ends using Next.js and Gatsby for lightning-fast delivery.",
+        "image": "/images/animated/web-development.svg",
+        "bgColor": "#B48366",
+        "textColor": "#ffffff",
+        "span": 1
+      },
+      {
+        "title": "Jamstack Solutions",
+        "desc": "Pre-rendered static sites with dynamic APIs for ultimate security and speed.",
+        "image": "/images/animated/jamstack-solutions.svg",
+        "bgColor": "#E2C3B7",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Web Accessibility",
+        "desc": "WCAG compliant designs ensuring your digital presence is accessible to everyone.",
+        "image": "/images/animated/web-accessibility.svg",
+        "bgColor": "#114051",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Third-Party Integrations",
+        "desc": "Seamless connections with CRMs, payment gateways, and marketing automation tools.",
+        "image": "/images/animated/third-party-integrations.svg",
+        "bgColor": "#1A3129",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Performance Optimization",
+        "desc": "Advanced caching and asset optimization to achieve 100/100 Lighthouse scores.",
+        "image": "/images/animated/performance-optimization.svg",
+        "bgColor": "#DDE2CD",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Conversion Rate Optimization",
+        "desc": "Data-backed UI tweaks designed specifically to turn your visitors into customers.",
+        "image": "/images/animated/conversion-rate-optimization.svg",
+        "bgColor": "#C3DBE3",
+        "textColor": "#0E1F1A",
+        "span": 1
+      }
+    ],
+
     "features": [
       {
         "title": "Business Websites",
@@ -260,6 +311,57 @@ export const categoryData = {
     "subtitle": "Next-generation mobile experiences.",
     "description": "We build intuitive, high-performance mobile applications that keep your users engaged on the go. Our development lifecycle covers everything from rapid prototyping to cross-platform deployment, ensuring your app runs flawlessly on any device.",
     "heroImage": "/images/appdev_hero.jpg",
+        "extendedCapabilities": [
+      {
+        "title": "Wearable App Integration",
+        "desc": "Companion applications designed perfectly for Apple Watch and Wear OS.",
+        "image": "/images/animated/business-websites.svg",
+        "bgColor": "#B48366",
+        "textColor": "#ffffff",
+        "span": 1
+      },
+      {
+        "title": "AR/VR Experiences",
+        "desc": "Immersive augmented reality features powered by ARKit and ARCore.",
+        "image": "/images/animated/ar-vr-experiences.svg",
+        "bgColor": "#E2C3B7",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Offline-First Architecture",
+        "desc": "Robust local caching ensuring core functionality without internet.",
+        "image": "/images/animated/offline-first-architecture.svg",
+        "bgColor": "#114051",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "IoT Companion Apps",
+        "desc": "Secure Bluetooth and WiFi bridging for smart home hardware.",
+        "image": "/images/animated/iot-companion-apps.svg",
+        "bgColor": "#1A3129",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "In-App Subscriptions",
+        "desc": "Frictionless integration of RevenueCat and native billing SDKs.",
+        "image": "/images/animated/in-app-subscriptions.svg",
+        "bgColor": "#DDE2CD",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "App Bundle Optimization",
+        "desc": "Aggressive size reduction techniques for faster app store downloads.",
+        "image": "/images/animated/app-bundle-optimization.svg",
+        "bgColor": "#C3DBE3",
+        "textColor": "#0E1F1A",
+        "span": 1
+      }
+    ],
+
     "features": [
       {
         "title": "Android App Development",
@@ -491,6 +593,57 @@ export const categoryData = {
     "subtitle": "Enterprise-grade bespoke software solutions.",
     "description": "Generic off-the-shelf software often forces you to compromise your operational efficiency. We engineer custom software solutions precisely mapped to your business workflows. From complex ERP systems to advanced inventory management, our software transforms operational bottlenecks into automated, high-speed processes.",
     "heroImage": "/images/software_hero.jpg",
+        "extendedCapabilities": [
+      {
+        "title": "Microservices Architecture",
+        "desc": "Scalable, independent services to replace monolithic bottlenecks.",
+        "image": "/images/animated/android-app-development.svg",
+        "bgColor": "#B48366",
+        "textColor": "#ffffff",
+        "span": 1
+      },
+      {
+        "title": "DevSecOps Integration",
+        "desc": "Automated security checks seamlessly built into your development pipeline.",
+        "image": "/images/animated/devsecops-integration.svg",
+        "bgColor": "#E2C3B7",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Cloud-Native Apps",
+        "desc": "Applications designed from the ground up to leverage cloud scalability.",
+        "image": "/images/animated/cloud-native-apps.svg",
+        "bgColor": "#114051",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Automated Testing Suites",
+        "desc": "Comprehensive unit, integration, and E2E testing to guarantee reliability.",
+        "image": "/images/animated/automated-testing-suites.svg",
+        "bgColor": "#1A3129",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Technical Debt Reduction",
+        "desc": "Strategic refactoring of legacy codebases for better maintainability.",
+        "image": "/images/animated/technical-debt-reduction.svg",
+        "bgColor": "#DDE2CD",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Agile Team Augmentation",
+        "desc": "Embedded experts to accelerate your internal development velocity.",
+        "image": "/images/animated/agile-team-augmentation.svg",
+        "bgColor": "#C3DBE3",
+        "textColor": "#0E1F1A",
+        "span": 1
+      }
+    ],
+
     "features": [
       {
         "title": "Custom Software Development",
@@ -723,6 +876,57 @@ export const categoryData = {
     "subtitle": "Automate, scale, and optimize your cloud infrastructure.",
     "description": "Achieve unparalleled scalability and reliability with our AWS cloud and DevOps engineering. We implement CI/CD pipelines, containerization, and infrastructure-as-code to ensure your applications can handle millions of users with zero downtime. Transitioning to a modern DevOps culture reduces deployment times from weeks to minutes.",
     "heroImage": "/images/awsdevops_hero.jpg",
+        "extendedCapabilities": [
+      {
+        "title": "Disaster Recovery Planning",
+        "desc": "Automated multi-region failovers to guarantee zero data loss.",
+        "image": "/images/animated/custom-software-development.svg",
+        "bgColor": "#B48366",
+        "textColor": "#ffffff",
+        "span": 1
+      },
+      {
+        "title": "Cost Optimization Strategies",
+        "desc": "Deep architectural audits to drastically reduce your monthly AWS bill.",
+        "image": "/images/animated/cost-optimization-strategies.svg",
+        "bgColor": "#E2C3B7",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Chaos Engineering",
+        "desc": "Proactive system stress-testing to build ultimate infrastructure resilience.",
+        "image": "/images/animated/chaos-engineering.svg",
+        "bgColor": "#114051",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "GitOps Workflows",
+        "desc": "Infrastructure management driven entirely through version-controlled code.",
+        "image": "/images/animated/gitops-workflows.svg",
+        "bgColor": "#1A3129",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Kubernetes Orchestration",
+        "desc": "Expert EKS management for highly scalable microservice deployments.",
+        "image": "/images/animated/kubernetes-orchestration.svg",
+        "bgColor": "#DDE2CD",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "24/7 Site Reliability (SRE)",
+        "desc": "Always-on monitoring and incident response to keep your systems up.",
+        "image": "/images/animated/24-7-site-reliability-sre.svg",
+        "bgColor": "#C3DBE3",
+        "textColor": "#0E1F1A",
+        "span": 1
+      }
+    ],
+
     "features": [
       {
         "title": "AWS Cloud Architecture",
@@ -951,6 +1155,57 @@ export const categoryData = {
     "subtitle": "Secure, lightning-fast hosting solutions.",
     "description": "Your digital operations rely on rock-solid servers. We provide fully managed hosting services, ensuring maximum uptime, blazing-fast load speeds, and impenetrable security perimeters. From dedicated bare-metal servers to auto-scaling cloud instances, we handle all server-side maintenance so you can focus on growing your business.",
     "heroImage": "/images/hosting_hero.jpg",
+        "extendedCapabilities": [
+      {
+        "title": "High-Availability Clusters",
+        "desc": "Load-balanced server architectures guaranteeing 99.99% uptime.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#B48366",
+        "textColor": "#ffffff",
+        "span": 1
+      },
+      {
+        "title": "DDoS Mitigation",
+        "desc": "Enterprise-grade traffic filtering to keep your servers online during attacks.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#E2C3B7",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Automated Backups",
+        "desc": "Geographically redundant snapshotting for instant disaster recovery.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#114051",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Edge Caching",
+        "desc": "Global CDN integration to deliver content to users in milliseconds.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#1A3129",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Bare Metal Servers",
+        "desc": "Dedicated, unshared hardware for maximum computational performance.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#DDE2CD",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Server Migration",
+        "desc": "Zero-downtime transfers of your existing infrastructure to our ecosystem.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#C3DBE3",
+        "textColor": "#0E1F1A",
+        "span": 1
+      }
+    ],
+
     "features": [
       {
         "title": "Dedicated Server Hosting",
@@ -1178,6 +1433,57 @@ export const categoryData = {
     "subtitle": "Data-driven strategies for explosive growth.",
     "description": "Building a great product is only half the battle; getting it in front of the right audience is where we excel. Our full-funnel digital marketing strategies leverage deep data analytics, AI-optimized ad buying, and high-conversion content to turn clicks into loyal customers and multiply your ROI.",
     "heroImage": "/images/digitalmarketing_hero.jpg",
+        "extendedCapabilities": [
+      {
+        "title": "Programmatic Advertising",
+        "desc": "Algorithmic ad buying for highly precise audience targeting.",
+        "image": "/images/animated/dedicated-server-hosting.svg",
+        "bgColor": "#B48366",
+        "textColor": "#ffffff",
+        "span": 1
+      },
+      {
+        "title": "Influencer Partnerships",
+        "desc": "Strategic vetting and management of niche brand ambassadors.",
+        "image": "/images/animated/influencer-partnerships.svg",
+        "bgColor": "#E2C3B7",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Interactive Content",
+        "desc": "Quizzes, calculators, and assessments that drive massive engagement.",
+        "image": "/images/animated/interactive-content.svg",
+        "bgColor": "#114051",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Local SEO Domination",
+        "desc": "Hyper-targeted map and directory optimization for brick-and-mortar.",
+        "image": "/images/animated/local-seo-domination.svg",
+        "bgColor": "#1A3129",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Marketing Automation",
+        "desc": "Complex trigger-based email and SMS sequences to nurture leads.",
+        "image": "/images/animated/marketing-automation.svg",
+        "bgColor": "#DDE2CD",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Attribution Modeling",
+        "desc": "Multi-touch analytics revealing the true ROI of every marketing channel.",
+        "image": "/images/animated/attribution-modeling.svg",
+        "bgColor": "#C3DBE3",
+        "textColor": "#0E1F1A",
+        "span": 1
+      }
+    ],
+
     "features": [
       {
         "title": "Search Engine Optimization (SEO)",
@@ -1405,6 +1711,57 @@ export const categoryData = {
     "subtitle": "Intelligent conversational agents powered by LLMs.",
     "description": "Transform your customer support and internal knowledge retrieval with custom Large Language Models. We implement state-of-the-art Retrieval-Augmented Generation (RAG) pipelines so your AI chatbots can securely read your company documents and answer complex queries with zero hallucinations.",
     "heroImage": "/images/chatbot_hero.jpg",
+        "extendedCapabilities": [
+      {
+        "title": "Contextual NLP",
+        "desc": "Chatbots that understand intent, nuance, and conversational history.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#B48366",
+        "textColor": "#ffffff",
+        "span": 1
+      },
+      {
+        "title": "Omnichannel Routing",
+        "desc": "Seamless deployment across WhatsApp, Messenger, Web, and SMS.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#E2C3B7",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Human Handoff",
+        "desc": "Intelligent escalation to live agents when complex issues arise.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#114051",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Sentiment Analysis",
+        "desc": "Real-time emotion detection to adjust the bot's tone dynamically.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#1A3129",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Voice Bot Integration",
+        "desc": "Spoken conversational interfaces powered by advanced speech-to-text.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#DDE2CD",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Knowledge Base Sync",
+        "desc": "Bots that dynamically read and answer questions from your company docs.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#C3DBE3",
+        "textColor": "#0E1F1A",
+        "span": 1
+      }
+    ],
+
     "features": [
       {
         "title": "Custom ChatGPT Integration",
@@ -1632,6 +1989,57 @@ export const categoryData = {
     "subtitle": "Advanced telephony and voice automation.",
     "description": "Modernize your call center with intelligent Interactive Voice Response (IVR) systems. We bridge traditional telephony with cloud computing and AI, allowing your business to handle massive call volumes, route customers intelligently, and process voice-based transactions securely without human intervention.",
     "heroImage": "/images/ivr_hero.jpg",
+        "extendedCapabilities": [
+      {
+        "title": "Dynamic Call Routing",
+        "desc": "Intelligently direct callers to the right department based on CRM data.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#B48366",
+        "textColor": "#ffffff",
+        "span": 1
+      },
+      {
+        "title": "Speech Recognition IVR",
+        "desc": "Allow callers to simply speak their needs instead of pressing buttons.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#E2C3B7",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Visual IVR",
+        "desc": "Send an SMS link to transition callers to a digital smartphone menu.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#114051",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Queue Callbacks",
+        "desc": "Let customers keep their place in line without staying on hold.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#1A3129",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Multi-language Prompts",
+        "desc": "Automatic routing based on the caller's geographic location or preference.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#DDE2CD",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Post-call Surveys",
+        "desc": "Automated feedback collection immediately after agent interaction.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#C3DBE3",
+        "textColor": "#0E1F1A",
+        "span": 1
+      }
+    ],
+
     "features": [
       {
         "title": "Cloud IVR Deployment",
@@ -1858,6 +2266,57 @@ export const categoryData = {
     "subtitle": "Seamlessly connect your digital ecosystem.",
     "description": "Siloed data destroys productivity. We specialize in building robust API bridges that make your disparate software systems talk to each other. Whether you are connecting legacy on-premise software to modern SaaS platforms or orchestrating microservices, our middleware solutions ensure flawless data synchronization.",
     "heroImage": "/images/api_hero.jpg",
+        "extendedCapabilities": [
+      {
+        "title": "Legacy System Bridging",
+        "desc": "Connect modern web apps to older on-premise mainframe databases.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#B48366",
+        "textColor": "#ffffff",
+        "span": 1
+      },
+      {
+        "title": "Custom Middleware",
+        "desc": "Tailored translation layers to map incompatible data structures.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#E2C3B7",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "OAuth2 Authentication",
+        "desc": "Secure, token-based connection protocols for third-party access.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#114051",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Webhooks Architecture",
+        "desc": "Real-time, event-driven data pushing instead of costly constant polling.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#1A3129",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "GraphQL Migration",
+        "desc": "Transition your REST APIs to flexible, client-driven query endpoints.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#DDE2CD",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Rate Limiting",
+        "desc": "Enterprise traffic control to protect your internal systems from overload.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#C3DBE3",
+        "textColor": "#0E1F1A",
+        "span": 1
+      }
+    ],
+
     "features": [
       {
         "title": "Custom API Development",
@@ -2081,6 +2540,57 @@ export const categoryData = {
     "subtitle": "High-conversion online retail platforms.",
     "description": "We build digital storefronts engineered for scale, speed, and massive conversion rates. From beautifully customized Shopify themes to complex headless commerce architectures on Next.js, our E-commerce solutions provide your customers with friction-free checkout experiences while giving you powerful inventory management.",
     "heroImage": "/images/ecommerce_hero.jpg",
+        "extendedCapabilities": [
+      {
+        "title": "Headless Commerce",
+        "desc": "Decouple your frontend experience from the Shopify or Magento backend.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#B48366",
+        "textColor": "#ffffff",
+        "span": 1
+      },
+      {
+        "title": "Abandoned Cart Recovery",
+        "desc": "Automated email and SMS sequences to drastically boost conversion rates.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#E2C3B7",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Dynamic Pricing",
+        "desc": "Algorithmic price adjustments based on real-time market demand and inventory.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#114051",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "AR Product Previews",
+        "desc": "Let customers visualize products in their physical space before buying.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#1A3129",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Subscription Billing",
+        "desc": "Seamless integration of recurring revenue models and membership tiers.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#DDE2CD",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Multi-currency Checkouts",
+        "desc": "Localized payment gateways reducing international friction.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#C3DBE3",
+        "textColor": "#0E1F1A",
+        "span": 1
+      }
+    ],
+
     "features": [
       {
         "title": "Shopify & WooCommerce",
@@ -2308,6 +2818,57 @@ export const categoryData = {
     "subtitle": "Protecting your digital assets around the clock.",
     "description": "Cyber threats never sleep, and neither does our security operations center. We provide proactive monitoring, vulnerability patching, and comprehensive site maintenance. Ensure your platforms are impenetrable, fully compliant with data privacy laws, and always performing at their absolute best.",
     "heroImage": "/images/security_hero.jpg",
+        "extendedCapabilities": [
+      {
+        "title": "Penetration Testing",
+        "desc": "Ethical hacking simulations to expose vulnerabilities before bad actors do.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#B48366",
+        "textColor": "#ffffff",
+        "span": 1
+      },
+      {
+        "title": "24/7 Threat Monitoring",
+        "desc": "Always-on Security Operations Center (SOC) analyzing network anomalies.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#E2C3B7",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Patch Management",
+        "desc": "Automated updates of core CMS systems and plugins to close zero-days.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#114051",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Data Encryption",
+        "desc": "Military-grade AES-256 encryption for data at rest and in transit.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#1A3129",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Uptime Monitoring",
+        "desc": "Ping checks every 30 seconds with immediate SMS alerts on failure.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#DDE2CD",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Compliance Auditing",
+        "desc": "Quarterly reviews to ensure strict adherence to GDPR, HIPAA, or SOC2.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#C3DBE3",
+        "textColor": "#0E1F1A",
+        "span": 1
+      }
+    ],
+
     "features": [
       {
         "title": "Vulnerability Auditing",
@@ -2535,6 +3096,57 @@ export const categoryData = {
     "subtitle": "Replacing manual tasks with intelligent workflows.",
     "description": "The future belongs to automated enterprises. We design and implement complex AI-driven workflows that eliminate repetitive manual labor. By integrating computer vision, NLP, and robotic process automation (RPA), we help your business achieve unprecedented levels of operational efficiency.",
     "heroImage": "/images/automation_hero.jpg",
+        "extendedCapabilities": [
+      {
+        "title": "RPA Implementation",
+        "desc": "Robotic Process Automation to eliminate repetitive data-entry tasks.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#B48366",
+        "textColor": "#ffffff",
+        "span": 1
+      },
+      {
+        "title": "Predictive Analytics",
+        "desc": "Machine learning models forecasting inventory shortages or churn.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#E2C3B7",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Document Extraction",
+        "desc": "Optical Character Recognition (OCR) to turn PDFs into structured data.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#114051",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Automated Workflows",
+        "desc": "Complex Zapier and Make.com integrations connecting all your SaaS tools.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#1A3129",
+        "textColor": "#ffffff",
+        "span": 2
+      },
+      {
+        "title": "Dynamic Content Generation",
+        "desc": "AI writing models drafting personalized emails at scale.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#DDE2CD",
+        "textColor": "#0E1F1A",
+        "span": 1
+      },
+      {
+        "title": "Smart Quality Control",
+        "desc": "Computer vision algorithms inspecting manufacturing lines in real-time.",
+        "image": "/images/animated/dummy.svg",
+        "bgColor": "#C3DBE3",
+        "textColor": "#0E1F1A",
+        "span": 1
+      }
+    ],
+
     "features": [
       {
         "title": "Workflow Automation",

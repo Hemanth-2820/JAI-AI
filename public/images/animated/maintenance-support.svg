@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0E1F1A" />
+  <g stroke="#E2FA71" stroke-width="3" opacity="0.6">
+    <line x1="300" y1="200" x2="500" y2="200"><animate attributeName="stroke-opacity" values="0.1;1;0.1" dur="2s" repeatCount="indefinite" /></line>
+    <line x1="500" y1="200" x2="400" y2="400"><animate attributeName="stroke-opacity" values="0.1;1;0.1" dur="2.5s" repeatCount="indefinite" /></line>
+    <line x1="400" y1="400" x2="300" y2="200"><animate attributeName="stroke-opacity" values="0.1;1;0.1" dur="3s" repeatCount="indefinite" /></line>
+    <line x1="300" y1="200" x2="200" y2="300"><animate attributeName="stroke-opacity" values="0.1;1;0.1" dur="1.5s" repeatCount="indefinite" /></line>
+    <line x1="500" y1="200" x2="600" y2="300"><animate attributeName="stroke-opacity" values="0.1;1;0.1" dur="3.5s" repeatCount="indefinite" /></line>
+    <line x1="400" y1="400" x2="400" y2="500"><animate attributeName="stroke-opacity" values="0.1;1;0.1" dur="2.2s" repeatCount="indefinite" /></line>
+  </g>
+  <g fill="#FFFFFF">
+    <circle cx="300" cy="200" r="15"><animate attributeName="r" values="15;25;15" dur="2s" repeatCount="indefinite" /></circle>
+    <circle cx="500" cy="200" r="15"><animate attributeName="r" values="15;25;15" dur="2.5s" repeatCount="indefinite" /></circle>
+    <circle cx="400" cy="400" r="20"><animate attributeName="r" values="20;30;20" dur="3s" repeatCount="indefinite" /></circle>
+    <circle cx="200" cy="300" r="10"><animate attributeName="r" values="10;20;10" dur="1.5s" repeatCount="indefinite" /></circle>
+    <circle cx="600" cy="300" r="10"><animate attributeName="r" values="10;20;10" dur="3.5s" repeatCount="indefinite" /></circle>
+    <circle cx="400" cy="500" r="10"><animate attributeName="r" values="10;20;10" dur="2.2s" repeatCount="indefinite" /></circle>
+  </g>
+  <circle cx="400" cy="300" r="150" fill="none" stroke="#114051" stroke-width="40" stroke-dasharray="20 40">
+    <animateTransform attributeName="transform" type="rotate" from="0 400 300" to="360 400 300" dur="20s" repeatCount="indefinite" />
+  </circle>
+</svg>

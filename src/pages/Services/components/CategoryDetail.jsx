@@ -1,8 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import * as LucideIcons from 'lucide-react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import styles from '../Services.module.css';
 
 const CategoryDetail = ({ categoryName, data, onBack }) => {
+  const processRef = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: processRef,
+    offset: ["start center", "end center"]
+  });
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -71,6 +78,30 @@ const CategoryDetail = ({ categoryName, data, onBack }) => {
         </section>
       )}
 
+      {/* 2.5. Extended Capabilities - ASYMMETRIC GRID DESIGN */}
+      {data.extendedCapabilities && data.extendedCapabilities.length > 0 && (
+      <section className={styles.superBentoSection} style={{ paddingTop: '0px' }}>
+        <p className={styles.superSmallLabel} style={{ paddingLeft: '5%', marginBottom: '40px' }}>CREATIVE CAPABILITIES</p>
+        <div className={styles.superAsymGrid} style={{ padding: '0 5%' }}>
+           {data.extendedCapabilities.map((feat, idx) => (
+             <div key={`asym-${idx}`} className={styles.superAsymCard} style={{ backgroundColor: feat.bgColor || '#E2E4DB', gridColumn: `span ${feat.span || 1}` }}>
+               <div className={styles.superAsymTextContent}>
+                 <h3 className={styles.superAsymCardTitle} style={{ color: feat.textColor || '#0E1F1A' }}>{feat.title}</h3>
+                 <p className={styles.superAsymCardDesc} style={{ color: feat.textColor || 'rgba(14, 31, 26, 0.8)' }}>{feat.desc}</p>
+               </div>
+               <div className={styles.superAsymImgWrapper}>
+                 {feat.video ? (
+                   <video src={feat.video} autoPlay loop muted playsInline className={styles.superAsymImg} />
+                 ) : (
+                   <img src={feat.image} alt={feat.title} className={styles.superAsymImg} />
+                 )}
+               </div>
+             </div>
+           ))}
+        </div>
+      </section>
+      )}
+
       {/* 3. Split Text & Image ("Why Web") */}
       <section className={styles.superSplit}>
         <div className={styles.superSplitLeft}>
@@ -136,7 +167,11 @@ const CategoryDetail = ({ categoryName, data, onBack }) => {
             </h2>
             <p>No more handoffs, holdups, or creative guesswork. Just a proven system for scalable, brand-aligned solutions.</p>
           </div>
-          <div className={styles.superProcessTimeline}>
+          <div className={styles.superProcessTimeline} ref={processRef}>
+            <motion.div 
+              className={styles.superProcessLineActive} 
+              style={{ scaleY: scrollYProgress }}
+            />
             {data.process.map((step, idx) => (
               <div key={idx} className={styles.superProcessStep}>
                 <div className={styles.superStepCircle}>{idx + 1}</div>
@@ -152,11 +187,11 @@ const CategoryDetail = ({ categoryName, data, onBack }) => {
 
       {/* 7. Bottom CTA Overlay */}
       <section className={styles.superBottomCta}>
-        <div className={styles.superBottomCtaInner} style={{ backgroundImage: `url(${data.heroImage})` }}>
+        <div className={styles.superBottomCtaInner} style={{ backgroundImage: `url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop)` }}>
           <div className={styles.superBottomCtaContent}>
             <h2>Now imagine this <span className={styles.superItalic}>creative power</span> behind your next project</h2>
             <p>This is just one of many creative services—what you do with them is up to you. Let's chat.</p>
-            <button className={styles.superBtnGreen}>Book a demo</button>
+            <button className={styles.superBtnLime}>Book a demo</button>
           </div>
         </div>
       </section>

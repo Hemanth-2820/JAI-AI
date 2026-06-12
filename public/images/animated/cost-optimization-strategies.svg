@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#1A3129" />
+  <g fill="#114051">
+    <rect x="200" y="400" width="60" height="100">
+      <animate attributeName="y" values="400;200;400" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="height" values="100;300;100" dur="3s" repeatCount="indefinite" />
+    </rect>
+    <rect x="300" y="300" width="60" height="200">
+      <animate attributeName="y" values="300;100;300" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="height" values="200;400;200" dur="4s" repeatCount="indefinite" />
+    </rect>
+    <rect x="400" y="350" width="60" height="150">
+      <animate attributeName="y" values="350;250;350" dur="2.5s" repeatCount="indefinite" />
+      <animate attributeName="height" values="150;250;150" dur="2.5s" repeatCount="indefinite" />
+    </rect>
+    <rect x="500" y="200" width="60" height="300">
+      <animate attributeName="y" values="200;50;200" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="height" values="300;450;300" dur="5s" repeatCount="indefinite" />
+    </rect>
+  </g>
+  <polyline points="230,400 330,300 430,350 530,200 630,150" fill="none" stroke="#E2FA71" stroke-width="8" stroke-linejoin="round">
+    <animate attributeName="points" values="230,400 330,300 430,350 530,200 630,150; 230,200 330,100 430,250 530,50 630,100; 230,400 330,300 430,350 530,200 630,150" dur="6s" repeatCount="indefinite" />
+  </polyline>
+</svg>

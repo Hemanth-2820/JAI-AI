@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#1A3129" />
+  <g transform="translate(100, 150)">
+    <rect x="0" y="0" width="400" height="300" rx="10" fill="#114051" />
+    <rect x="0" y="0" width="400" height="40" rx="10" fill="#0E1F1A" />
+    <circle cx="20" cy="20" r="6" fill="#E2FA71" />
+    <circle cx="40" cy="20" r="6" fill="#B48366" />
+    <circle cx="60" cy="20" r="6" fill="#FFFFFF" />
+    <rect x="20" y="70" width="150" height="20" fill="#FFFFFF" opacity="0.5" />
+    <rect x="20" y="110" width="250" height="10" fill="#E2FA71" opacity="0.3" />
+    <rect x="20" y="130" width="200" height="10" fill="#E2FA71" opacity="0.3" />
+    <animateTransform attributeName="transform" type="translate" values="100,150; 120,130; 100,150" dur="5s" repeatCount="indefinite" />
+  </g>
+  <g transform="translate(300, 250)">
+    <rect x="0" y="0" width="400" height="300" rx="10" fill="#0E1F1A" stroke="#E2FA71" stroke-width="4" />
+    <rect x="0" y="0" width="400" height="40" rx="10" fill="#114051" />
+    <rect x="30" y="80" width="100" height="100" fill="#FFFFFF" opacity="0.2">
+        <animate attributeName="width" values="100;150;100" dur="3s" repeatCount="indefinite" />
+    </rect>
+    <rect x="150" y="80" width="200" height="15" fill="#E2FA71" />
+    <rect x="150" y="110" width="150" height="15" fill="#E2FA71" opacity="0.5" />
+    <animateTransform attributeName="transform" type="translate" values="300,250; 280,270; 300,250" dur="4s" repeatCount="indefinite" />
+  </g>
+</svg>

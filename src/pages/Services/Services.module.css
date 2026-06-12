@@ -1536,10 +1536,11 @@
 /* ==================================
    SQUARESPACE DETAILED PAGE (CategoryDetail)
    ================================== */
-.ssContainer {
-  background-color: #000000;
-  color: #000000;
+.superContainer {
+  background-color: #0E1F1A;
+  color: #FFFFFF;
   min-height: 100vh;
+  overflow-x: clip; /* clip allows sticky to work */
 }
 
 .ssNav {
@@ -2938,6 +2939,7 @@
 /* 6. Process Section */
 .superProcessSection {
   display: flex;
+  align-items: flex-start;
   padding: 120px 5%;
   background-color: #0E1F1A;
   color: #FFFFFF;
@@ -2968,6 +2970,19 @@
   width: 60%;
   padding-left: 5%;
   border-left: 1px solid rgba(255,255,255,0.2);
+  position: relative;
+}
+
+.superProcessLineActive {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1px;
+  width: 3px;
+  background-color: #E2FA71;
+  box-shadow: 0 0 15px #E2FA71, 0 0 30px #E2FA71;
+  transform-origin: top;
+  z-index: 2;
 }
 
 .superProcessStep {
@@ -2987,13 +3002,22 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  border: 1px solid #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.4);
   background-color: #0E1F1A;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 20px;
   font-family: 'Playfair Display', serif;
+  transition: all 0.4s ease;
+  z-index: 3;
+}
+
+.superProcessStep:hover .superStepCircle {
+  border-color: #E2FA71;
+  color: #E2FA71;
+  box-shadow: 0 0 20px rgba(226, 250, 113, 0.6);
+  transform: scale(1.1);
 }
 
 .superStepContent h3 {
@@ -3009,42 +3033,7 @@
 }
 
 /* 7. Bottom CTA */
-.superBottomCta {
-  padding: 0 5% 100px 5%;
-  background-color: #0E1F1A;
-}
 
-.superBottomCtaInner {
-  border-radius: 24px;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  min-height: 600px;
-  display: flex;
-  align-items: center;
-  padding: 80px;
-}
-
-.superBottomCtaContent {
-  position: relative;
-  z-index: 2;
-  max-width: 600px;
-  color: #FFFFFF;
-}
-
-.superBottomCtaContent h2 {
-  font-size: clamp(40px, 5vw, 64px);
-  line-height: 1.1;
-  font-weight: 500;
-  margin-bottom: 24px;
-}
-
-.superBottomCtaContent p {
-  font-size: 20px;
-  line-height: 1.5;
-  margin-bottom: 40px;
-}
 
 /* Mobile Responsiveness */
 @media (max-width: 1024px) {
@@ -3216,119 +3205,34 @@
 
 
 
-/* =========================================
-   ASYMMETRIC BENTO GRID
-   ========================================= */
 
-.superAsymGrid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-}
-
-.superAsymCard {
-  position: relative;
-  border-radius: 24px;
-  overflow: hidden;
-  min-height: 480px;
-  background-color: #E2E4DB;
-  transition: transform 0.3s ease;
-}
-
-.superAsymCard:hover {
-  transform: translateY(-4px);
-}
-
-/* Asymmetric Grid Sizing & Background Colors */
-.superAsymCard:nth-child(6n + 1),
-.superAsymCard:nth-child(6n + 2) {
-  grid-column: span 1;
-}
-.superAsymCard:nth-child(6n + 3) {
-  grid-column: span 2;
-}
-.superAsymCard:nth-child(6n + 4) {
-  grid-column: span 2;
-  background-color: #1A3129; /* Dark green */
-}
-.superAsymCard:nth-child(6n + 5) {
-  grid-column: span 1;
-  background-color: #DDE2CD; /* Light green */
-}
-.superAsymCard:nth-child(6n + 6) {
-  grid-column: span 1;
-  background-color: #C3DBE3; /* Light blue */
-}
 
 /* Text Content */
-.superAsymTextContent {
-  position: absolute;
-  top: 0; left: 0; width: 100%;
-  padding: 40px;
-  z-index: 2;
-}
 
-.superAsymCardTitle {
-  font-size: 28px;
-  font-weight: 500;
-  margin-bottom: 16px;
-  color: #0E1F1A;
-}
 
-.superAsymCardDesc {
-  font-size: 16px;
-  line-height: 1.6;
-  color: rgba(14, 31, 26, 0.8);
-}
 
-/* Force text to white for dark backgrounds (4th card in pattern) */
-.superAsymCard:nth-child(6n + 4) .superAsymCardTitle {
-  color: #ffffff !important;
-}
-.superAsymCard:nth-child(6n + 4) .superAsymCardDesc {
-  color: rgba(255, 255, 255, 0.8) !important;
-}
+
+
+
+
+
 
 /* Image Placement */
-.superAsymImgWrapper {
-  position: absolute;
-  bottom: 0; right: 0; width: 100%; height: 55%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  overflow: hidden;
-}
 
-.superAsymImg {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: bottom;
-  mask-image: linear-gradient(to bottom, transparent 0%, black 20%);
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 20%);
-}
+
+
 
 /* Responsive */
 @media (max-width: 1024px) {
-  .superAsymGrid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .superAsymCard {
-    grid-column: span 1 !important;
-  }
+  
+  
   .superAsymCard:nth-child(6n + 3),
-  .superAsymCard:nth-child(6n + 4) {
-    grid-column: span 2 !important;
-  }
+  
 }
 
 @media (max-width: 600px) {
-  .superAsymGrid {
-    grid-template-columns: 1fr;
-  }
-  .superAsymCard {
-    grid-column: span 1 !important;
-  }
+  
+  
 }
 
 
@@ -3415,4 +3319,159 @@
 .superBentoCard:hover .superBentoHover {
   opacity: 1;
   transform: translateY(0);
+}
+
+
+
+/* =========================================
+   ASYMMETRIC BENTO GRID (CREATIVE CAPABILITIES)
+   ========================================= */
+
+.superAsymGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.superAsymCard {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  min-height: 480px;
+  background-color: #E2E4DB;
+  transition: transform 0.3s ease;
+}
+
+.superAsymCard:hover {
+  transform: translateY(-4px);
+}
+
+.superAsymTextContent {
+  position: absolute;
+  top: 0; left: 0; width: 100%;
+  padding: 40px;
+  z-index: 2;
+}
+
+.superAsymCardTitle {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.superAsymCardDesc {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.superAsymImgWrapper {
+  position: absolute;
+  bottom: 0; right: 0; width: 100%; height: 55%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.superAsymImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  mask-image: linear-gradient(to bottom, transparent 0%, black 20%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 20%);
+}
+
+@media (max-width: 1024px) {
+  .superAsymGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .superAsymCard {
+    grid-column: span 1 !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .superAsymGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.superBottomCta {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.superBottomCtaInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.superBottomCtaInner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(14, 31, 26, 0.95) 0%, rgba(14, 31, 26, 0.7) 40%, transparent 100%);
+}
+
+.superBottomCtaContent {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.superBottomCtaContent h2 {
+  font-size: clamp(40px, 5vw, 64px);
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 1.1;
+  max-width: 700px;
+  margin-bottom: 24px;
+}
+
+.superBottomCtaContent p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 500px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.superBtnLime {
+  background-color: #E2FA71;
+  color: #0E1F1A;
+  padding: 18px 36px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.superBtnLime:hover {
+  background-color: #d1e860;
+  transform: translateY(-2px);
 }

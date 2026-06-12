@@ -30,7 +30,7 @@ body {
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 /* Premium Typographic Scale */
@@ -97,3 +97,21 @@ a:hover {
   animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
  
+
+.navDropdownWrapper .navLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.dropdownArrow {
+  font-size: 10px;
+  color: #cccccc;
+  line-height: 1;
+  transition: transform 0.3s ease;
+}
+
+.navDropdownWrapper:hover .dropdownArrow {
+  transform: rotate(180deg);
+}

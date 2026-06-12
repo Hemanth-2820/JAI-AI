@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1A3129" />
+      <stop offset="100%" stop-color="#0E1F1A" />
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad1)" />
+  <g stroke="rgba(226, 250, 113, 0.3)" stroke-width="2">
+    <line x1="200" y1="200" x2="600" y2="400" />
+    <line x1="200" y1="400" x2="600" y2="200" />
+    <line x1="400" y1="100" x2="400" y2="500" />
+    <line x1="100" y1="300" x2="700" y2="300" />
+  </g>
+  <circle cx="200" cy="200" r="10" fill="#E2FA71">
+    <animate attributeName="r" values="8;15;8" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="600" cy="400" r="15" fill="#E2FA71">
+    <animate attributeName="r" values="10;20;10" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="200" cy="400" r="12" fill="#E2FA71">
+    <animate attributeName="r" values="8;18;8" dur="2.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="600" cy="200" r="10" fill="#E2FA71">
+    <animate attributeName="r" values="10;15;10" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="400" cy="300" r="25" fill="#FFFFFF">
+    <animate attributeName="r" values="20;30;20" dur="4s" repeatCount="indefinite" />
+  </circle>
+</svg>

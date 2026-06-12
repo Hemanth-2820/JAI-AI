@@ -1,23 +1,22 @@
 /* Navbar CSS */
 .navbar {
   position: absolute;
-  top: -30px;
-  /* Negative top to pull it higher than the screen edge */
+  top: 0;
   left: 0;
   width: 100%;
   z-index: 100;
-  padding: 0;
-  /* Moved to the very top edge */
+  padding: 5px 0;
   transition: all 0.4s ease;
 }
 
 .navbarScrolled {
   position: fixed;
-  background: rgba(0, 0, 0, 0.85);
-  /* Slightly translucent dark background on scroll */
-  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   padding: 5px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  top: 0; /* Ensure it sticks exactly to the top when scrolled */
 }
 
 .navContainer {
@@ -39,14 +38,16 @@
 .navLink {
   font-family: var(--font-inter);
   font-size: 1.05rem;
-  /* Exactly matched font size */
   font-weight: 500;
   color: #ffffff;
   text-decoration: none;
   padding-bottom: 4px;
-  /* Space for underline */
   position: relative;
   transition: opacity 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
 }
 
 .navLink:hover {
@@ -69,8 +70,7 @@
 }
 
 .navLogo {
-  max-height: 180px;
-  /* Extremely large logo size */
+  max-height: 80px;
   width: auto;
   filter: brightness(1.35) contrast(1.15) drop-shadow(0 0 15px rgba(255, 215, 0, 0.15));
 }
@@ -106,23 +106,22 @@
 .navDropdownWrapper {
   position: relative;
   display: inline-block;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   /* Expand hover area */
-  margin-bottom: -20px;
+  margin-bottom: -15px;
 }
 
 .dropdownArrow {
   font-size: 0.7em;
-  margin-left: 4px;
-  vertical-align: middle;
   opacity: 0.7;
+  margin-top: 2px;
 }
 
 .dropdownMenu {
   position: absolute;
   top: 100%;
   left: 0;
-  transform: translateY(20px);
+  transform: translateY(10px);
   background: rgba(10, 10, 10, 0.95);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -142,7 +141,7 @@
 .navDropdownWrapper:hover .dropdownMenu {
   opacity: 1;
   visibility: visible;
-  transform: translateY(10px);
+  transform: translateY(0);
   pointer-events: auto;
 }
 
