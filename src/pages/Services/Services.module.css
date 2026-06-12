@@ -3,7 +3,7 @@
 /* Base */
 .pageContainer {
   font-family: 'Clarkson', 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #ffffff;
+  color: #000000;
   background-color: #000000;
   width: 100%;
   overflow-x: hidden;
@@ -18,7 +18,7 @@
   line-height: 1.05;
   letter-spacing: -0.05em;
   margin-bottom: 24px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .h2Scale {
@@ -27,7 +27,7 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -0.03em;
-  color: #ffffff;
+  color: #000000;
 }
 
 .h3Scale {
@@ -35,25 +35,25 @@
   font-size: clamp(28px, 3.5vw, 48px);
   font-weight: 500;
   line-height: 1.2;
-  color: #ffffff;
+  color: #000000;
 }
 
 .h4Scale {
   font-size: clamp(18px, 2vw, 24px);
   font-weight: 500;
   line-height: 1.3;
-  color: #ffffff;
+  color: #000000;
 }
 
 .pScale {
   font-size: clamp(18px, 2vw, 22px);
   line-height: 1.8;
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(0, 0, 0, 0.65);
 }
 
 /* Buttons and Links */
 .btnPrimary {
-  background-color: #ffffff;
+  background-color: #000000;
   color: #000000;
   padding: 20px 32px;
   font-size: 16px;
@@ -71,12 +71,12 @@
 }
 
 .btnInverse {
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #000000;
   padding: 20px 32px;
   font-size: 16px;
   font-weight: 600;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: all 0.2s ease;
   text-decoration: none;
@@ -85,12 +85,12 @@
 }
 
 .btnInverse:hover {
-  background-color: #ffffff;
+  background-color: #000000;
   color: #000000;
 }
 
 .linkDark {
-  color: #ffffff;
+  color: #000000;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
@@ -132,9 +132,9 @@
 }
 
 .heroContentCenter h1 {
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 24px;
-  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 2px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 10px 30px rgba(255, 255, 255, 0.8), 0 2px 10px rgba(255, 255, 255, 0.5);
 }
 
 .heroContentCenter p {
@@ -142,7 +142,7 @@
   margin-bottom: 40px;
   font-size: 20px;
   font-weight: 500;
-  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8), 0 2px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 4px 20px rgba(255, 255, 255, 0.8), 0 2px 10px rgba(255, 255, 255, 0.5);
 }
 
 /* ==================================
@@ -150,8 +150,8 @@
    ================================== */
 .introSliderSection {
   padding: clamp(80px, 10vw, 140px) 5vw;
-  background-color: #050507;
-  color: #ffffff;
+  background-color: #f9f9f9;
+  color: #000000;
 }
 
 .introSliderContainer {
@@ -194,7 +194,7 @@
 }
 
 .introSliderItemActive .introSliderTitle {
-  color: #ffffff;
+  color: #000000;
 }
 
 .introSliderDetails {
@@ -210,7 +210,7 @@
 }
 
 .introSliderLink {
-  color: #ffffff;
+  color: #000000;
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
@@ -218,7 +218,7 @@
   letter-spacing: 0.05em;
   display: inline-flex;
   align-items: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   padding-bottom: 2px;
   transition: opacity 0.3s ease;
 }
@@ -242,7 +242,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   border: none;
   padding: 0;
   cursor: pointer;
@@ -250,14 +250,14 @@
 }
 
 .introSliderDotActive {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .introSliderPlayPause {
   background: none;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 50%;
-  color: #ffffff;
+  color: #000000;
   width: 32px;
   height: 32px;
   display: flex;
@@ -308,10 +308,10 @@
    ================================== */
 .howYouWorkSection {
   padding: clamp(80px, 10vw, 140px) 0;
-  background-color: #0a0a0c;
-  color: #ffffff;
+  background-color: #f5f5f5;
+  color: #000000;
   overflow: hidden;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .howYouWorkHeaderLayout {
@@ -360,7 +360,7 @@
   aspect-ratio: 4/5;
   border-radius: 16px;
   overflow: hidden;
-  background: #1a1a1a;
+  background: #e0e0e0;
   cursor: pointer;
 }
 
@@ -386,8 +386,8 @@
   align-items: center;
   font-weight: 500;
   font-size: 18px;
-  color: #ffffff;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  color: #000000;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.8), transparent);
 }
 
 .howYouWorkControls {
@@ -405,7 +405,7 @@
    ================================== */
 .featuresBentoWrapper {
   background-color: #000000;
-  color: #ffffff;
+  color: #000000;
   padding: clamp(80px, 10vw, 140px) 0;
 }
 
@@ -436,9 +436,9 @@
   align-items: center;
   gap: 12px;
   padding: 12px 24px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 8px;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   font-size: 13px;
   font-weight: 600;
@@ -493,7 +493,7 @@
 }
 
 .bentoCardImageBg {
-  background: #111111;
+  background: #e8e8e8;
 }
 
 .bentoCardBgImg {
@@ -517,15 +517,15 @@
 }
 
 .overlayTop {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.4) 40%, transparent 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.4) 40%, transparent 100%);
 }
 
 .overlayBottom {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.5) 50%, transparent 100%);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%);
 }
 
 .overlayCenter {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(255, 255, 255, 0.6);
 }
 
 /* Content Formatting */
@@ -563,13 +563,13 @@
 }
 
 .textOverImage h3 {
-  color: #ffffff;
-  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.8), 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: #000000;
+  text-shadow: 0 4px 12px rgba(255, 255, 255, 0.8), 0 2px 4px rgba(255, 255, 255, 0.5);
 }
 
 .textOverImage p {
   color: rgba(255, 255, 255, 0.95);
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8), 0 1px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 8px rgba(255, 255, 255, 0.8), 0 1px 2px rgba(255, 255, 255, 0.5);
 }
 
 /* Image Wrappers */
@@ -624,7 +624,7 @@
    Single Image Feature Sections
    ================================== */
 .singleImageSection {
-  background-color: #050507;
+  background-color: #f9f9f9;
   padding: clamp(80px, 10vw, 140px) 5vw;
   max-width: 1600px;
   margin: 0 auto;
@@ -635,7 +635,7 @@
   font-weight: 500;
   margin-bottom: 40px;
   text-align: left;
-  color: #ffffff;
+  color: #000000;
 }
 
 .singleImageWrapper {
@@ -643,7 +643,7 @@
   border-radius: 24px;
   overflow: hidden;
   margin-bottom: 60px;
-  background: #000000;
+  background: #ffffff;
   display: flex;
 }
 
@@ -666,7 +666,7 @@
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 16px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .singleImageFeatureItem p {
@@ -681,7 +681,7 @@
    ================================== */
 .testimonialsSection {
   padding: clamp(80px, 10vw, 140px) 5vw;
-  background-color: #0a0a0c;
+  background-color: #f5f5f5;
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -699,7 +699,7 @@
 }
 
 .masonryTextCard {
-  background-color: #141416;
+  background-color: #eeeeee;
   border-radius: 12px;
   padding: 60px 40px;
   display: flex;
@@ -711,7 +711,7 @@
 .masonryTextCard blockquote {
   font-size: 28px;
   line-height: 1.4;
-  color: #ffffff;
+  color: #000000;
   font-weight: 400;
   margin: 0;
 }
@@ -758,18 +758,18 @@
 }
 
 .faqList {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .faqItem {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .faqQuestion {
   width: 100%;
   background: none;
   border: none;
-  color: #ffffff;
+  color: #000000;
   font-size: 24px;
   font-family: inherit;
   font-weight: 500;
@@ -784,7 +784,7 @@
 .faqIcon {
   font-size: 32px;
   font-weight: 300;
-  color: #ffffff;
+  color: #000000;
   transition: transform 0.3s ease;
 }
 
@@ -946,7 +946,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, #000000 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.4) 50%, #000000 100%);
   z-index: 2;
 }
 
@@ -976,7 +976,7 @@
 }
 
 .textSolid {
-  color: #ffffff;
+  color: #000000;
 }
 
 /* Innovative outline text effect */
@@ -1013,7 +1013,7 @@
 .catScrollLine {
   width: 60px;
   height: 1px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.3);
   position: relative;
   overflow: hidden;
 }
@@ -1075,17 +1075,17 @@
   display: flex;
   align-items: center;
   padding: 60px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   transition: background 0.4s ease, padding 0.4s ease;
   cursor: pointer;
 }
 
 .catFeatureRow:last-child {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .catFeatureRow:hover {
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(0, 0, 0, 0.02);
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -1131,7 +1131,7 @@
 /* Asymmetric Gallery */
 .catGallery {
   padding: 100px 5vw 200px;
-  background: #000000;
+  background: #ffffff;
 }
 
 .catGrid {
@@ -1169,7 +1169,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1238,7 +1238,7 @@
    ================================== */
 .supportSection {
   padding: clamp(80px, 10vw, 140px) 5vw 0;
-  background-color: #050507;
+  background-color: #f9f9f9;
   color: #1d1d1f;
 }
 
@@ -1424,7 +1424,7 @@
 .sqPageContainer {
   background-color: #000000;
   min-height: 100vh;
-  color: #ffffff;
+  color: #000000;
   padding-top: 120px;
   /* Space for navbar */
 }
@@ -1503,7 +1503,7 @@
   left: 0;
   width: 100%;
   padding: 30px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.8), transparent);
   opacity: 0;
   transition: opacity 0.3s ease;
   display: flex;
@@ -1515,7 +1515,7 @@
 }
 
 .sqGridOverlay h3 {
-  color: #ffffff;
+  color: #000000;
   font-size: 24px;
   font-weight: 500;
   margin: 0;
@@ -1538,7 +1538,7 @@
    ================================== */
 .ssContainer {
   background-color: #000000;
-  color: #ffffff;
+  color: #000000;
   min-height: 100vh;
 }
 
@@ -1551,7 +1551,7 @@
 
 .ssBackBtn {
   background: transparent;
-  color: #ffffff;
+  color: #000000;
   border: none;
   font-size: 14px;
   font-weight: 500;
@@ -1611,7 +1611,7 @@
   line-height: 1.1;
   letter-spacing: -0.03em;
   margin-bottom: 40px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .ssHeroBtn {
@@ -1640,7 +1640,7 @@
 
 .ssFeatures {
   padding: 100px 5vw;
-  background: #111111;
+  background: #e8e8e8;
 }
 
 .ssFeaturesContainer {
@@ -1673,7 +1673,7 @@
   height: 350px;
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.5);
   cursor: pointer;
 }
 
@@ -1693,7 +1693,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.9), transparent);
   padding: 30px 20px;
   transition: opacity 0.4s ease;
 }
@@ -1762,7 +1762,7 @@
 
 .ssGridSection {
   padding: 0 10px 100px 10px;
-  background: #111111;
+  background: #e8e8e8;
 }
 
 .ssGrid {
@@ -1822,7 +1822,7 @@
 }
 
 .ssTechBadge {
-  background: #1a1a1a;
+  background: #e0e0e0;
   border: 1px solid #333;
   padding: 10px 20px;
   border-radius: 30px;
@@ -1853,7 +1853,7 @@
 }
 
 .processCard {
-  background: #1a1a1a;
+  background: #e0e0e0;
   border-radius: 24px;
   padding: 40px 30px;
   display: flex;
@@ -1876,7 +1876,7 @@
 .processCardTop h3 {
   font-size: 24px;
   font-weight: 600;
-  color: #ffffff;
+  color: #000000;
   max-width: 80%;
   line-height: 1.3;
 }
@@ -1885,7 +1885,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1921,7 +1921,7 @@
 .processStepLabel {
   font-size: 14px;
   font-weight: 700;
-  color: #ffffff;
+  color: #000000;
   letter-spacing: 1px;
 }
 
@@ -1987,7 +1987,7 @@
 /* Bottom CTA */
 .ssBottomCta {
   padding: 150px 5vw;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2000&auto=format&fit=crop');
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2000&auto=format&fit=crop');
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -2124,7 +2124,7 @@
 }
 
 .ssEngagementCard {
-  background: #1a1a1a;
+  background: #e0e0e0;
   padding: 40px;
   border-radius: 8px;
   border: 1px solid #333;
@@ -2316,7 +2316,7 @@
   max-width: 100%;
   height: auto;
   border-radius: 12px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.4);
   transform: perspective(1000px) rotateY(-5deg);
 }
 
@@ -2673,4 +2673,746 @@
   .ssSnakeItem::before {
     display: none;
   }
+}
+
+
+/* =========================================
+   SUPERSIDE DESIGN SYSTEM CLASSES
+   ========================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+.superContainer {
+  background-color: #F8F9F5; /* Light beige/white from reference */
+  color: #0E1F1A; /* Dark green text */
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.superItalic {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.superSmallLabel {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  color: inherit;
+}
+
+.superBtnGreen {
+  background-color: #D3F36B; /* High-viz lime green */
+  color: #0E1F1A;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 32px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.superBtnGreen:hover {
+  background-color: #C1E158;
+  transform: scale(1.02);
+}
+
+/* 1. Hero Section */
+.superHero {
+  display: flex;
+  flex-direction: column;
+  background-color: #0E1F1A;
+  color: #FFFFFF;
+  padding: 100px 0 0 0;
+  min-height: 80vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.superHeroInner {
+  display: flex;
+  width: 100%;
+  padding: 0 5%;
+  flex: 1;
+  align-items: center;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.superHeroContent {
+  width: 55%;
+  padding-right: 5%;
+  z-index: 2;
+}
+
+.superCategoryLabel {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+}
+
+.superHeroTitle {
+  font-size: clamp(40px, 5vw, 72px);
+  line-height: 1.1;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.superHeroDesc {
+  font-size: 20px;
+  line-height: 1.5;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+
+
+
+
+/* 2. Bento Grid */
+.superBentoSection {
+  padding: 100px 5%;
+  background-color: #F8F9F5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 3. Split Section */
+.superSplit {
+  display: flex;
+  padding: 100px 5%;
+  align-items: center;
+  background-color: #F8F9F5;
+}
+
+.superSplitLeft {
+  width: 50%;
+  padding-right: 8%;
+}
+
+.superSplitTitle {
+  font-size: clamp(36px, 4.5vw, 64px);
+  line-height: 1.1;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.superSplitDesc {
+  font-size: 20px;
+  line-height: 1.6;
+  color: rgba(14, 31, 26, 0.8);
+}
+
+.superSplitRight {
+  width: 50%;
+}
+
+.superSplitImg {
+  width: 100%;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+/* 4. Metrics Section */
+.superMetricsSection {
+  padding: 120px 5%;
+  text-align: center;
+  background-color: #F8F9F5;
+}
+
+.superMetricsLabel {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  color: rgba(14, 31, 26, 0.5);
+  margin-bottom: 20px;
+}
+
+.superMetricsTitle {
+  font-size: clamp(32px, 4vw, 56px);
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 80px;
+}
+
+.superMetricsGrid {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(14, 31, 26, 0.1);
+  padding-top: 60px;
+}
+
+.superMetricCard {
+  flex: 1;
+  padding: 0 40px;
+  text-align: left;
+  border-right: 1px solid rgba(14, 31, 26, 0.1);
+}
+
+.superMetricCard:last-child {
+  border-right: none;
+}
+
+.superMetricCard h3 {
+  font-size: clamp(60px, 8vw, 120px);
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.superMetricCard p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgba(14, 31, 26, 0.7);
+}
+
+/* 5. Ecosystems (Icon Grid) */
+.superEcosystems {
+  background-color: #0E1F1A;
+  color: #FFFFFF;
+  padding: 120px 5%;
+}
+
+.superEcosystemsTitle {
+  font-size: clamp(32px, 4vw, 56px);
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 80px auto;
+}
+
+.superEcoGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.superEcoCard {
+  padding-right: 20px;
+}
+
+.superEcoIcon {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255,255,255,0.05);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.superEcoCard h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.superEcoCard p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.6);
+}
+
+/* 6. Process Section */
+.superProcessSection {
+  display: flex;
+  padding: 120px 5%;
+  background-color: #0E1F1A;
+  color: #FFFFFF;
+}
+
+.superProcessSticky {
+  width: 40%;
+  position: sticky;
+  top: 120px;
+  height: fit-content;
+  padding-right: 10%;
+}
+
+.superProcessTitle {
+  font-size: clamp(36px, 4.5vw, 64px);
+  line-height: 1.1;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.superProcessSticky p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.7);
+}
+
+.superProcessTimeline {
+  width: 60%;
+  padding-left: 5%;
+  border-left: 1px solid rgba(255,255,255,0.2);
+}
+
+.superProcessStep {
+  position: relative;
+  padding-bottom: 100px;
+  padding-left: 60px;
+}
+
+.superProcessStep:last-child {
+  padding-bottom: 0;
+}
+
+.superStepCircle {
+  position: absolute;
+  left: -24px;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  background-color: #0E1F1A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.superStepContent h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.superStepContent p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.7);
+}
+
+/* 7. Bottom CTA */
+.superBottomCta {
+  padding: 0 5% 100px 5%;
+  background-color: #0E1F1A;
+}
+
+.superBottomCtaInner {
+  border-radius: 24px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  padding: 80px;
+}
+
+.superBottomCtaContent {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  color: #FFFFFF;
+}
+
+.superBottomCtaContent h2 {
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: 1.1;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.superBottomCtaContent p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 1024px) {
+  .superHero, .superSplit, .superProcessSection {
+    flex-direction: column;
+  }
+  .superHeroContent, .superHeroImageWrapper, .superSplitLeft, .superSplitRight, .superProcessSticky, .superProcessTimeline {
+    width: 100%;
+  }
+  
+  .superMetricsGrid, .superEcoGrid {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+  .superMetricCard {
+    border-right: none;
+    border-bottom: 1px solid rgba(14, 31, 26, 0.1);
+    padding: 40px 0;
+  }
+}
+
+
+/* =========================================
+   SUPERSIDE TYPOGRAPHY COLOR FIXES
+   ========================================= */
+
+/* Force dark text on light backgrounds */
+.superSplitTitle,
+.superBentoCardContent h3,
+.superMetricsTitle,
+.superMetricCard h3 {
+  color: #0E1F1A !important;
+}
+
+/* Force light text on dark backgrounds */
+.superHeroTitle,
+.superEcosystemsTitle,
+.superEcoCard h3,
+.superProcessTitle,
+.superStepContent h3,
+.superBottomCtaContent h2 {
+  color: #FFFFFF !important;
+}
+
+/* Ensure descriptions also inherit correctly if global rules exist */
+.superSplitDesc,
+.superBentoCardContent p,
+.superMetricCard p {
+  color: rgba(14, 31, 26, 0.8) !important;
+}
+
+.superHeroDesc,
+.superEcoCard p,
+.superStepContent p,
+.superBottomCtaContent p {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+
+
+
+
+
+
+
+.superAsymCard:hover 
+
+
+
+
+
+.superAsymCard:hover 
+
+
+
+
+
+
+
+.superAsymCard:hover 
+
+
+
+/* =========================================
+   SUPERSIDE HERO MARQUEE SCROLL
+   ========================================= */
+
+.superHeroMarquee {
+  width: 100%;
+  padding: 0 0 30px 0;
+  z-index: 10;
+  display: flex;
+  overflow-x: hidden;
+  background: linear-gradient(to top, rgba(14, 31, 26, 1) 0%, rgba(14, 31, 26, 0) 100%);
+  margin-top: auto;
+}
+
+.superMarqueeTrack {
+  display: flex;
+  width: max-content;
+  animation: superScrollLeftToRight 40s linear infinite;
+  gap: 16px;
+  padding-left: 16px;
+}
+
+.superHeroMarquee:hover .superMarqueeTrack {
+  animation-play-state: paused;
+}
+
+@keyframes superScrollLeftToRight {
+  0% {
+    transform: translateX(calc(-50% - 8px));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.superMarqueeCard {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: #EFEFDF;
+  padding: 6px 20px 6px 6px;
+  border-radius: 12px;
+  gap: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.superMarqueeCard:hover {
+  transform: translateY(-2px);
+}
+
+.superMarqueeImg {
+  width: 60px;
+  height: 45px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.superMarqueeText {
+  color: #0E1F1A;
+  font-weight: 500;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+
+.superHeroImageWrapper {
+  width: 45%;
+  position: absolute;
+  right: 0;
+  top: 15%;
+  height: 60%;
+  display: flex;
+  align-items: flex-start; /* Move to top */
+  justify-content: center;
+  z-index: 1;
+}
+
+.superHeroImg {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  object-position: center top; /* Align to top */
+}
+
+
+
+/* =========================================
+   ASYMMETRIC BENTO GRID
+   ========================================= */
+
+.superAsymGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.superAsymCard {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  min-height: 480px;
+  background-color: #E2E4DB;
+  transition: transform 0.3s ease;
+}
+
+.superAsymCard:hover {
+  transform: translateY(-4px);
+}
+
+/* Asymmetric Grid Sizing & Background Colors */
+.superAsymCard:nth-child(6n + 1),
+.superAsymCard:nth-child(6n + 2) {
+  grid-column: span 1;
+}
+.superAsymCard:nth-child(6n + 3) {
+  grid-column: span 2;
+}
+.superAsymCard:nth-child(6n + 4) {
+  grid-column: span 2;
+  background-color: #1A3129; /* Dark green */
+}
+.superAsymCard:nth-child(6n + 5) {
+  grid-column: span 1;
+  background-color: #DDE2CD; /* Light green */
+}
+.superAsymCard:nth-child(6n + 6) {
+  grid-column: span 1;
+  background-color: #C3DBE3; /* Light blue */
+}
+
+/* Text Content */
+.superAsymTextContent {
+  position: absolute;
+  top: 0; left: 0; width: 100%;
+  padding: 40px;
+  z-index: 2;
+}
+
+.superAsymCardTitle {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: #0E1F1A;
+}
+
+.superAsymCardDesc {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(14, 31, 26, 0.8);
+}
+
+/* Force text to white for dark backgrounds (4th card in pattern) */
+.superAsymCard:nth-child(6n + 4) .superAsymCardTitle {
+  color: #ffffff !important;
+}
+.superAsymCard:nth-child(6n + 4) .superAsymCardDesc {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Image Placement */
+.superAsymImgWrapper {
+  position: absolute;
+  bottom: 0; right: 0; width: 100%; height: 55%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.superAsymImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  mask-image: linear-gradient(to bottom, transparent 0%, black 20%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 20%);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .superAsymGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .superAsymCard {
+    grid-column: span 1 !important;
+  }
+  .superAsymCard:nth-child(6n + 3),
+  .superAsymCard:nth-child(6n + 4) {
+    grid-column: span 2 !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .superAsymGrid {
+    grid-template-columns: 1fr;
+  }
+  .superAsymCard {
+    grid-column: span 1 !important;
+  }
+}
+
+
+
+/* =========================================
+   HOVER BENTO GRID (Original)
+   ========================================= */
+.superBentoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.superBentoCard {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  min-height: 400px;
+  background-color: #E2E4DB;
+  cursor: pointer;
+}
+
+.superBentoImg {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.superBentoCard:hover .superBentoImg {
+  transform: scale(1.05);
+}
+
+.superBentoDefault {
+  position: absolute;
+  bottom: 0; left: 0; width: 100%;
+  padding: 40px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
+  display: flex;
+  align-items: flex-end;
+  z-index: 2;
+  transition: opacity 0.3s ease;
+}
+
+.superBentoDefault h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0;
+  color: #ffffff !important;
+}
+
+.superBentoCard:hover .superBentoDefault {
+  opacity: 0;
+}
+
+.superBentoHover {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  padding: 40px;
+  background: rgba(14, 31, 26, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 3;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+}
+
+.superBentoHover h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: #ffffff !important;
+}
+
+.superBentoHover p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.superBentoCard:hover .superBentoHover {
+  opacity: 1;
+  transform: translateY(0);
 }

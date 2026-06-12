@@ -66,6 +66,21 @@ export const categoryData = {
         "image": "/images/features/web-development-WebsiteRedesign.jpg"
       }
     ],
+    "metrics": [
+      {
+        "value": "30%+",
+        "label": "conversion after UX audit & optimization."
+      },
+      {
+        "value": "50%",
+        "label": "potential savings with modular design system."
+      },
+      {
+        "value": "98%",
+        "label": "of projects are delivered on or before the deadline."
+      }
+    ],
+
     "techStack": [
       "React",
       "Next.js",
@@ -283,6 +298,21 @@ export const categoryData = {
         "image": "/images/features/app-development-API-BasedMobileApps.jpg"
       }
     ],
+    "metrics": [
+      {
+        "value": "30%+",
+        "label": "conversion after UX audit & optimization."
+      },
+      {
+        "value": "50%",
+        "label": "potential savings with modular design system."
+      },
+      {
+        "value": "98%",
+        "label": "of projects are delivered on or before the deadline."
+      }
+    ],
+
     "techStack": [
       "React Native",
       "Flutter",
@@ -499,6 +529,21 @@ export const categoryData = {
         "image": "/images/features/software-development-WorkflowAutomation.jpg"
       }
     ],
+    "metrics": [
+      {
+        "value": "30%+",
+        "label": "conversion after UX audit & optimization."
+      },
+      {
+        "value": "50%",
+        "label": "potential savings with modular design system."
+      },
+      {
+        "value": "98%",
+        "label": "of projects are delivered on or before the deadline."
+      }
+    ],
+
     "techStack": [
       "Java",
       "Python",
@@ -716,6 +761,21 @@ export const categoryData = {
         "image": "/images/features/aws-devops-CloudSecurityAuditing.jpg"
       }
     ],
+    "metrics": [
+      {
+        "value": "30%+",
+        "label": "conversion after UX audit & optimization."
+      },
+      {
+        "value": "50%",
+        "label": "potential savings with modular design system."
+      },
+      {
+        "value": "98%",
+        "label": "of projects are delivered on or before the deadline."
+      }
+    ],
+
     "techStack": [
       "AWS EC2",
       "S3",
@@ -929,6 +989,21 @@ export const categoryData = {
         "image": "/images/features/hosting-server-Domain%26DNSSetup.jpg"
       }
     ],
+    "metrics": [
+      {
+        "value": "30%+",
+        "label": "conversion after UX audit & optimization."
+      },
+      {
+        "value": "50%",
+        "label": "potential savings with modular design system."
+      },
+      {
+        "value": "98%",
+        "label": "of projects are delivered on or before the deadline."
+      }
+    ],
+
     "techStack": [
       "Nginx",
       "Apache",
@@ -1141,6 +1216,21 @@ export const categoryData = {
         "image": "/images/features/digital-marketing-ContentMarketing.jpg"
       }
     ],
+    "metrics": [
+      {
+        "value": "30%+",
+        "label": "conversion after UX audit & optimization."
+      },
+      {
+        "value": "50%",
+        "label": "potential savings with modular design system."
+      },
+      {
+        "value": "98%",
+        "label": "of projects are delivered on or before the deadline."
+      }
+    ],
+
     "techStack": [
       "Google Analytics",
       "SEMrush",
@@ -1353,6 +1443,21 @@ export const categoryData = {
         "image": "/images/features/ai-chatbot-Analytics%26Handover.jpg"
       }
     ],
+    "metrics": [
+      {
+        "value": "30%+",
+        "label": "conversion after UX audit & optimization."
+      },
+      {
+        "value": "50%",
+        "label": "potential savings with modular design system."
+      },
+      {
+        "value": "98%",
+        "label": "of projects are delivered on or before the deadline."
+      }
+    ],
+
     "techStack": [
       "OpenAI API",
       "LangChain",
@@ -1565,6 +1670,21 @@ export const categoryData = {
         "image": "/images/features/ivr-services-CallAnalytics.jpg"
       }
     ],
+    "metrics": [
+      {
+        "value": "30%+",
+        "label": "conversion after UX audit & optimization."
+      },
+      {
+        "value": "50%",
+        "label": "potential savings with modular design system."
+      },
+      {
+        "value": "98%",
+        "label": "of projects are delivered on or before the deadline."
+      }
+    ],
+
     "techStack": [
       "Twilio",
       "Asterisk",
@@ -1776,6 +1896,21 @@ export const categoryData = {
         "image": "/images/features/api-integration-APIDocumentation.jpg"
       }
     ],
+    "metrics": [
+      {
+        "value": "30%+",
+        "label": "conversion after UX audit & optimization."
+      },
+      {
+        "value": "50%",
+        "label": "potential savings with modular design system."
+      },
+      {
+        "value": "98%",
+        "label": "of projects are delivered on or before the deadline."
+      }
+    ],
+
     "techStack": [
       "Node.js",
       "Express",
@@ -1984,6 +2119,21 @@ export const categoryData = {
         "image": "/images/features/ecommerce-solutions-AbandonedCartRecovery.jpg"
       }
     ],
+    "metrics": [
+      {
+        "value": "30%+",
+        "label": "conversion after UX audit & optimization."
+      },
+      {
+        "value": "50%",
+        "label": "potential savings with modular design system."
+      },
+      {
+        "value": "98%",
+        "label": "of projects are delivered on or before the deadline."
+      }
+    ],
+
     "techStack": [
       "Shopify Plus",
       "WooCommerce",
@@ -2196,6 +2346,21 @@ export const categoryData = {
         "image": "/images/features/security-maintenance-ComplianceAuditing.jpg"
       }
     ],
+    "metrics": [
+      {
+        "value": "30%+",
+        "label": "conversion after UX audit & optimization."
+      },
+      {
+        "value": "50%",
+        "label": "potential savings with modular design system."
+      },
+      {
+        "value": "98%",
+        "label": "of projects are delivered on or before the deadline."
+      }
+    ],
+
     "techStack": [
       "Cloudflare",
       "OpenSSL",
@@ -2408,6 +2573,21 @@ export const categoryData = {
         "image": "/images/features/ai-automation-DataParsingAgents.jpg"
       }
     ],
+    "metrics": [
+      {
+        "value": "30%+",
+        "label": "conversion after UX audit & optimization."
+      },
+      {
+        "value": "50%",
+        "label": "potential savings with modular design system."
+      },
+      {
+        "value": "98%",
+        "label": "of projects are delivered on or before the deadline."
+      }
+    ],
+
     "techStack": [
       "Zapier",
       "Make.com",
