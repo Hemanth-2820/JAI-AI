@@ -8,7 +8,7 @@ export const categoryData = {
       {
         "title": "Headless Architecture",
         "desc": "Decoupled front-ends using Next.js and Gatsby for lightning-fast delivery.",
-        "image": "/images/animated/web-development.svg",
+        "video": "/videos/Web 1.mp4",
         "bgColor": "#B48366",
         "textColor": "#ffffff",
         "span": 1
@@ -16,7 +16,7 @@ export const categoryData = {
       {
         "title": "Jamstack Solutions",
         "desc": "Pre-rendered static sites with dynamic APIs for ultimate security and speed.",
-        "image": "/images/animated/jamstack-solutions.svg",
+        "video": "/videos/Web 2.mp4",
         "bgColor": "#E2C3B7",
         "textColor": "#0E1F1A",
         "span": 1
@@ -24,7 +24,7 @@ export const categoryData = {
       {
         "title": "Web Accessibility",
         "desc": "WCAG compliant designs ensuring your digital presence is accessible to everyone.",
-        "image": "/images/animated/web-accessibility.svg",
+        "video": "/videos/Web 3.mp4",
         "bgColor": "#114051",
         "textColor": "#ffffff",
         "span": 2
@@ -32,7 +32,7 @@ export const categoryData = {
       {
         "title": "Third-Party Integrations",
         "desc": "Seamless connections with CRMs, payment gateways, and marketing automation tools.",
-        "image": "/images/animated/third-party-integrations.svg",
+        "video": "/videos/Web 4.mp4",
         "bgColor": "#1A3129",
         "textColor": "#ffffff",
         "span": 2
@@ -40,7 +40,7 @@ export const categoryData = {
       {
         "title": "Performance Optimization",
         "desc": "Advanced caching and asset optimization to achieve 100/100 Lighthouse scores.",
-        "image": "/images/animated/performance-optimization.svg",
+        "video": "/videos/web 5.mp4",
         "bgColor": "#DDE2CD",
         "textColor": "#0E1F1A",
         "span": 1
@@ -48,7 +48,7 @@ export const categoryData = {
       {
         "title": "Conversion Rate Optimization",
         "desc": "Data-backed UI tweaks designed specifically to turn your visitors into customers.",
-        "image": "/images/animated/conversion-rate-optimization.svg",
+        "video": "/videos/web 6.mp4",
         "bgColor": "#C3DBE3",
         "textColor": "#0E1F1A",
         "span": 1
@@ -315,7 +315,7 @@ export const categoryData = {
       {
         "title": "Wearable App Integration",
         "desc": "Companion applications designed perfectly for Apple Watch and Wear OS.",
-        "image": "/images/animated/business-websites.svg",
+        "video": "/videos/App develop1.mp4",
         "bgColor": "#B48366",
         "textColor": "#ffffff",
         "span": 1
@@ -323,7 +323,7 @@ export const categoryData = {
       {
         "title": "AR/VR Experiences",
         "desc": "Immersive augmented reality features powered by ARKit and ARCore.",
-        "image": "/images/animated/ar-vr-experiences.svg",
+        "video": "/videos/App develop2.mp4",
         "bgColor": "#E2C3B7",
         "textColor": "#0E1F1A",
         "span": 1
@@ -331,7 +331,7 @@ export const categoryData = {
       {
         "title": "Offline-First Architecture",
         "desc": "Robust local caching ensuring core functionality without internet.",
-        "image": "/images/animated/offline-first-architecture.svg",
+        "video": "/videos/App develop3.mp4",
         "bgColor": "#114051",
         "textColor": "#ffffff",
         "span": 2
@@ -339,7 +339,7 @@ export const categoryData = {
       {
         "title": "IoT Companion Apps",
         "desc": "Secure Bluetooth and WiFi bridging for smart home hardware.",
-        "image": "/images/animated/iot-companion-apps.svg",
+        "video": "/videos/App develop4.mp4",
         "bgColor": "#1A3129",
         "textColor": "#ffffff",
         "span": 2
@@ -347,7 +347,7 @@ export const categoryData = {
       {
         "title": "In-App Subscriptions",
         "desc": "Frictionless integration of RevenueCat and native billing SDKs.",
-        "image": "/images/animated/in-app-subscriptions.svg",
+        "video": "/videos/App develop5.mp4",
         "bgColor": "#DDE2CD",
         "textColor": "#0E1F1A",
         "span": 1
@@ -355,7 +355,7 @@ export const categoryData = {
       {
         "title": "App Bundle Optimization",
         "desc": "Aggressive size reduction techniques for faster app store downloads.",
-        "image": "/images/animated/app-bundle-optimization.svg",
+        "video": "/videos/App develop6.mp4",
         "bgColor": "#C3DBE3",
         "textColor": "#0E1F1A",
         "span": 1
@@ -880,7 +880,7 @@ export const categoryData = {
       {
         "title": "Disaster Recovery Planning",
         "desc": "Automated multi-region failovers to guarantee zero data loss.",
-        "image": "/images/animated/custom-software-development.svg",
+        "video": "/videos/aws1.mp4",
         "bgColor": "#B48366",
         "textColor": "#ffffff",
         "span": 1
@@ -888,7 +888,7 @@ export const categoryData = {
       {
         "title": "Cost Optimization Strategies",
         "desc": "Deep architectural audits to drastically reduce your monthly AWS bill.",
-        "image": "/images/animated/cost-optimization-strategies.svg",
+        "video": "/videos/aws2.mp4",
         "bgColor": "#E2C3B7",
         "textColor": "#0E1F1A",
         "span": 1
@@ -896,7 +896,7 @@ export const categoryData = {
       {
         "title": "Chaos Engineering",
         "desc": "Proactive system stress-testing to build ultimate infrastructure resilience.",
-        "image": "/images/animated/chaos-engineering.svg",
+        "video": "/videos/aws3.mp4",
         "bgColor": "#114051",
         "textColor": "#ffffff",
         "span": 2
@@ -904,7 +904,7 @@ export const categoryData = {
       {
         "title": "GitOps Workflows",
         "desc": "Infrastructure management driven entirely through version-controlled code.",
-        "image": "/images/animated/gitops-workflows.svg",
+        "video": "/videos/aws4.mp4",
         "bgColor": "#1A3129",
         "textColor": "#ffffff",
         "span": 2
@@ -912,7 +912,7 @@ export const categoryData = {
       {
         "title": "Kubernetes Orchestration",
         "desc": "Expert EKS management for highly scalable microservice deployments.",
-        "image": "/images/animated/kubernetes-orchestration.svg",
+        "video": "/videos/aws5.mp4",
         "bgColor": "#DDE2CD",
         "textColor": "#0E1F1A",
         "span": 1
@@ -920,7 +920,7 @@ export const categoryData = {
       {
         "title": "24/7 Site Reliability (SRE)",
         "desc": "Always-on monitoring and incident response to keep your systems up.",
-        "image": "/images/animated/24-7-site-reliability-sre.svg",
+        "video": "/videos/aws6.mp4",
         "bgColor": "#C3DBE3",
         "textColor": "#0E1F1A",
         "span": 1
@@ -1437,7 +1437,7 @@ export const categoryData = {
       {
         "title": "Programmatic Advertising",
         "desc": "Algorithmic ad buying for highly precise audience targeting.",
-        "image": "/images/animated/dedicated-server-hosting.svg",
+        "video": "/videos/Digital1.mp4",
         "bgColor": "#B48366",
         "textColor": "#ffffff",
         "span": 1
@@ -1445,7 +1445,7 @@ export const categoryData = {
       {
         "title": "Influencer Partnerships",
         "desc": "Strategic vetting and management of niche brand ambassadors.",
-        "image": "/images/animated/influencer-partnerships.svg",
+        "video": "/videos/Digital2.mp4",
         "bgColor": "#E2C3B7",
         "textColor": "#0E1F1A",
         "span": 1
@@ -1453,7 +1453,7 @@ export const categoryData = {
       {
         "title": "Interactive Content",
         "desc": "Quizzes, calculators, and assessments that drive massive engagement.",
-        "image": "/images/animated/interactive-content.svg",
+        "video": "/videos/Digital3.mp4",
         "bgColor": "#114051",
         "textColor": "#ffffff",
         "span": 2
@@ -1461,7 +1461,7 @@ export const categoryData = {
       {
         "title": "Local SEO Domination",
         "desc": "Hyper-targeted map and directory optimization for brick-and-mortar.",
-        "image": "/images/animated/local-seo-domination.svg",
+        "video": "/videos/Digital4.mp4",
         "bgColor": "#1A3129",
         "textColor": "#ffffff",
         "span": 2
@@ -1469,7 +1469,7 @@ export const categoryData = {
       {
         "title": "Marketing Automation",
         "desc": "Complex trigger-based email and SMS sequences to nurture leads.",
-        "image": "/images/animated/marketing-automation.svg",
+        "video": "/videos/Digital5.mp4",
         "bgColor": "#DDE2CD",
         "textColor": "#0E1F1A",
         "span": 1
@@ -1477,7 +1477,7 @@ export const categoryData = {
       {
         "title": "Attribution Modeling",
         "desc": "Multi-touch analytics revealing the true ROI of every marketing channel.",
-        "image": "/images/animated/attribution-modeling.svg",
+        "video": "/videos/Digital6.mp4",
         "bgColor": "#C3DBE3",
         "textColor": "#0E1F1A",
         "span": 1
@@ -1993,7 +1993,7 @@ export const categoryData = {
       {
         "title": "Dynamic Call Routing",
         "desc": "Intelligently direct callers to the right department based on CRM data.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/IVR1.mp4",
         "bgColor": "#B48366",
         "textColor": "#ffffff",
         "span": 1
@@ -2001,7 +2001,7 @@ export const categoryData = {
       {
         "title": "Speech Recognition IVR",
         "desc": "Allow callers to simply speak their needs instead of pressing buttons.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/IVR2.mp4",
         "bgColor": "#E2C3B7",
         "textColor": "#0E1F1A",
         "span": 1
@@ -2009,7 +2009,7 @@ export const categoryData = {
       {
         "title": "Visual IVR",
         "desc": "Send an SMS link to transition callers to a digital smartphone menu.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/IVR3.mp4",
         "bgColor": "#114051",
         "textColor": "#ffffff",
         "span": 2
@@ -2017,7 +2017,7 @@ export const categoryData = {
       {
         "title": "Queue Callbacks",
         "desc": "Let customers keep their place in line without staying on hold.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/IVR4.mp4",
         "bgColor": "#1A3129",
         "textColor": "#ffffff",
         "span": 2
@@ -2025,7 +2025,7 @@ export const categoryData = {
       {
         "title": "Multi-language Prompts",
         "desc": "Automatic routing based on the caller's geographic location or preference.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/IVR5.mp4",
         "bgColor": "#DDE2CD",
         "textColor": "#0E1F1A",
         "span": 1
@@ -2033,7 +2033,7 @@ export const categoryData = {
       {
         "title": "Post-call Surveys",
         "desc": "Automated feedback collection immediately after agent interaction.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/IVR6.mp4",
         "bgColor": "#C3DBE3",
         "textColor": "#0E1F1A",
         "span": 1
@@ -2270,7 +2270,7 @@ export const categoryData = {
       {
         "title": "Legacy System Bridging",
         "desc": "Connect modern web apps to older on-premise mainframe databases.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/API Inte1.mp4",
         "bgColor": "#B48366",
         "textColor": "#ffffff",
         "span": 1
@@ -2278,7 +2278,7 @@ export const categoryData = {
       {
         "title": "Custom Middleware",
         "desc": "Tailored translation layers to map incompatible data structures.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/Api inte2.mp4",
         "bgColor": "#E2C3B7",
         "textColor": "#0E1F1A",
         "span": 1
@@ -2286,7 +2286,7 @@ export const categoryData = {
       {
         "title": "OAuth2 Authentication",
         "desc": "Secure, token-based connection protocols for third-party access.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/API inte3.mp4",
         "bgColor": "#114051",
         "textColor": "#ffffff",
         "span": 2
@@ -2294,23 +2294,23 @@ export const categoryData = {
       {
         "title": "Webhooks Architecture",
         "desc": "Real-time, event-driven data pushing instead of costly constant polling.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/API inte 4.mp4",
         "bgColor": "#1A3129",
         "textColor": "#ffffff",
         "span": 2
       },
       {
-        "title": "GraphQL Migration",
-        "desc": "Transition your REST APIs to flexible, client-driven query endpoints.",
-        "image": "/images/animated/dummy.svg",
+        "title": "Payment Gateway Integration",
+        "desc": "Flawless Stripe, PayPal, and custom local payment processing.",
+        "video": "/videos/API inte5.mp4",
         "bgColor": "#DDE2CD",
         "textColor": "#0E1F1A",
         "span": 1
       },
       {
-        "title": "Rate Limiting",
-        "desc": "Enterprise traffic control to protect your internal systems from overload.",
-        "image": "/images/animated/dummy.svg",
+        "title": "CRM Synchronization",
+        "desc": "Keep Salesforce, HubSpot, and custom CRMs perfectly aligned.",
+        "video": "/videos/Api inte6.mp4",
         "bgColor": "#C3DBE3",
         "textColor": "#0E1F1A",
         "span": 1
@@ -2544,7 +2544,7 @@ export const categoryData = {
       {
         "title": "Headless Commerce",
         "desc": "Decouple your frontend experience from the Shopify or Magento backend.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/ecommerce1.mp4",
         "bgColor": "#B48366",
         "textColor": "#ffffff",
         "span": 1
@@ -2552,7 +2552,7 @@ export const categoryData = {
       {
         "title": "Abandoned Cart Recovery",
         "desc": "Automated email and SMS sequences to drastically boost conversion rates.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/ecommerce2.mp4",
         "bgColor": "#E2C3B7",
         "textColor": "#0E1F1A",
         "span": 1
@@ -2560,7 +2560,7 @@ export const categoryData = {
       {
         "title": "Dynamic Pricing",
         "desc": "Algorithmic price adjustments based on real-time market demand and inventory.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/ecommerce3.mp4",
         "bgColor": "#114051",
         "textColor": "#ffffff",
         "span": 2
@@ -2568,7 +2568,7 @@ export const categoryData = {
       {
         "title": "AR Product Previews",
         "desc": "Let customers visualize products in their physical space before buying.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/ecommerce4.mp4",
         "bgColor": "#1A3129",
         "textColor": "#ffffff",
         "span": 2
@@ -2576,7 +2576,7 @@ export const categoryData = {
       {
         "title": "Subscription Billing",
         "desc": "Seamless integration of recurring revenue models and membership tiers.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/ecommerce5.mp4",
         "bgColor": "#DDE2CD",
         "textColor": "#0E1F1A",
         "span": 1
@@ -2584,7 +2584,7 @@ export const categoryData = {
       {
         "title": "Multi-currency Checkouts",
         "desc": "Localized payment gateways reducing international friction.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/ecommerce6.mp4",
         "bgColor": "#C3DBE3",
         "textColor": "#0E1F1A",
         "span": 1
@@ -2822,7 +2822,7 @@ export const categoryData = {
       {
         "title": "Penetration Testing",
         "desc": "Ethical hacking simulations to expose vulnerabilities before bad actors do.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/Security1.mp4",
         "bgColor": "#B48366",
         "textColor": "#ffffff",
         "span": 1
@@ -2830,7 +2830,7 @@ export const categoryData = {
       {
         "title": "24/7 Threat Monitoring",
         "desc": "Always-on Security Operations Center (SOC) analyzing network anomalies.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/Security2.mp4",
         "bgColor": "#E2C3B7",
         "textColor": "#0E1F1A",
         "span": 1
@@ -2838,7 +2838,7 @@ export const categoryData = {
       {
         "title": "Patch Management",
         "desc": "Automated updates of core CMS systems and plugins to close zero-days.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/Security3.mp4",
         "bgColor": "#114051",
         "textColor": "#ffffff",
         "span": 2
@@ -2846,7 +2846,7 @@ export const categoryData = {
       {
         "title": "Data Encryption",
         "desc": "Military-grade AES-256 encryption for data at rest and in transit.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/Security4.mp4",
         "bgColor": "#1A3129",
         "textColor": "#ffffff",
         "span": 2
@@ -2854,7 +2854,7 @@ export const categoryData = {
       {
         "title": "Uptime Monitoring",
         "desc": "Ping checks every 30 seconds with immediate SMS alerts on failure.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/Security5.mp4",
         "bgColor": "#DDE2CD",
         "textColor": "#0E1F1A",
         "span": 1
@@ -2862,7 +2862,7 @@ export const categoryData = {
       {
         "title": "Compliance Auditing",
         "desc": "Quarterly reviews to ensure strict adherence to GDPR, HIPAA, or SOC2.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/Security6.mp4",
         "bgColor": "#C3DBE3",
         "textColor": "#0E1F1A",
         "span": 1
@@ -3100,7 +3100,7 @@ export const categoryData = {
       {
         "title": "RPA Implementation",
         "desc": "Robotic Process Automation to eliminate repetitive data-entry tasks.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/Ai and automation1.mp4",
         "bgColor": "#B48366",
         "textColor": "#ffffff",
         "span": 1
@@ -3108,7 +3108,7 @@ export const categoryData = {
       {
         "title": "Predictive Analytics",
         "desc": "Machine learning models forecasting inventory shortages or churn.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/Ai and automation2.mp4",
         "bgColor": "#E2C3B7",
         "textColor": "#0E1F1A",
         "span": 1
@@ -3116,7 +3116,7 @@ export const categoryData = {
       {
         "title": "Document Extraction",
         "desc": "Optical Character Recognition (OCR) to turn PDFs into structured data.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/Ai and automation3.mp4",
         "bgColor": "#114051",
         "textColor": "#ffffff",
         "span": 2
@@ -3124,7 +3124,7 @@ export const categoryData = {
       {
         "title": "Automated Workflows",
         "desc": "Complex Zapier and Make.com integrations connecting all your SaaS tools.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/AI and automation4.mp4",
         "bgColor": "#1A3129",
         "textColor": "#ffffff",
         "span": 2
@@ -3132,7 +3132,7 @@ export const categoryData = {
       {
         "title": "Dynamic Content Generation",
         "desc": "AI writing models drafting personalized emails at scale.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/ai and automation5.mp4",
         "bgColor": "#DDE2CD",
         "textColor": "#0E1F1A",
         "span": 1
@@ -3140,7 +3140,7 @@ export const categoryData = {
       {
         "title": "Smart Quality Control",
         "desc": "Computer vision algorithms inspecting manufacturing lines in real-time.",
-        "image": "/images/animated/dummy.svg",
+        "video": "/videos/Ai and automation6.mp4",
         "bgColor": "#C3DBE3",
         "textColor": "#0E1F1A",
         "span": 1

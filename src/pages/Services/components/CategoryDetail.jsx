@@ -84,18 +84,20 @@ const CategoryDetail = ({ categoryName, data, onBack }) => {
         <p className={styles.superSmallLabel} style={{ paddingLeft: '5%', marginBottom: '40px' }}>CREATIVE CAPABILITIES</p>
         <div className={styles.superAsymGrid} style={{ padding: '0 5%' }}>
            {data.extendedCapabilities.map((feat, idx) => (
-             <div key={`asym-${idx}`} className={styles.superAsymCard} style={{ backgroundColor: feat.bgColor || '#E2E4DB', gridColumn: `span ${feat.span || 1}` }}>
+             <div key={`asym-${idx}`} className={styles.superAsymCard} style={{ gridColumn: `span ${feat.span || 1}`, border: '1px solid rgba(14, 31, 26, 0.1)' }}>
                <div className={styles.superAsymTextContent}>
-                 <h3 className={styles.superAsymCardTitle} style={{ color: feat.textColor || '#0E1F1A' }}>{feat.title}</h3>
-                 <p className={styles.superAsymCardDesc} style={{ color: feat.textColor || 'rgba(14, 31, 26, 0.8)' }}>{feat.desc}</p>
+                 <h3 className={styles.superAsymCardTitle} style={{ color: '#ffffff' }}>{feat.title}</h3>
+                 <p className={styles.superAsymCardDesc} style={{ color: 'rgba(255, 255, 255, 0.9)' }}>{feat.desc}</p>
                </div>
-               <div className={styles.superAsymImgWrapper}>
-                 {feat.video ? (
-                   <video src={feat.video} autoPlay loop muted playsInline className={styles.superAsymImg} />
-                 ) : (
-                   <img src={feat.image} alt={feat.title} className={styles.superAsymImg} />
-                 )}
-               </div>
+               {(feat.video || feat.image) && (
+                 <div className={styles.superAsymImgWrapper}>
+                   {feat.video ? (
+                     <video src={feat.video} autoPlay loop muted playsInline className={styles.superAsymImg} />
+                   ) : (
+                     <img src={feat.image} alt={feat.title} className={styles.superAsymImg} />
+                   )}
+                 </div>
+               )}
              </div>
            ))}
         </div>
