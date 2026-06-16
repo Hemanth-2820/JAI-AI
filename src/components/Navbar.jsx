@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+  const isContactPage = location.pathname === '/contact';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,7 +16,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={`navbar ${scrolled ? 'navbarScrolled' : ''}`}>
+    <header className={`navbar ${scrolled ? 'navbarScrolled' : ''} ${isContactPage ? 'navbarContact' : ''}`}>
       <div className={`container navContainer`}>
         
         <div className="leftLinks">

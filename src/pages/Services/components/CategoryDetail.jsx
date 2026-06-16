@@ -25,7 +25,15 @@ const CategoryDetail = ({ categoryName, data, onBack }) => {
           <div className={styles.superHeroContent}>
             <p className={styles.superCategoryLabel}>{data.title.toUpperCase()} SERVICES</p>
             <h1 className={styles.superHeroTitle}>
-              High-performing web solutions <span className={styles.superItalic}>built to grow</span> with your brand
+              High-performing {
+                data.title.toLowerCase().includes('app') ? 'mobile apps' :
+                data.title.toLowerCase().includes('software') ? 'software solutions' :
+                data.title.toLowerCase().includes('marketing') || data.title.toLowerCase().includes('seo') ? 'digital strategies' :
+                data.title.toLowerCase().includes('cloud') ? 'cloud architectures' :
+                data.title.toLowerCase().includes('design') ? 'design systems' :
+                data.title.toLowerCase().includes('web') ? 'web solutions' :
+                `${data.title.toLowerCase()} solutions`
+              } <span className={styles.superItalic}>built to grow</span> with your brand
             </h1>
             <p className={styles.superHeroDesc}>{data.description}</p>
             <button className={styles.superBtnGreen}>Book a demo</button>

@@ -5,40 +5,169 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('https://images.squarespace-cdn.com/content/v1/6701097f9e93b178e9a6a834/496f8c5b-302a-4375-8ce6-a704f05ba724/Nero_sfondo-bianco.jpg'); /* Placeholder for specific background if needed */
-  background-size: cover;
-  background-position: center;
-  background-color: #000;
-  padding: 120px 0; /* Space for navbar */
-}
-
-.contactBgOverlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Darkening overlay for readability */
+  background-color: #fcfcfc; /* Premium Light Background */
+  padding: 150px 0; /* Ensures navbar space */
+  overflow: hidden;
   z-index: 1;
 }
 
-.contactContainer {
-  position: relative;
-  z-index: 2;
-  width: 100%;
-  max-width: 800px; /* Form width limit */
-  margin: 0 auto;
-  padding: 0 4%;
-  display: flex;
-  justify-content: center;
+/* Stunning ambient glow effects - Light mode version */
+.glowBlob1 {
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 50vw;
+  height: 50vw;
+  background: radial-gradient(circle, rgba(65, 88, 208, 0.08) 0%, rgba(200, 80, 192, 0) 70%);
+  filter: blur(100px);
+  z-index: -1;
+  pointer-events: none;
 }
 
-.contactForm {
+.glowBlob2 {
+  position: absolute;
+  bottom: -20%;
+  right: -10%;
+  width: 60vw;
+  height: 60vw;
+  background: radial-gradient(circle, rgba(255, 204, 112, 0.1) 0%, rgba(200, 80, 192, 0) 70%);
+  filter: blur(120px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.contactContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  z-index: 2;
+  position: relative;
   width: 100%;
-  max-width: 700px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: 1.1;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #111111;
+}
+
+.gradientText {
+  background: linear-gradient(135deg, #111111 0%, #666666 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.65);
+  margin-bottom: 50px;
+  max-width: 90%;
+  line-height: 1.6;
+}
+
+.infoList {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.iconBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(10px);
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.infoItem:hover .iconBox {
+  background: rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.icon {
+  color: #111111;
+  width: 24px;
+  height: 24px;
+}
+
+.infoLabel {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.infoText {
+  font-size: 1.1rem;
+  color: #111111;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: block;
+}
+
+a.infoText:hover {
+  color: #555555;
+}
+
+.formWrapper {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
+  padding: 50px;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle inner top border highlight for the form */
+.formWrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,0.05), transparent);
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  z-index: 2;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
 }
 
 .formGroup {
@@ -47,120 +176,103 @@
   gap: 8px;
 }
 
-.mainLabel {
-  font-family: var(--font-inter);
-  font-size: 1.1rem;
+.label {
+  font-size: 0.9rem;
   font-weight: 500;
-  color: #ffffff;
+  color: rgba(0, 0, 0, 0.8);
+  margin-left: 4px;
 }
 
-.required {
-  opacity: 0.7;
-}
-
-.subLabel {
-  font-family: var(--font-inter);
-  font-size: 0.85rem;
-  color: #ffffff;
-  margin-top: -5px; /* Pull closer to input */
-}
-
-.nameRow {
-  display: flex;
-  gap: 20px;
+.input, .textarea {
   width: 100%;
-}
-
-.inputCol {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.inputField, .textareaField {
-  width: 100%;
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 20px; /* Highly rounded pills as seen in screenshot */
-  padding: 15px 20px;
-  font-family: var(--font-inter);
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  padding: 16px 20px;
+  font-family: inherit;
   font-size: 1rem;
-  color: #ffffff;
-  transition: border-color 0.3s ease, background-color 0.3s ease;
+  color: #111111;
+  transition: all 0.3s ease;
   outline: none;
 }
 
-.textareaField {
-  border-radius: 20px; /* Maintain pill look even for textarea */
+.textarea {
   resize: vertical;
-  min-height: 120px;
+  min-height: 140px;
 }
 
-.inputField:focus, .textareaField:focus {
-  border-color: #ffffff;
-  background: rgba(255, 255, 255, 0.05);
+.input::placeholder, .textarea::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.input:focus, .textarea:focus {
+  background: #ffffff;
+  border-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .submitBtn {
-  align-self: center; /* Center the button */
-  background: rgba(255, 255, 255, 0.8);
-  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: #111111;
+  color: #ffffff;
   border: none;
-  border-radius: 8px; /* Slightly rounded square */
-  padding: 15px 40px;
-  font-family: var(--font-inter);
-  font-size: 1rem;
+  border-radius: 14px;
+  padding: 18px 32px;
+  font-size: 1.05rem;
   font-weight: 600;
+  font-family: inherit;
   cursor: pointer;
-  transition: all 0.3s ease;
-  margin-top: 20px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 10px;
 }
 
 .submitBtn:hover {
-  background: #ffffff;
+  background: #333333;
   transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.submitBtn:active {
+  transform: translateY(0);
+}
+
+.btnIcon {
+  transition: transform 0.3s ease;
+}
+
+.submitBtn:hover .btnIcon {
+  transform: translateX(4px);
 }
 
 /* Responsiveness */
 @media (max-width: 1024px) {
-  .contactSection {
-    padding: 100px 0;
+  .contactContainer {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  
+  .formWrapper {
+    padding: 40px;
   }
 }
 
 @media (max-width: 768px) {
-  .contactSection {
-    padding: 80px 0;
+  .formGrid {
+    grid-template-columns: 1fr;
   }
-  .contactContainer {
-    padding: 0 6%;
+  
+  .formWrapper {
+    padding: 30px 20px;
   }
-  .inputField, .textareaField {
-    padding: 12px 18px;
-    font-size: 0.95rem;
+  
+  .title {
+    font-size: clamp(36px, 8vw, 48px);
   }
-  .mainLabel {
-    font-size: 1rem;
-  }
-  .submitBtn {
-    padding: 12px 30px;
-    font-size: 0.95rem;
-  }
-}
 
-@media (max-width: 480px) {
   .contactSection {
-    padding: 60px 0;
-  }
-  .contactForm {
-    gap: 20px;
-  }
-  .inputField, .textareaField {
-    border-radius: 15px;
-  }
-  .textareaField {
-    border-radius: 15px;
-    min-height: 100px;
+    padding: 120px 0;
   }
 }
