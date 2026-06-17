@@ -21,10 +21,10 @@ const Footer = () => {
         
         <div className="footerInfoCol">
           <p>
-            <strong>Anima Studios srl</strong><br />
-            Foro Buonaparte 59, 20121 Milano, Italy<br />
-            <a href="mailto:info@animastudios.ai" className="footerEmail">info@animastudios.ai</a><br />
-            VAT Number: IT 14270340962
+            <strong>JAI TECH FILM CITY PVT LTD</strong><br />
+            123 Innovation Drive, Tech City, TC 90210<br />
+            <a href="mailto:hello@jaiai.com" className="footerEmail">hello@jaiai.com</a><br />
+            Company Reg: JT-892341
           </p>
         </div>
         
@@ -33,16 +33,16 @@ const Footer = () => {
         </div>
         
         <div className="footerSocialCol">
-          <a href="https://instagram.com/animastudios.ai" target="_blank" rel="noopener noreferrer" className="footerSocialIcon" aria-label="Instagram">
+          <a href="#" target="_blank" rel="noopener noreferrer" className="footerSocialIcon" aria-label="Instagram">
             <i className="fa-brands fa-instagram"></i>
           </a>
-          <a href="http://x.com/animastudiosai" target="_blank" rel="noopener noreferrer" className="footerSocialIcon" aria-label="X (formerly Twitter)">
+          <a href="#" target="_blank" rel="noopener noreferrer" className="footerSocialIcon" aria-label="X (formerly Twitter)">
             <i className="fa-brands fa-x-twitter"></i>
           </a>
-          <a href="https://www.tiktok.com/@anima.journeys" target="_blank" rel="noopener noreferrer" className="footerSocialIcon" aria-label="TikTok">
+          <a href="#" target="_blank" rel="noopener noreferrer" className="footerSocialIcon" aria-label="TikTok">
             <i className="fa-brands fa-tiktok"></i>
           </a>
-          <a href="https://www.youtube.com/@AnimaStudiosTV" target="_blank" rel="noopener noreferrer" className="footerSocialIcon" aria-label="YouTube">
+          <a href="#" target="_blank" rel="noopener noreferrer" className="footerSocialIcon" aria-label="YouTube">
             <i className="fa-brands fa-youtube"></i>
           </a>
         </div>

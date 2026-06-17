@@ -23,7 +23,7 @@ const CategoryDetail = ({ categoryName, data, onBack }) => {
       <section className={styles.superHero}>
         <div className={styles.superHeroInner}>
           <div className={styles.superHeroContent}>
-            <p className={styles.superCategoryLabel}>{data.title.toUpperCase()} SERVICES</p>
+            <p className={styles.superCategoryLabel}>{data.title.replace(/services|solutions/ig, '').trim().toUpperCase()} SERVICES</p>
             <h1 className={styles.superHeroTitle}>
               High-performing {
                 data.title.toLowerCase().includes('app') ? 'mobile apps' :
@@ -32,7 +32,9 @@ const CategoryDetail = ({ categoryName, data, onBack }) => {
                 data.title.toLowerCase().includes('cloud') ? 'cloud architectures' :
                 data.title.toLowerCase().includes('design') ? 'design systems' :
                 data.title.toLowerCase().includes('web') ? 'web solutions' :
-                `${data.title.toLowerCase()} solutions`
+                data.title.toLowerCase().includes('ivr') ? 'IVR solutions' :
+                data.title.toLowerCase().includes('api') ? 'API solutions' :
+                `${data.title.toLowerCase().replace(/solutions|services/ig, '').trim()} solutions`
               } <span className={styles.superItalic}>built to grow</span> with your brand
             </h1>
             <p className={styles.superHeroDesc}>{data.description}</p>

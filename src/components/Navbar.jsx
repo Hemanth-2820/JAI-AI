@@ -5,6 +5,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   const isContactPage = location.pathname === '/contact';
+  // const isAboutUsPage = location.pathname === '/about-us'; // Removed since dark theme is back
 
   useEffect(() => {
     const handleScroll = () => {
@@ -55,7 +56,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <NavLink to="/originals" className={({ isActive }) => isActive ? "navLink active" : "navLink"}>Originals</NavLink>
+          <NavLink to="/about-us" className={({ isActive }) => isActive ? "navLink active" : "navLink"}>About Us</NavLink>
           <NavLink to="/blog" className={({ isActive }) => isActive ? "navLink active" : "navLink"}>Blog</NavLink>
           <NavLink to="/contact" className={({ isActive }) => isActive ? "navLink active" : "navLink"}>Contact</NavLink>
         </div>

@@ -1,12 +1,105 @@
+.pageWrapper {
+  width: 100%;
+  background-color: #fcfcfc;
+}
+
+/* --- HERO BANNER --- */
+.heroBanner {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  background-color: #030a1c; /* Deep premium navy/blue */
+  overflow: hidden;
+}
+
+.heroBannerContent {
+  flex: 1;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  padding: 120px 4% 80px 10%;
+}
+
+.heroTextSide {
+  max-width: 700px;
+}
+
+.breadcrumbs {
+  font-family: var(--font-inter);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
+  margin-bottom: 50px;
+  line-height: 1.6;
+}
+
+.breadcrumbs strong {
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.heroTitle {
+  font-family: var(--font-heading);
+  font-size: clamp(3rem, 5.5vw, 5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: #ffffff;
+  margin: 0 0 30px 0;
+  letter-spacing: -1px;
+}
+
+.heroSubtitle {
+  font-family: var(--font-body);
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.heroImageSide {
+  flex: 1;
+  position: relative;
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+  background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop'); /* Modern building architecture */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Gradient overlay on bottom right */
+.heroGradientCorner {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(to top left, rgba(0, 102, 255, 0.6) 0%, rgba(138, 43, 226, 0.2) 40%, transparent 100%);
+  pointer-events: none;
+}
+
+@media (max-width: 1024px) {
+  .heroBanner {
+    flex-direction: column;
+  }
+  .heroImageSide {
+    width: 100%;
+    min-height: 400px;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+  }
+  .heroBannerContent {
+    padding: 120px 6% 60px;
+  }
+}
+
+/* --- CONTACT SECTION --- */
 .contactSection {
   position: relative;
-  min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #fcfcfc; /* Premium Light Background */
-  padding: 150px 0; /* Ensures navbar space */
+  padding: 100px 0 150px; /* Reduced top padding since banner is above */
   overflow: hidden;
   z-index: 1;
 }
@@ -274,5 +367,41 @@ a.infoText:hover {
 
   .contactSection {
     padding: 120px 0;
+  }
+}
+
+/* --- MAP SECTION --- */
+.mapSection {
+  width: 100%;
+  background-color: #fcfcfc;
+  padding: 0 4% 100px;
+}
+
+.mapContainer {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 500px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.googleMap {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(80%) contrast(1.1); /* Subtle premium look */
+  transition: filter 0.3s ease;
+}
+
+.googleMap:hover {
+  filter: grayscale(0%) contrast(1);
+}
+
+@media (max-width: 768px) {
+  .mapContainer {
+    height: 350px;
+    border-radius: 16px;
   }
 }
