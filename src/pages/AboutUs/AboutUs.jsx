@@ -42,7 +42,7 @@ const AboutUs = () => {
             <div className={styles.capImageRight}>
               <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop" alt="Innovation" />
             </div>
-            <div className={styles.capTextLeft}>
+            <div className={`${styles.capTextLeft} ${styles.cardInnovation}`}>
               <h2>Innovation</h2>
               <p>
                 We embrace emerging tech to solve hard problems with elegant, future-proof solutions. By continuously pushing boundaries, we ensure your infrastructure is always ahead of the curve.
@@ -57,7 +57,7 @@ const AboutUs = () => {
             <div className={styles.capImageLeft}>
               <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1200&auto=format&fit=crop" alt="Reliability" />
             </div>
-            <div className={styles.capTextRight}>
+            <div className={`${styles.capTextRight} ${styles.cardReliability}`}>
               <h2>Reliability</h2>
               <p>
                 Mission-critical systems engineered for 99.99% uptime and bulletproof resilience. We build architecture you can trust, no matter the scale or complexity of your operations.
@@ -72,7 +72,7 @@ const AboutUs = () => {
             <div className={styles.capImageRight}>
               <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop" alt="Transparency" />
             </div>
-            <div className={styles.capTextLeft}>
+            <div className={`${styles.capTextLeft} ${styles.cardTransparency}`}>
               <h2>Transparency</h2>
               <p>
                 Clear communication and honest delivery at every stage of your project journey. We believe that open collaboration is the foundation of every successful partnership.

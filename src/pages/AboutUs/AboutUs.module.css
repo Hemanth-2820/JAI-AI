@@ -224,18 +224,34 @@
   position: relative;
   z-index: 2;
   width: 50%;
-  background: #ffffff;
   padding: 60px 80px 60px 40px; /* Add left padding! */
   margin-right: auto;
+  box-shadow: 0 15px 35px rgba(0, 102, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
 }
 
 .capTextRight {
   position: relative;
   z-index: 2;
   width: 50%;
-  background: #ffffff;
   padding: 60px 40px 60px 80px; /* Add right padding! */
   margin-left: auto;
+  box-shadow: 0 15px 35px rgba(0, 102, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+.cardInnovation {
+  background: linear-gradient(135deg, #e0f2fe 0%, #ede9fe 100%);
+}
+
+.cardReliability {
+  background: linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%);
+}
+
+.cardTransparency {
+  background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
 }
 
 .capTextLeft h2,
